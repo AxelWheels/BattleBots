@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 9dbd2ab0775cbd84d95f43247f68d212
+timeCreated: 1520251947
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VFX_GunInner_GunOuter: {fileID: 2800000, guid: e2827d94f23e48941bcb1c3de58f0ab2,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: f4b0b4d88e7c6ca4596bf0f03c3e6450
+timeCreated: 1524912129
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Aztec_Slab_Low:Group22053
+    100002: Aztec_Slab_Low:Group22053 Copy Copy
+    100004: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy
+    100006: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy Copy
+    100008: Belly_geo
+    100010: //RootNode
+    100012: polySurface6
+    100014: polySurface6 Copy
+    100016: polySurface6 Copy 1
+    100018: polySurface6 Copy Copy
+    100020: polySurface6 Copy Copy 1
+    100022: polySurface6 Copy Copy Copy
+    100024: polySurface6 Copy Copy Copy 1
+    100026: polySurface6 Copy Copy Copy 2
+    100028: polySurface6 Copy Copy Copy Copy
+    100030: polySurface7
+    100032: polySurface7 Copy
+    100034: polySurface7 Copy Copy
+    100036: polySurface7 Copy Copy Copy
+    100038: polySurface7 Copy Copy Copy Copy
+    100040: polySurface7 Copy Copy Copy Copy 1
+    100042: polySurface7 Copy Copy Copy Copy 2
+    100044: polySurface7 Copy Copy Copy Copy Copy
+    100046: polySurface7 Copy Copy Copy Copy Copy 1
+    100048: polySurface7 Copy Copy Copy Copy Copy 2
+    100050: polySurface7 Copy Copy Copy1
+    100052: polySurface7 Copy Copy Copy2
+    100054: polySurface7 Copy Copy1
+    100056: polySurface7 Copy Copy2
+    100058: polySurface7 Copy1
+    100060: polySurface7 Copy2
+    100062: polySurface8
+    100064: Ribs_geo
+    100066: ruinStairs_low_Group63540
+    100068: ruinStairs_low_Group63540 Copy
+    100070: ruinStairs_low_Group63540 Copy1
+    100072: ruinStairs_low_Group63541
+    100074: Skull_geo
+    100076: stone_02_Low
+    100078: stone_02_Low Copy
+    100080: stone_02_Low Copy 1
+    100082: stone_02_Low Copy Copy
+    400000: Aztec_Slab_Low:Group22053
+    400002: Aztec_Slab_Low:Group22053 Copy Copy
+    400004: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy
+    400006: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy Copy
+    400008: Belly_geo
+    400010: //RootNode
+    400012: polySurface6
+    400014: polySurface6 Copy
+    400016: polySurface6 Copy 1
+    400018: polySurface6 Copy Copy
+    400020: polySurface6 Copy Copy 1
+    400022: polySurface6 Copy Copy Copy
+    400024: polySurface6 Copy Copy Copy 1
+    400026: polySurface6 Copy Copy Copy 2
+    400028: polySurface6 Copy Copy Copy Copy
+    400030: polySurface7
+    400032: polySurface7 Copy
+    400034: polySurface7 Copy Copy
+    400036: polySurface7 Copy Copy Copy
+    400038: polySurface7 Copy Copy Copy Copy
+    400040: polySurface7 Copy Copy Copy Copy 1
+    400042: polySurface7 Copy Copy Copy Copy 2
+    400044: polySurface7 Copy Copy Copy Copy Copy
+    400046: polySurface7 Copy Copy Copy Copy Copy 1
+    400048: polySurface7 Copy Copy Copy Copy Copy 2
+    400050: polySurface7 Copy Copy Copy1
+    400052: polySurface7 Copy Copy Copy2
+    400054: polySurface7 Copy Copy1
+    400056: polySurface7 Copy Copy2
+    400058: polySurface7 Copy1
+    400060: polySurface7 Copy2
+    400062: polySurface8
+    400064: Ribs_geo
+    400066: ruinStairs_low_Group63540
+    400068: ruinStairs_low_Group63540 Copy
+    400070: ruinStairs_low_Group63540 Copy1
+    400072: ruinStairs_low_Group63541
+    400074: Skull_geo
+    400076: stone_02_Low
+    400078: stone_02_Low Copy
+    400080: stone_02_Low Copy 1
+    400082: stone_02_Low Copy Copy
+    2100000: lambert1
+    2300000: Aztec_Slab_Low:Group22053
+    2300002: Aztec_Slab_Low:Group22053 Copy Copy
+    2300004: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy
+    2300006: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy Copy
+    2300008: Belly_geo
+    2300010: polySurface6
+    2300012: polySurface6 Copy
+    2300014: polySurface6 Copy 1
+    2300016: polySurface6 Copy Copy
+    2300018: polySurface6 Copy Copy 1
+    2300020: polySurface6 Copy Copy Copy
+    2300022: polySurface6 Copy Copy Copy 1
+    2300024: polySurface6 Copy Copy Copy 2
+    2300026: polySurface6 Copy Copy Copy Copy
+    2300028: polySurface7
+    2300030: polySurface7 Copy
+    2300032: polySurface7 Copy Copy
+    2300034: polySurface7 Copy Copy Copy
+    2300036: polySurface7 Copy Copy Copy Copy
+    2300038: polySurface7 Copy Copy Copy Copy 1
+    2300040: polySurface7 Copy Copy Copy Copy 2
+    2300042: polySurface7 Copy Copy Copy Copy Copy
+    2300044: polySurface7 Copy Copy Copy Copy Copy 1
+    2300046: polySurface7 Copy Copy Copy Copy Copy 2
+    2300048: polySurface7 Copy Copy Copy1
+    2300050: polySurface7 Copy Copy Copy2
+    2300052: polySurface7 Copy Copy1
+    2300054: polySurface7 Copy Copy2
+    2300056: polySurface7 Copy1
+    2300058: polySurface7 Copy2
+    2300060: polySurface8
+    2300062: Ribs_geo
+    2300064: ruinStairs_low_Group63540
+    2300066: ruinStairs_low_Group63540 Copy
+    2300068: ruinStairs_low_Group63540 Copy1
+    2300070: ruinStairs_low_Group63541
+    2300072: Skull_geo
+    2300074: stone_02_Low
+    2300076: stone_02_Low Copy
+    2300078: stone_02_Low Copy 1
+    2300080: stone_02_Low Copy Copy
+    3300000: Aztec_Slab_Low:Group22053
+    3300002: Aztec_Slab_Low:Group22053 Copy Copy
+    3300004: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy
+    3300006: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy Copy
+    3300008: Belly_geo
+    3300010: polySurface6
+    3300012: polySurface6 Copy
+    3300014: polySurface6 Copy 1
+    3300016: polySurface6 Copy Copy
+    3300018: polySurface6 Copy Copy 1
+    3300020: polySurface6 Copy Copy Copy
+    3300022: polySurface6 Copy Copy Copy 1
+    3300024: polySurface6 Copy Copy Copy 2
+    3300026: polySurface6 Copy Copy Copy Copy
+    3300028: polySurface7
+    3300030: polySurface7 Copy
+    3300032: polySurface7 Copy Copy
+    3300034: polySurface7 Copy Copy Copy
+    3300036: polySurface7 Copy Copy Copy Copy
+    3300038: polySurface7 Copy Copy Copy Copy 1
+    3300040: polySurface7 Copy Copy Copy Copy 2
+    3300042: polySurface7 Copy Copy Copy Copy Copy
+    3300044: polySurface7 Copy Copy Copy Copy Copy 1
+    3300046: polySurface7 Copy Copy Copy Copy Copy 2
+    3300048: polySurface7 Copy Copy Copy1
+    3300050: polySurface7 Copy Copy Copy2
+    3300052: polySurface7 Copy Copy1
+    3300054: polySurface7 Copy Copy2
+    3300056: polySurface7 Copy1
+    3300058: polySurface7 Copy2
+    3300060: polySurface8
+    3300062: Ribs_geo
+    3300064: ruinStairs_low_Group63540
+    3300066: ruinStairs_low_Group63540 Copy
+    3300068: ruinStairs_low_Group63540 Copy1
+    3300070: ruinStairs_low_Group63541
+    3300072: Skull_geo
+    3300074: stone_02_Low
+    3300076: stone_02_Low Copy
+    3300078: stone_02_Low Copy 1
+    3300080: stone_02_Low Copy Copy
+    4300000: Belly_geo
+    4300002: Ribs_geo
+    4300004: polySurface7
+    4300006: Skull_geo
+    4300008: polySurface7 Copy Copy Copy Copy
+    4300010: polySurface7 Copy Copy Copy Copy Copy
+    4300012: polySurface7 Copy Copy Copy Copy
+    4300014: polySurface7 Copy Copy Copy Copy
+    4300016: polySurface7 Copy Copy Copy Copy Copy
+    4300018: polySurface7 Copy Copy Copy Copy Copy
+    4300020: polySurface7 Copy Copy Copy
+    4300022: polySurface7 Copy Copy
+    4300024: polySurface7 Copy
+    4300026: stone_02_Low Copy
+    4300028: stone_02_Low Copy
+    4300030: stone_02_Low
+    4300032: polySurface6
+    4300034: stone_02_Low Copy Copy
+    4300036: polySurface6 Copy Copy Copy
+    4300038: polySurface6 Copy Copy
+    4300040: polySurface6 Copy Copy Copy
+    4300042: polySurface6 Copy Copy Copy Copy
+    4300044: polySurface6 Copy Copy Copy
+    4300046: polySurface6 Copy
+    4300048: polySurface6 Copy Copy
+    4300050: polySurface6 Copy
+    4300052: polySurface8
+    4300054: ruinStairs_low_Group63540 Copy
+    4300056: ruinStairs_low_Group63540
+    4300058: ruinStairs_low_Group63540 Copy1
+    4300060: ruinStairs_low_Group63541
+    4300062: polySurface7 Copy Copy1
+    4300064: polySurface7 Copy1
+    4300066: polySurface7 Copy Copy Copy1
+    4300068: polySurface7 Copy Copy Copy2
+    4300070: polySurface7 Copy Copy2
+    4300072: polySurface7 Copy2
+    4300074: Aztec_Slab_Low:Group22053 Copy Copy
+    4300076: Aztec_Slab_Low:Group22053
+    4300078: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy Copy
+    4300080: Aztec_Slab_Low:Group22053 Copy Copy Copy Copy
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2588 @@
+fileFormatVersion: 2
+guid: 18825286a3cf8e94f8752060a01d30db
+timeCreated: 1522850358
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ARCH_brokenPillar_DF_GEO
+    100004: ARCH_brokenPillar_DF_GEO 1
+    100006: ARCH_brokenPillarTopper_DF_GEO
+    100008: ARCH_centreStoneFloor_DF_GEO
+    100010: ARCH_centreStoneFloor_DF_GEO 1
+    100012: ARCH_centreStoneFloorHole_DF_GEO
+    100014: ARCH_RuinBlock2_DF_GEO
+    100016: ARCH_RuinBlock2_DF_GEO 1
+    100018: ARCH_RuinBlock3_DF_GEO
+    100020: ARCH_RuinBlock3_DF_GEO 1
+    100022: ARCH_ruinPillar_DF_GEO
+    100024: ARCH_ruinPillar_DF_GEO Copy
+    100026: ARCH_ruinPillar_DF_GEO Copy 1
+    100028: ARCH_ruinPillar_DF_GEO Copy 2
+    100030: ARCH_ruinPillar_DF_GEO Copy Copy
+    100032: ARCH_ruinSteps_DF_GEO
+    100034: Bars
+    100036: Bars 1
+    100038: bars1_low
+    100040: bars1_low 1
+    100042: bars2_low
+    100044: bars2_low 1
+    100046: bars3_low
+    100048: bars3_low 1
+    100050: bars4_low
+    100052: bars4_low 1
+    100054: Base
+    100056: bottomCyliner_low
+    100058: bottomCyliner_low 1
+    100060: bottomCyliner_low 2
+    100062: Building
+    100064: Building Copy
+    100066: CenterPiece
+    100068: CenterPiece 1
+    100070: cube1_low
+    100072: cube1_low 1
+    100074: cube2_low
+    100076: cube2_low 1
+    100078: cube3_low
+    100080: cube3_low 1
+    100082: cube4_low
+    100084: cube4_low 1
+    100086: Dome_low
+    100088: Dome_low 1
+    100090: Fog 1
+    100092: Group
+    100094: health_mat
+    100096: health_powerup
+    100098: lambert1
+    100100: lambert1 1
+    100102: lambert1 10
+    100104: lambert1 11
+    100106: lambert1 12
+    100108: lambert1 13
+    100110: lambert1 14
+    100112: lambert1 15
+    100114: lambert1 16
+    100116: lambert1 17
+    100118: lambert1 18
+    100120: lambert1 19
+    100122: lambert1 2
+    100124: lambert1 20
+    100126: lambert1 21
+    100128: lambert1 22
+    100130: lambert1 23
+    100132: lambert1 24
+    100134: lambert1 25
+    100136: lambert1 26
+    100138: lambert1 27
+    100140: lambert1 28
+    100142: lambert1 29
+    100144: lambert1 3
+    100146: lambert1 30
+    100148: lambert1 31
+    100150: lambert1 32
+    100152: lambert1 33
+    100154: lambert1 34
+    100156: lambert1 35
+    100158: lambert1 36
+    100160: lambert1 37
+    100162: lambert1 38
+    100164: lambert1 39
+    100166: lambert1 4
+    100168: lambert1 40
+    100170: lambert1 41
+    100172: lambert1 42
+    100174: lambert1 43
+    100176: lambert1 44
+    100178: lambert1 45
+    100180: lambert1 46
+    100182: lambert1 47
+    100184: lambert1 48
+    100186: lambert1 49
+    100188: lambert1 5
+    100190: lambert1 50
+    100192: lambert1 51
+    100194: lambert1 52
+    100196: lambert1 53
+    100198: lambert1 54
+    100200: lambert1 55
+    100202: lambert1 56
+    100204: lambert1 57
+    100206: lambert1 6
+    100208: lambert1 7
+    100210: lambert1 8
+    100212: lambert1 9
+    100214: lambert2
+    100216: lambert2 1
+    100218: lambert2 10
+    100220: lambert2 11
+    100222: lambert2 12
+    100224: lambert2 13
+    100226: lambert2 14
+    100228: lambert2 15
+    100230: lambert2 16
+    100232: lambert2 17
+    100234: lambert2 18
+    100236: lambert2 19
+    100238: lambert2 2
+    100240: lambert2 20
+    100242: lambert2 21
+    100244: lambert2 22
+    100246: lambert2 23
+    100248: lambert2 24
+    100250: lambert2 25
+    100252: lambert2 26
+    100254: lambert2 27
+    100256: lambert2 28
+    100258: lambert2 29
+    100260: lambert2 3
+    100262: lambert2 30
+    100264: lambert2 31
+    100266: lambert2 32
+    100268: lambert2 33
+    100270: lambert2 34
+    100272: lambert2 35
+    100274: lambert2 36
+    100276: lambert2 37
+    100278: lambert2 38
+    100280: lambert2 39
+    100282: lambert2 4
+    100284: lambert2 40
+    100286: lambert2 41
+    100288: lambert2 42
+    100290: lambert2 43
+    100292: lambert2 44
+    100294: lambert2 45
+    100296: lambert2 46
+    100298: lambert2 47
+    100300: lambert2 48
+    100302: lambert2 49
+    100304: lambert2 5
+    100306: lambert2 50
+    100308: lambert2 6
+    100310: lambert2 7
+    100312: lambert2 8
+    100314: lambert2 9
+    100316: lambert3
+    100318: lambert4
+    100320: lambert4 1
+    100322: lambert4 10
+    100324: lambert4 11
+    100326: lambert4 12
+    100328: lambert4 13
+    100330: lambert4 14
+    100332: lambert4 15
+    100334: lambert4 16
+    100336: lambert4 17
+    100338: lambert4 18
+    100340: lambert4 19
+    100342: lambert4 2
+    100344: lambert4 20
+    100346: lambert4 21
+    100348: lambert4 22
+    100350: lambert4 23
+    100352: lambert4 24
+    100354: lambert4 25
+    100356: lambert4 26
+    100358: lambert4 3
+    100360: lambert4 4
+    100362: lambert4 5
+    100364: lambert4 6
+    100366: lambert4 7
+    100368: lambert4 8
+    100370: lambert4 9
+    100372: lambert5
+    100374: Light 1
+    100376: Light 1 Copy
+    100378: Light 3
+    100380: Light 3 Copy
+    100382: Main Camera
+    100384: MainStructure
+    100386: MainStructure 1
+    100388: MechPosed
+    100390: middleCylinder_low
+    100392: middleCylinder_low 1
+    100394: middleCylinder_low 2
+    100396: middleCylinder_low 3
+    100398: pCube34
+    100400: pCube34 1
+    100402: pCylinder25
+    100404: pCylinder25 Copy
+    100406: pCylinder25 Copy Copy
+    100408: PillarBase_low
+    100410: PillarBase_low 1
+    100412: PillarBase_low 2
+    100414: PillarBase_low 3
+    100416: PilotPosed
+    100418: PilotPosed_02:defaultMat1
+    100420: PilotPosed_02:defaultMat1 1
+    100422: PilotPosed_02:defaultMat1 10
+    100424: PilotPosed_02:defaultMat1 11
+    100426: PilotPosed_02:defaultMat1 12
+    100428: PilotPosed_02:defaultMat1 13
+    100430: PilotPosed_02:defaultMat1 14
+    100432: PilotPosed_02:defaultMat1 15
+    100434: PilotPosed_02:defaultMat1 16
+    100436: PilotPosed_02:defaultMat1 17
+    100438: PilotPosed_02:defaultMat1 18
+    100440: PilotPosed_02:defaultMat1 19
+    100442: PilotPosed_02:defaultMat1 2
+    100444: PilotPosed_02:defaultMat1 20
+    100446: PilotPosed_02:defaultMat1 21
+    100448: PilotPosed_02:defaultMat1 22
+    100450: PilotPosed_02:defaultMat1 23
+    100452: PilotPosed_02:defaultMat1 24
+    100454: PilotPosed_02:defaultMat1 25
+    100456: PilotPosed_02:defaultMat1 3
+    100458: PilotPosed_02:defaultMat1 4
+    100460: PilotPosed_02:defaultMat1 5
+    100462: PilotPosed_02:defaultMat1 6
+    100464: PilotPosed_02:defaultMat1 7
+    100466: PilotPosed_02:defaultMat1 8
+    100468: PilotPosed_02:defaultMat1 9
+    100470: polySurface1
+    100472: polySurface10
+    100474: polySurface11
+    100476: polySurface12
+    100478: polySurface13
+    100480: polySurface14
+    100482: polySurface15
+    100484: polySurface16
+    100486: polySurface17
+    100488: polySurface18
+    100490: polySurface19
+    100492: polySurface2
+    100494: polySurface2 1
+    100496: polySurface2 2
+    100498: polySurface2 Copy
+    100500: polySurface2 Copy 1
+    100502: polySurface2 Copy 2
+    100504: polySurface2 Copy 3
+    100506: polySurface2 Copy 4
+    100508: polySurface2 Copy Copy
+    100510: polySurface2 Copy Copy 1
+    100512: polySurface2 Copy Copy 2
+    100514: polySurface2 Copy Copy 3
+    100516: polySurface2 Copy Copy 4
+    100518: polySurface2 Copy Copy 5
+    100520: polySurface2 Copy Copy Copy
+    100522: polySurface2 Copy Copy Copy 1
+    100524: polySurface2 Copy Copy Copy 2
+    100526: polySurface2 Copy Copy Copy 3
+    100528: polySurface2 Copy Copy Copy 4
+    100530: polySurface2 Copy Copy Copy 5
+    100532: polySurface2 Copy Copy Copy 6
+    100534: polySurface2 Copy Copy Copy 7
+    100536: polySurface2 Copy Copy Copy Copy
+    100538: polySurface20
+    100540: polySurface21
+    100542: polySurface21 Copy
+    100544: polySurface21 Copy Copy
+    100546: polySurface21 Copy Copy 1
+    100548: polySurface21 Copy Copy Copy
+    100550: polySurface21 Copy Copy Copy 1
+    100552: polySurface21 Copy Copy Copy 2
+    100554: polySurface21 Copy Copy Copy 3
+    100556: polySurface21 Copy Copy Copy Copy
+    100558: polySurface21 Copy Copy Copy Copy Copy
+    100560: polySurface22
+    100562: polySurface23
+    100564: polySurface24
+    100566: polySurface25
+    100568: polySurface26
+    100570: polySurface3
+    100572: polySurface3 1
+    100574: polySurface3 2
+    100576: polySurface3 Copy
+    100578: polySurface3 Copy 1
+    100580: polySurface3 Copy 2
+    100582: polySurface3 Copy 3
+    100584: polySurface3 Copy Copy
+    100586: polySurface3 Copy Copy 1
+    100588: polySurface3 Copy Copy 2
+    100590: polySurface3 Copy Copy 3
+    100592: polySurface3 Copy Copy 4
+    100594: polySurface3 Copy Copy 5
+    100596: polySurface3 Copy Copy 6
+    100598: polySurface3 Copy Copy 7
+    100600: polySurface3 Copy Copy 8
+    100602: polySurface3 Copy Copy 9
+    100604: polySurface3 Copy Copy Copy
+    100606: polySurface3 Copy Copy Copy 1
+    100608: polySurface3 Copy Copy Copy 2
+    100610: polySurface3 Copy Copy Copy 3
+    100612: polySurface3 Copy Copy Copy 4
+    100614: polySurface3 Copy Copy Copy 5
+    100616: polySurface3 Copy Copy Copy 6
+    100618: polySurface3 Copy Copy Copy Copy
+    100620: polySurface3 Copy Copy Copy Copy 1
+    100622: polySurface3 Copy Copy Copy Copy Copy
+    100624: polySurface3 Copy Copy Copy Copy Copy Copy
+    100626: polySurface3 Copy Copy Copy Copy Copy Copy Copy
+    100628: polySurface4
+    100630: polySurface5
+    100632: polySurface6
+    100634: polySurface6 1
+    100636: polySurface6 2
+    100638: polySurface6 Copy
+    100640: polySurface6 Copy 1
+    100642: polySurface6 Copy 2
+    100644: polySurface6 Copy Copy
+    100646: polySurface6 Copy Copy 1
+    100648: polySurface6 Copy Copy 2
+    100650: polySurface6 Copy Copy Copy
+    100652: polySurface7
+    100654: polySurface8
+    100656: polySurface9
+    100658: power_mat
+    100660: powerup_base
+    100662: powerup_base 1
+    100664: powerup_base_01
+    100666: powerup_base_01 Copy
+    100668: pPlane8
+    100670: pPlane8 1
+    100672: PROP_damage_TH_GEO
+    100674: PROP_health_TH_GEO
+    100676: PROP_powerup_base_TH_GEO
+    100678: PROP_powerup_base_TH_GEO 1
+    100680: PROP_scifiArches_MB_GEO
+    100682: PROP_scifiArches_MB_GEO 1
+    100684: PROP_scifiDome_MB_GEO
+    100686: PROP_scifiDome_MB_GEO 1
+    100688: PROP_scifiWindow_MB_GEO
+    100690: PROP_scifiWindow_MB_GEO 1
+    100692: quarter1_low
+    100694: quarter1_low 1
+    100696: quarter2_low
+    100698: quarter2_low 1
+    100700: quarter3_low
+    100702: quarter3_low 1
+    100704: quarter4_low
+    100706: quarter4_low 1
+    100708: Render
+    100710: RobotRig_0010:RobotRig_0009:Arm_Upper_R RobotRig_0010:RobotRig_0009:group1
+    100712: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG
+    100714: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 1
+    100716: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 10
+    100718: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 11
+    100720: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 12
+    100722: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 13
+    100724: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 14
+    100726: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 2
+    100728: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 3
+    100730: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 4
+    100732: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 5
+    100734: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 6
+    100736: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 7
+    100738: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 8
+    100740: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 9
+    100742: RobotRig_0010:RobotRig_0009:Belly_Hatch_geo RobotRig_0010:RobotRig_0009:Body
+      RobotRig_0010:RobotRig_0009:Robot
+    100744: RobotRig_0010:RobotRig_0009:Belly_Hatch_geoSG
+    100746: RobotRig_0010:RobotRig_0009:Belly_Hatch_geoSG 1
+    100748: RobotRig_0010:RobotRig_0009:Belly_Hatch_geoSG 2
+    100750: RobotRig_0010:RobotRig_0009:Belly_Hatch_geoSG 3
+    100752: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Belly_geo
+    100754: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Pelvis_geo
+    100756: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Ribs_geo
+    100758: RobotRig_0010:RobotRig_0009:ChestPlateSG
+    100760: RobotRig_0010:RobotRig_0009:ChestPlateSG 1
+    100762: RobotRig_0010:RobotRig_0009:ChestPlateSG 10
+    100764: RobotRig_0010:RobotRig_0009:ChestPlateSG 2
+    100766: RobotRig_0010:RobotRig_0009:ChestPlateSG 3
+    100768: RobotRig_0010:RobotRig_0009:ChestPlateSG 4
+    100770: RobotRig_0010:RobotRig_0009:ChestPlateSG 5
+    100772: RobotRig_0010:RobotRig_0009:ChestPlateSG 6
+    100774: RobotRig_0010:RobotRig_0009:ChestPlateSG 7
+    100776: RobotRig_0010:RobotRig_0009:ChestPlateSG 8
+    100778: RobotRig_0010:RobotRig_0009:ChestPlateSG 9
+    100780: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_L
+    100782: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_R
+    100784: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Upper_L
+    100786: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:BackPiece
+    100788: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:ChestPlate
+    100790: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Codpiece
+    100792: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_L
+    100794: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_R
+    100796: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Helmet
+    100798: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hips
+    100800: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_L
+    100802: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_R
+    100804: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_L
+    100806: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_R
+    100808: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_L
+    100810: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_R
+    100812: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_L
+    100814: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_R
+    100816: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG
+    100818: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 1
+    100820: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 10
+    100822: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 11
+    100824: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 12
+    100826: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 13
+    100828: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 14
+    100830: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 15
+    100832: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 16
+    100834: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 17
+    100836: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 18
+    100838: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 19
+    100840: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 2
+    100842: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 20
+    100844: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 21
+    100846: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 22
+    100848: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 23
+    100850: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 24
+    100852: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 25
+    100854: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 26
+    100856: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 27
+    100858: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 28
+    100860: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 29
+    100862: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 3
+    100864: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 30
+    100866: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 31
+    100868: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 32
+    100870: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 33
+    100872: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 34
+    100874: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 35
+    100876: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 36
+    100878: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 37
+    100880: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 4
+    100882: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 5
+    100884: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 6
+    100886: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 7
+    100888: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 8
+    100890: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 9
+    100892: RobotRig_0010:RobotRig_0009:polySurface40 RobotRig_0010:RobotRig_0009:polySurface41
+      RobotRig_0010:RobotRig_0009:Mech_Sword
+    100894: RobotRig_0010:RobotRig_0009:polySurface40SG1
+    100896: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Arm_Upper_L_geo
+    100898: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Arm_Lower_L_geo
+    100900: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Wrist_L_geo
+    100902: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Hand_L_geo
+    100904: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low13
+    100906: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low15
+    100908: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low16
+    100910: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low17
+    100912: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low18
+    100914: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low19
+    100916: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low20
+    100918: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low21
+    100920: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low22
+    100922: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low23
+    100924: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low4
+    100926: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low5
+    100928: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low8
+    100930: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low9
+    100932: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_02_geo
+    100934: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo
+    100936: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo1
+    100938: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_02_geo
+    100940: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_03_geo
+    100942: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo
+    100944: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo1
+    100946: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo2
+    100948: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo3
+    100950: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_02_geo
+    100952: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_03_geo
+    100954: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumb_L_geo
+    100956: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumbtip_L_geo
+    100958: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Ring_L_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_L RobotRig_0010:RobotRig_0009:group2
+    100960: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Shoulder_L_geo
+    100962: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Arm_Upper_R_geo
+    100964: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Arm_Lower_R_geo
+    100966: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Wrist_R
+    100968: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hand_R_geo
+    100970: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low13
+    100972: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low14
+    100974: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low24
+    100976: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low25
+    100978: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low26
+    100980: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low27
+    100982: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low28
+    100984: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low29
+    100986: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low30
+    100988: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low31
+    100990: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low4
+    100992: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low5
+    100994: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low8
+    100996: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low9
+    100998: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Middle_R_03_geo
+    101000: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_02_geo
+    101002: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_03_geo
+    101004: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo
+    101006: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo1
+    101008: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo2
+    101010: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo3
+    101012: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo
+    101014: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo1
+    101016: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_03_geo
+    101018: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Ring_R_03_geo
+    101020: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumb_R_geo
+    101022: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumbtip_R_geo
+    101024: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Middle_R_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_R RobotRig_0010:RobotRig_0009:group1
+    101026: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Shoulder_R_geo
+    101028: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_L_geo
+      RobotRig_0010:RobotRig_0009:Arm_L
+    101030: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_R
+      RobotRig_0010:RobotRig_0009:Arm_R
+    101032: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_L_geo
+      RobotRig_0010:RobotRig_0009:Leg_L
+    101034: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_R_geo
+      RobotRig_0010:RobotRig_0009:Leg_R
+    101036: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_L_geo
+    101038: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_R_geo
+    101040: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Ankle_L_geo
+    101042: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+    101044: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    101046: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Leg_Upper_L_geo
+    101048: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Shin_L_geo
+    101050: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Toes_L_geo
+    101052: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Ankle_R_geo
+    101054: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+    101056: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    101058: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Leg_Upper_R_geo
+    101060: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Shin_R_geo
+    101062: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Toes_R_geo
+    101064: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Skull_geo
+      RobotRig_0010:RobotRig_0009:Head
+    101066: RobotRig_0010:RobotRig_0009:Skull_geoSG
+    101068: RobotRig_0010:RobotRig_0009:Skull_geoSG 1
+    101070: RobotRig_0010:RobotRig_0009:Skull_geoSG 10
+    101072: RobotRig_0010:RobotRig_0009:Skull_geoSG 11
+    101074: RobotRig_0010:RobotRig_0009:Skull_geoSG 12
+    101076: RobotRig_0010:RobotRig_0009:Skull_geoSG 13
+    101078: RobotRig_0010:RobotRig_0009:Skull_geoSG 14
+    101080: RobotRig_0010:RobotRig_0009:Skull_geoSG 15
+    101082: RobotRig_0010:RobotRig_0009:Skull_geoSG 16
+    101084: RobotRig_0010:RobotRig_0009:Skull_geoSG 17
+    101086: RobotRig_0010:RobotRig_0009:Skull_geoSG 18
+    101088: RobotRig_0010:RobotRig_0009:Skull_geoSG 19
+    101090: RobotRig_0010:RobotRig_0009:Skull_geoSG 2
+    101092: RobotRig_0010:RobotRig_0009:Skull_geoSG 20
+    101094: RobotRig_0010:RobotRig_0009:Skull_geoSG 21
+    101096: RobotRig_0010:RobotRig_0009:Skull_geoSG 22
+    101098: RobotRig_0010:RobotRig_0009:Skull_geoSG 23
+    101100: RobotRig_0010:RobotRig_0009:Skull_geoSG 24
+    101102: RobotRig_0010:RobotRig_0009:Skull_geoSG 25
+    101104: RobotRig_0010:RobotRig_0009:Skull_geoSG 26
+    101106: RobotRig_0010:RobotRig_0009:Skull_geoSG 27
+    101108: RobotRig_0010:RobotRig_0009:Skull_geoSG 28
+    101110: RobotRig_0010:RobotRig_0009:Skull_geoSG 29
+    101112: RobotRig_0010:RobotRig_0009:Skull_geoSG 3
+    101114: RobotRig_0010:RobotRig_0009:Skull_geoSG 30
+    101116: RobotRig_0010:RobotRig_0009:Skull_geoSG 31
+    101118: RobotRig_0010:RobotRig_0009:Skull_geoSG 32
+    101120: RobotRig_0010:RobotRig_0009:Skull_geoSG 33
+    101122: RobotRig_0010:RobotRig_0009:Skull_geoSG 34
+    101124: RobotRig_0010:RobotRig_0009:Skull_geoSG 35
+    101126: RobotRig_0010:RobotRig_0009:Skull_geoSG 36
+    101128: RobotRig_0010:RobotRig_0009:Skull_geoSG 37
+    101130: RobotRig_0010:RobotRig_0009:Skull_geoSG 38
+    101132: RobotRig_0010:RobotRig_0009:Skull_geoSG 39
+    101134: RobotRig_0010:RobotRig_0009:Skull_geoSG 4
+    101136: RobotRig_0010:RobotRig_0009:Skull_geoSG 40
+    101138: RobotRig_0010:RobotRig_0009:Skull_geoSG 41
+    101140: RobotRig_0010:RobotRig_0009:Skull_geoSG 42
+    101142: RobotRig_0010:RobotRig_0009:Skull_geoSG 43
+    101144: RobotRig_0010:RobotRig_0009:Skull_geoSG 44
+    101146: RobotRig_0010:RobotRig_0009:Skull_geoSG 45
+    101148: RobotRig_0010:RobotRig_0009:Skull_geoSG 46
+    101150: RobotRig_0010:RobotRig_0009:Skull_geoSG 5
+    101152: RobotRig_0010:RobotRig_0009:Skull_geoSG 6
+    101154: RobotRig_0010:RobotRig_0009:Skull_geoSG 7
+    101156: RobotRig_0010:RobotRig_0009:Skull_geoSG 8
+    101158: RobotRig_0010:RobotRig_0009:Skull_geoSG 9
+    101160: Rock_01
+    101162: Rock_01 1
+    101164: Rock_01 2
+    101166: Rock_02
+    101168: Rock_02 1
+    101170: Rock_03
+    101172: Rock_03 1
+    101174: Rock_04
+    101176: Rock_04 1
+    101178: ruinStairs_low_Group63540
+    101180: ruinStairs_low_Group63540 Copy
+    101182: side1
+    101184: Skull
+    101186: skull_low
+    101188: Sky
+    101190: Sky Light 1
+    101192: Sky Light 2
+    101194: stone1
+    101196: stone_02_Low
+    101198: stone_02_Low Copy
+    101200: topCube_low
+    101202: topCube_low 1
+    101204: topCube_low 2
+    101206: topCurves_low
+    101208: topCurves_low 1
+    101210: topCurves_low 2
+    101212: topCylinder_low
+    101214: topCylinder_low 1
+    101216: topCylinder_low 2
+    101218: topCylinderDetail_low
+    101220: topCylinderDetail_low 1
+    101222: topCylinderDetail_low 2
+    400000: //RootNode
+    400002: ARCH_brokenPillar_DF_GEO
+    400004: ARCH_brokenPillar_DF_GEO 1
+    400006: ARCH_brokenPillarTopper_DF_GEO
+    400008: ARCH_centreStoneFloor_DF_GEO
+    400010: ARCH_centreStoneFloor_DF_GEO 1
+    400012: ARCH_centreStoneFloorHole_DF_GEO
+    400014: ARCH_RuinBlock2_DF_GEO
+    400016: ARCH_RuinBlock2_DF_GEO 1
+    400018: ARCH_RuinBlock3_DF_GEO
+    400020: ARCH_RuinBlock3_DF_GEO 1
+    400022: ARCH_ruinPillar_DF_GEO
+    400024: ARCH_ruinPillar_DF_GEO Copy
+    400026: ARCH_ruinPillar_DF_GEO Copy 1
+    400028: ARCH_ruinPillar_DF_GEO Copy 2
+    400030: ARCH_ruinPillar_DF_GEO Copy Copy
+    400032: ARCH_ruinSteps_DF_GEO
+    400034: Bars
+    400036: Bars 1
+    400038: bars1_low
+    400040: bars1_low 1
+    400042: bars2_low
+    400044: bars2_low 1
+    400046: bars3_low
+    400048: bars3_low 1
+    400050: bars4_low
+    400052: bars4_low 1
+    400054: Base
+    400056: bottomCyliner_low
+    400058: bottomCyliner_low 1
+    400060: bottomCyliner_low 2
+    400062: Building
+    400064: Building Copy
+    400066: CenterPiece
+    400068: CenterPiece 1
+    400070: cube1_low
+    400072: cube1_low 1
+    400074: cube2_low
+    400076: cube2_low 1
+    400078: cube3_low
+    400080: cube3_low 1
+    400082: cube4_low
+    400084: cube4_low 1
+    400086: Dome_low
+    400088: Dome_low 1
+    400090: Fog 1
+    400092: Group
+    400094: health_mat
+    400096: health_powerup
+    400098: lambert1
+    400100: lambert1 1
+    400102: lambert1 10
+    400104: lambert1 11
+    400106: lambert1 12
+    400108: lambert1 13
+    400110: lambert1 14
+    400112: lambert1 15
+    400114: lambert1 16
+    400116: lambert1 17
+    400118: lambert1 18
+    400120: lambert1 19
+    400122: lambert1 2
+    400124: lambert1 20
+    400126: lambert1 21
+    400128: lambert1 22
+    400130: lambert1 23
+    400132: lambert1 24
+    400134: lambert1 25
+    400136: lambert1 26
+    400138: lambert1 27
+    400140: lambert1 28
+    400142: lambert1 29
+    400144: lambert1 3
+    400146: lambert1 30
+    400148: lambert1 31
+    400150: lambert1 32
+    400152: lambert1 33
+    400154: lambert1 34
+    400156: lambert1 35
+    400158: lambert1 36
+    400160: lambert1 37
+    400162: lambert1 38
+    400164: lambert1 39
+    400166: lambert1 4
+    400168: lambert1 40
+    400170: lambert1 41
+    400172: lambert1 42
+    400174: lambert1 43
+    400176: lambert1 44
+    400178: lambert1 45
+    400180: lambert1 46
+    400182: lambert1 47
+    400184: lambert1 48
+    400186: lambert1 49
+    400188: lambert1 5
+    400190: lambert1 50
+    400192: lambert1 51
+    400194: lambert1 52
+    400196: lambert1 53
+    400198: lambert1 54
+    400200: lambert1 55
+    400202: lambert1 56
+    400204: lambert1 57
+    400206: lambert1 6
+    400208: lambert1 7
+    400210: lambert1 8
+    400212: lambert1 9
+    400214: lambert2
+    400216: lambert2 1
+    400218: lambert2 10
+    400220: lambert2 11
+    400222: lambert2 12
+    400224: lambert2 13
+    400226: lambert2 14
+    400228: lambert2 15
+    400230: lambert2 16
+    400232: lambert2 17
+    400234: lambert2 18
+    400236: lambert2 19
+    400238: lambert2 2
+    400240: lambert2 20
+    400242: lambert2 21
+    400244: lambert2 22
+    400246: lambert2 23
+    400248: lambert2 24
+    400250: lambert2 25
+    400252: lambert2 26
+    400254: lambert2 27
+    400256: lambert2 28
+    400258: lambert2 29
+    400260: lambert2 3
+    400262: lambert2 30
+    400264: lambert2 31
+    400266: lambert2 32
+    400268: lambert2 33
+    400270: lambert2 34
+    400272: lambert2 35
+    400274: lambert2 36
+    400276: lambert2 37
+    400278: lambert2 38
+    400280: lambert2 39
+    400282: lambert2 4
+    400284: lambert2 40
+    400286: lambert2 41
+    400288: lambert2 42
+    400290: lambert2 43
+    400292: lambert2 44
+    400294: lambert2 45
+    400296: lambert2 46
+    400298: lambert2 47
+    400300: lambert2 48
+    400302: lambert2 49
+    400304: lambert2 5
+    400306: lambert2 50
+    400308: lambert2 6
+    400310: lambert2 7
+    400312: lambert2 8
+    400314: lambert2 9
+    400316: lambert3
+    400318: lambert4
+    400320: lambert4 1
+    400322: lambert4 10
+    400324: lambert4 11
+    400326: lambert4 12
+    400328: lambert4 13
+    400330: lambert4 14
+    400332: lambert4 15
+    400334: lambert4 16
+    400336: lambert4 17
+    400338: lambert4 18
+    400340: lambert4 19
+    400342: lambert4 2
+    400344: lambert4 20
+    400346: lambert4 21
+    400348: lambert4 22
+    400350: lambert4 23
+    400352: lambert4 24
+    400354: lambert4 25
+    400356: lambert4 26
+    400358: lambert4 3
+    400360: lambert4 4
+    400362: lambert4 5
+    400364: lambert4 6
+    400366: lambert4 7
+    400368: lambert4 8
+    400370: lambert4 9
+    400372: lambert5
+    400374: Light 1
+    400376: Light 1 Copy
+    400378: Light 3
+    400380: Light 3 Copy
+    400382: Main Camera
+    400384: MainStructure
+    400386: MainStructure 1
+    400388: MechPosed
+    400390: middleCylinder_low
+    400392: middleCylinder_low 1
+    400394: middleCylinder_low 2
+    400396: middleCylinder_low 3
+    400398: pCube34
+    400400: pCube34 1
+    400402: pCylinder25
+    400404: pCylinder25 Copy
+    400406: pCylinder25 Copy Copy
+    400408: PillarBase_low
+    400410: PillarBase_low 1
+    400412: PillarBase_low 2
+    400414: PillarBase_low 3
+    400416: PilotPosed
+    400418: PilotPosed_02:defaultMat1
+    400420: PilotPosed_02:defaultMat1 1
+    400422: PilotPosed_02:defaultMat1 10
+    400424: PilotPosed_02:defaultMat1 11
+    400426: PilotPosed_02:defaultMat1 12
+    400428: PilotPosed_02:defaultMat1 13
+    400430: PilotPosed_02:defaultMat1 14
+    400432: PilotPosed_02:defaultMat1 15
+    400434: PilotPosed_02:defaultMat1 16
+    400436: PilotPosed_02:defaultMat1 17
+    400438: PilotPosed_02:defaultMat1 18
+    400440: PilotPosed_02:defaultMat1 19
+    400442: PilotPosed_02:defaultMat1 2
+    400444: PilotPosed_02:defaultMat1 20
+    400446: PilotPosed_02:defaultMat1 21
+    400448: PilotPosed_02:defaultMat1 22
+    400450: PilotPosed_02:defaultMat1 23
+    400452: PilotPosed_02:defaultMat1 24
+    400454: PilotPosed_02:defaultMat1 25
+    400456: PilotPosed_02:defaultMat1 3
+    400458: PilotPosed_02:defaultMat1 4
+    400460: PilotPosed_02:defaultMat1 5
+    400462: PilotPosed_02:defaultMat1 6
+    400464: PilotPosed_02:defaultMat1 7
+    400466: PilotPosed_02:defaultMat1 8
+    400468: PilotPosed_02:defaultMat1 9
+    400470: polySurface1
+    400472: polySurface10
+    400474: polySurface11
+    400476: polySurface12
+    400478: polySurface13
+    400480: polySurface14
+    400482: polySurface15
+    400484: polySurface16
+    400486: polySurface17
+    400488: polySurface18
+    400490: polySurface19
+    400492: polySurface2
+    400494: polySurface2 1
+    400496: polySurface2 2
+    400498: polySurface2 Copy
+    400500: polySurface2 Copy 1
+    400502: polySurface2 Copy 2
+    400504: polySurface2 Copy 3
+    400506: polySurface2 Copy 4
+    400508: polySurface2 Copy Copy
+    400510: polySurface2 Copy Copy 1
+    400512: polySurface2 Copy Copy 2
+    400514: polySurface2 Copy Copy 3
+    400516: polySurface2 Copy Copy 4
+    400518: polySurface2 Copy Copy 5
+    400520: polySurface2 Copy Copy Copy
+    400522: polySurface2 Copy Copy Copy 1
+    400524: polySurface2 Copy Copy Copy 2
+    400526: polySurface2 Copy Copy Copy 3
+    400528: polySurface2 Copy Copy Copy 4
+    400530: polySurface2 Copy Copy Copy 5
+    400532: polySurface2 Copy Copy Copy 6
+    400534: polySurface2 Copy Copy Copy 7
+    400536: polySurface2 Copy Copy Copy Copy
+    400538: polySurface20
+    400540: polySurface21
+    400542: polySurface21 Copy
+    400544: polySurface21 Copy Copy
+    400546: polySurface21 Copy Copy 1
+    400548: polySurface21 Copy Copy Copy
+    400550: polySurface21 Copy Copy Copy 1
+    400552: polySurface21 Copy Copy Copy 2
+    400554: polySurface21 Copy Copy Copy 3
+    400556: polySurface21 Copy Copy Copy Copy
+    400558: polySurface21 Copy Copy Copy Copy Copy
+    400560: polySurface22
+    400562: polySurface23
+    400564: polySurface24
+    400566: polySurface25
+    400568: polySurface26
+    400570: polySurface3
+    400572: polySurface3 1
+    400574: polySurface3 2
+    400576: polySurface3 Copy
+    400578: polySurface3 Copy 1
+    400580: polySurface3 Copy 2
+    400582: polySurface3 Copy 3
+    400584: polySurface3 Copy Copy
+    400586: polySurface3 Copy Copy 1
+    400588: polySurface3 Copy Copy 2
+    400590: polySurface3 Copy Copy 3
+    400592: polySurface3 Copy Copy 4
+    400594: polySurface3 Copy Copy 5
+    400596: polySurface3 Copy Copy 6
+    400598: polySurface3 Copy Copy 7
+    400600: polySurface3 Copy Copy 8
+    400602: polySurface3 Copy Copy 9
+    400604: polySurface3 Copy Copy Copy
+    400606: polySurface3 Copy Copy Copy 1
+    400608: polySurface3 Copy Copy Copy 2
+    400610: polySurface3 Copy Copy Copy 3
+    400612: polySurface3 Copy Copy Copy 4
+    400614: polySurface3 Copy Copy Copy 5
+    400616: polySurface3 Copy Copy Copy 6
+    400618: polySurface3 Copy Copy Copy Copy
+    400620: polySurface3 Copy Copy Copy Copy 1
+    400622: polySurface3 Copy Copy Copy Copy Copy
+    400624: polySurface3 Copy Copy Copy Copy Copy Copy
+    400626: polySurface3 Copy Copy Copy Copy Copy Copy Copy
+    400628: polySurface4
+    400630: polySurface5
+    400632: polySurface6
+    400634: polySurface6 1
+    400636: polySurface6 2
+    400638: polySurface6 Copy
+    400640: polySurface6 Copy 1
+    400642: polySurface6 Copy 2
+    400644: polySurface6 Copy Copy
+    400646: polySurface6 Copy Copy 1
+    400648: polySurface6 Copy Copy 2
+    400650: polySurface6 Copy Copy Copy
+    400652: polySurface7
+    400654: polySurface8
+    400656: polySurface9
+    400658: power_mat
+    400660: powerup_base
+    400662: powerup_base 1
+    400664: powerup_base_01
+    400666: powerup_base_01 Copy
+    400668: pPlane8
+    400670: pPlane8 1
+    400672: PROP_damage_TH_GEO
+    400674: PROP_health_TH_GEO
+    400676: PROP_powerup_base_TH_GEO
+    400678: PROP_powerup_base_TH_GEO 1
+    400680: PROP_scifiArches_MB_GEO
+    400682: PROP_scifiArches_MB_GEO 1
+    400684: PROP_scifiDome_MB_GEO
+    400686: PROP_scifiDome_MB_GEO 1
+    400688: PROP_scifiWindow_MB_GEO
+    400690: PROP_scifiWindow_MB_GEO 1
+    400692: quarter1_low
+    400694: quarter1_low 1
+    400696: quarter2_low
+    400698: quarter2_low 1
+    400700: quarter3_low
+    400702: quarter3_low 1
+    400704: quarter4_low
+    400706: quarter4_low 1
+    400708: Render
+    400710: RobotRig_0010:RobotRig_0009:Arm_Upper_R RobotRig_0010:RobotRig_0009:group1
+    400712: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG
+    400714: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 1
+    400716: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 10
+    400718: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 11
+    400720: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 12
+    400722: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 13
+    400724: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 14
+    400726: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 2
+    400728: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 3
+    400730: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 4
+    400732: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 5
+    400734: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 6
+    400736: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 7
+    400738: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 8
+    400740: RobotRig_0010:RobotRig_0009:Arm_Upper_RSG 9
+    400742: RobotRig_0010:RobotRig_0009:Belly_Hatch_geo RobotRig_0010:RobotRig_0009:Body
+      RobotRig_0010:RobotRig_0009:Robot
+    400744: RobotRig_0010:RobotRig_0009:Belly_Hatch_geoSG
+    400746: RobotRig_0010:RobotRig_0009:Belly_Hatch_geoSG 1
+    400748: RobotRig_0010:RobotRig_0009:Belly_Hatch_geoSG 2
+    400750: RobotRig_0010:RobotRig_0009:Belly_Hatch_geoSG 3
+    400752: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Belly_geo
+    400754: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Pelvis_geo
+    400756: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Ribs_geo
+    400758: RobotRig_0010:RobotRig_0009:ChestPlateSG
+    400760: RobotRig_0010:RobotRig_0009:ChestPlateSG 1
+    400762: RobotRig_0010:RobotRig_0009:ChestPlateSG 10
+    400764: RobotRig_0010:RobotRig_0009:ChestPlateSG 2
+    400766: RobotRig_0010:RobotRig_0009:ChestPlateSG 3
+    400768: RobotRig_0010:RobotRig_0009:ChestPlateSG 4
+    400770: RobotRig_0010:RobotRig_0009:ChestPlateSG 5
+    400772: RobotRig_0010:RobotRig_0009:ChestPlateSG 6
+    400774: RobotRig_0010:RobotRig_0009:ChestPlateSG 7
+    400776: RobotRig_0010:RobotRig_0009:ChestPlateSG 8
+    400778: RobotRig_0010:RobotRig_0009:ChestPlateSG 9
+    400780: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_L
+    400782: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_R
+    400784: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Upper_L
+    400786: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:BackPiece
+    400788: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:ChestPlate
+    400790: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Codpiece
+    400792: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_L
+    400794: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_R
+    400796: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Helmet
+    400798: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hips
+    400800: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_L
+    400802: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_R
+    400804: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_L
+    400806: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_R
+    400808: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_L
+    400810: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_R
+    400812: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_L
+    400814: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_R
+    400816: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG
+    400818: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 1
+    400820: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 10
+    400822: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 11
+    400824: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 12
+    400826: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 13
+    400828: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 14
+    400830: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 15
+    400832: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 16
+    400834: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 17
+    400836: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 18
+    400838: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 19
+    400840: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 2
+    400842: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 20
+    400844: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 21
+    400846: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 22
+    400848: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 23
+    400850: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 24
+    400852: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 25
+    400854: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 26
+    400856: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 27
+    400858: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 28
+    400860: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 29
+    400862: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 3
+    400864: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 30
+    400866: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 31
+    400868: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 32
+    400870: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 33
+    400872: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 34
+    400874: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 35
+    400876: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 36
+    400878: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 37
+    400880: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 4
+    400882: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 5
+    400884: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 6
+    400886: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 7
+    400888: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 8
+    400890: RobotRig_0010:RobotRig_0009:Leg_Upper_R_geoSG 9
+    400892: RobotRig_0010:RobotRig_0009:polySurface40 RobotRig_0010:RobotRig_0009:polySurface41
+      RobotRig_0010:RobotRig_0009:Mech_Sword
+    400894: RobotRig_0010:RobotRig_0009:polySurface40SG1
+    400896: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Arm_Upper_L_geo
+    400898: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Arm_Lower_L_geo
+    400900: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Wrist_L_geo
+    400902: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Hand_L_geo
+    400904: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low13
+    400906: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low15
+    400908: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low16
+    400910: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low17
+    400912: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low18
+    400914: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low19
+    400916: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low20
+    400918: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low21
+    400920: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low22
+    400922: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low23
+    400924: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low4
+    400926: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low5
+    400928: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low8
+    400930: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low9
+    400932: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_02_geo
+    400934: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo
+    400936: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo1
+    400938: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_02_geo
+    400940: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_03_geo
+    400942: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo
+    400944: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo1
+    400946: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo2
+    400948: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo3
+    400950: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_02_geo
+    400952: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_03_geo
+    400954: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumb_L_geo
+    400956: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumbtip_L_geo
+    400958: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Ring_L_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_L RobotRig_0010:RobotRig_0009:group2
+    400960: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Shoulder_L_geo
+    400962: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Arm_Upper_R_geo
+    400964: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Arm_Lower_R_geo
+    400966: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Wrist_R
+    400968: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hand_R_geo
+    400970: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low13
+    400972: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low14
+    400974: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low24
+    400976: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low25
+    400978: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low26
+    400980: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low27
+    400982: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low28
+    400984: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low29
+    400986: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low30
+    400988: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low31
+    400990: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low4
+    400992: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low5
+    400994: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low8
+    400996: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low9
+    400998: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Middle_R_03_geo
+    401000: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_02_geo
+    401002: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_03_geo
+    401004: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo
+    401006: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo1
+    401008: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo2
+    401010: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo3
+    401012: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo
+    401014: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo1
+    401016: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_03_geo
+    401018: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Ring_R_03_geo
+    401020: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumb_R_geo
+    401022: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumbtip_R_geo
+    401024: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Middle_R_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_R RobotRig_0010:RobotRig_0009:group1
+    401026: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Shoulder_R_geo
+    401028: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_L_geo
+      RobotRig_0010:RobotRig_0009:Arm_L
+    401030: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_R
+      RobotRig_0010:RobotRig_0009:Arm_R
+    401032: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_L_geo
+      RobotRig_0010:RobotRig_0009:Leg_L
+    401034: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_R_geo
+      RobotRig_0010:RobotRig_0009:Leg_R
+    401036: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_L_geo
+    401038: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_R_geo
+    401040: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Ankle_L_geo
+    401042: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+    401044: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    401046: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Leg_Upper_L_geo
+    401048: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Shin_L_geo
+    401050: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Toes_L_geo
+    401052: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Ankle_R_geo
+    401054: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+    401056: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    401058: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Leg_Upper_R_geo
+    401060: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Shin_R_geo
+    401062: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Toes_R_geo
+    401064: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Skull_geo
+      RobotRig_0010:RobotRig_0009:Head
+    401066: RobotRig_0010:RobotRig_0009:Skull_geoSG
+    401068: RobotRig_0010:RobotRig_0009:Skull_geoSG 1
+    401070: RobotRig_0010:RobotRig_0009:Skull_geoSG 10
+    401072: RobotRig_0010:RobotRig_0009:Skull_geoSG 11
+    401074: RobotRig_0010:RobotRig_0009:Skull_geoSG 12
+    401076: RobotRig_0010:RobotRig_0009:Skull_geoSG 13
+    401078: RobotRig_0010:RobotRig_0009:Skull_geoSG 14
+    401080: RobotRig_0010:RobotRig_0009:Skull_geoSG 15
+    401082: RobotRig_0010:RobotRig_0009:Skull_geoSG 16
+    401084: RobotRig_0010:RobotRig_0009:Skull_geoSG 17
+    401086: RobotRig_0010:RobotRig_0009:Skull_geoSG 18
+    401088: RobotRig_0010:RobotRig_0009:Skull_geoSG 19
+    401090: RobotRig_0010:RobotRig_0009:Skull_geoSG 2
+    401092: RobotRig_0010:RobotRig_0009:Skull_geoSG 20
+    401094: RobotRig_0010:RobotRig_0009:Skull_geoSG 21
+    401096: RobotRig_0010:RobotRig_0009:Skull_geoSG 22
+    401098: RobotRig_0010:RobotRig_0009:Skull_geoSG 23
+    401100: RobotRig_0010:RobotRig_0009:Skull_geoSG 24
+    401102: RobotRig_0010:RobotRig_0009:Skull_geoSG 25
+    401104: RobotRig_0010:RobotRig_0009:Skull_geoSG 26
+    401106: RobotRig_0010:RobotRig_0009:Skull_geoSG 27
+    401108: RobotRig_0010:RobotRig_0009:Skull_geoSG 28
+    401110: RobotRig_0010:RobotRig_0009:Skull_geoSG 29
+    401112: RobotRig_0010:RobotRig_0009:Skull_geoSG 3
+    401114: RobotRig_0010:RobotRig_0009:Skull_geoSG 30
+    401116: RobotRig_0010:RobotRig_0009:Skull_geoSG 31
+    401118: RobotRig_0010:RobotRig_0009:Skull_geoSG 32
+    401120: RobotRig_0010:RobotRig_0009:Skull_geoSG 33
+    401122: RobotRig_0010:RobotRig_0009:Skull_geoSG 34
+    401124: RobotRig_0010:RobotRig_0009:Skull_geoSG 35
+    401126: RobotRig_0010:RobotRig_0009:Skull_geoSG 36
+    401128: RobotRig_0010:RobotRig_0009:Skull_geoSG 37
+    401130: RobotRig_0010:RobotRig_0009:Skull_geoSG 38
+    401132: RobotRig_0010:RobotRig_0009:Skull_geoSG 39
+    401134: RobotRig_0010:RobotRig_0009:Skull_geoSG 4
+    401136: RobotRig_0010:RobotRig_0009:Skull_geoSG 40
+    401138: RobotRig_0010:RobotRig_0009:Skull_geoSG 41
+    401140: RobotRig_0010:RobotRig_0009:Skull_geoSG 42
+    401142: RobotRig_0010:RobotRig_0009:Skull_geoSG 43
+    401144: RobotRig_0010:RobotRig_0009:Skull_geoSG 44
+    401146: RobotRig_0010:RobotRig_0009:Skull_geoSG 45
+    401148: RobotRig_0010:RobotRig_0009:Skull_geoSG 46
+    401150: RobotRig_0010:RobotRig_0009:Skull_geoSG 5
+    401152: RobotRig_0010:RobotRig_0009:Skull_geoSG 6
+    401154: RobotRig_0010:RobotRig_0009:Skull_geoSG 7
+    401156: RobotRig_0010:RobotRig_0009:Skull_geoSG 8
+    401158: RobotRig_0010:RobotRig_0009:Skull_geoSG 9
+    401160: Rock_01
+    401162: Rock_01 1
+    401164: Rock_01 2
+    401166: Rock_02
+    401168: Rock_02 1
+    401170: Rock_03
+    401172: Rock_03 1
+    401174: Rock_04
+    401176: Rock_04 1
+    401178: ruinStairs_low_Group63540
+    401180: ruinStairs_low_Group63540 Copy
+    401182: side1
+    401184: Skull
+    401186: skull_low
+    401188: Sky
+    401190: Sky Light 1
+    401192: Sky Light 2
+    401194: stone1
+    401196: stone_02_Low
+    401198: stone_02_Low Copy
+    401200: topCube_low
+    401202: topCube_low 1
+    401204: topCube_low 2
+    401206: topCurves_low
+    401208: topCurves_low 1
+    401210: topCurves_low 2
+    401212: topCylinder_low
+    401214: topCylinder_low 1
+    401216: topCylinder_low 2
+    401218: topCylinderDetail_low
+    401220: topCylinderDetail_low 1
+    401222: topCylinderDetail_low 2
+    2300000: Bars
+    2300002: Bars 1
+    2300004: bars1_low
+    2300006: bars1_low 1
+    2300008: bars2_low
+    2300010: bars2_low 1
+    2300012: bars3_low
+    2300014: bars3_low 1
+    2300016: bars4_low
+    2300018: bars4_low 1
+    2300020: bottomCyliner_low
+    2300022: bottomCyliner_low 1
+    2300024: bottomCyliner_low 2
+    2300026: CenterPiece
+    2300028: CenterPiece 1
+    2300030: cube1_low
+    2300032: cube1_low 1
+    2300034: cube2_low
+    2300036: cube2_low 1
+    2300038: cube3_low
+    2300040: cube3_low 1
+    2300042: cube4_low
+    2300044: cube4_low 1
+    2300046: Dome_low
+    2300048: Dome_low 1
+    2300050: health_powerup
+    2300052: MainStructure
+    2300054: MainStructure 1
+    2300056: middleCylinder_low
+    2300058: middleCylinder_low 1
+    2300060: middleCylinder_low 2
+    2300062: middleCylinder_low 3
+    2300064: pCube34
+    2300066: pCube34 1
+    2300068: pCylinder25
+    2300070: pCylinder25 Copy
+    2300072: pCylinder25 Copy Copy
+    2300074: PillarBase_low
+    2300076: PillarBase_low 1
+    2300078: PillarBase_low 2
+    2300080: PillarBase_low 3
+    2300082: polySurface1
+    2300084: polySurface10
+    2300086: polySurface11
+    2300088: polySurface12
+    2300090: polySurface13
+    2300092: polySurface14
+    2300094: polySurface15
+    2300096: polySurface16
+    2300098: polySurface17
+    2300100: polySurface18
+    2300102: polySurface19
+    2300104: polySurface2
+    2300106: polySurface2 1
+    2300108: polySurface2 2
+    2300110: polySurface2 Copy
+    2300112: polySurface2 Copy 1
+    2300114: polySurface2 Copy 2
+    2300116: polySurface2 Copy 3
+    2300118: polySurface2 Copy 4
+    2300120: polySurface2 Copy Copy
+    2300122: polySurface2 Copy Copy 1
+    2300124: polySurface2 Copy Copy 2
+    2300126: polySurface2 Copy Copy 3
+    2300128: polySurface2 Copy Copy 4
+    2300130: polySurface2 Copy Copy 5
+    2300132: polySurface2 Copy Copy Copy
+    2300134: polySurface2 Copy Copy Copy 1
+    2300136: polySurface2 Copy Copy Copy 2
+    2300138: polySurface2 Copy Copy Copy 3
+    2300140: polySurface2 Copy Copy Copy 4
+    2300142: polySurface2 Copy Copy Copy 5
+    2300144: polySurface2 Copy Copy Copy 6
+    2300146: polySurface2 Copy Copy Copy 7
+    2300148: polySurface2 Copy Copy Copy Copy
+    2300150: polySurface20
+    2300152: polySurface21
+    2300154: polySurface21 Copy
+    2300156: polySurface21 Copy Copy
+    2300158: polySurface21 Copy Copy 1
+    2300160: polySurface21 Copy Copy Copy
+    2300162: polySurface21 Copy Copy Copy 1
+    2300164: polySurface21 Copy Copy Copy 2
+    2300166: polySurface21 Copy Copy Copy 3
+    2300168: polySurface21 Copy Copy Copy Copy
+    2300170: polySurface21 Copy Copy Copy Copy Copy
+    2300172: polySurface22
+    2300174: polySurface23
+    2300176: polySurface24
+    2300178: polySurface25
+    2300180: polySurface26
+    2300182: polySurface3
+    2300184: polySurface3 1
+    2300186: polySurface3 2
+    2300188: polySurface3 Copy
+    2300190: polySurface3 Copy 1
+    2300192: polySurface3 Copy 2
+    2300194: polySurface3 Copy 3
+    2300196: polySurface3 Copy Copy
+    2300198: polySurface3 Copy Copy 1
+    2300200: polySurface3 Copy Copy 2
+    2300202: polySurface3 Copy Copy 3
+    2300204: polySurface3 Copy Copy 4
+    2300206: polySurface3 Copy Copy 5
+    2300208: polySurface3 Copy Copy 6
+    2300210: polySurface3 Copy Copy 7
+    2300212: polySurface3 Copy Copy 8
+    2300214: polySurface3 Copy Copy 9
+    2300216: polySurface3 Copy Copy Copy
+    2300218: polySurface3 Copy Copy Copy 1
+    2300220: polySurface3 Copy Copy Copy 2
+    2300222: polySurface3 Copy Copy Copy 3
+    2300224: polySurface3 Copy Copy Copy 4
+    2300226: polySurface3 Copy Copy Copy 5
+    2300228: polySurface3 Copy Copy Copy 6
+    2300230: polySurface3 Copy Copy Copy Copy
+    2300232: polySurface3 Copy Copy Copy Copy 1
+    2300234: polySurface3 Copy Copy Copy Copy Copy
+    2300236: polySurface3 Copy Copy Copy Copy Copy Copy
+    2300238: polySurface3 Copy Copy Copy Copy Copy Copy Copy
+    2300240: polySurface4
+    2300242: polySurface5
+    2300244: polySurface6
+    2300246: polySurface6 1
+    2300248: polySurface6 2
+    2300250: polySurface6 Copy
+    2300252: polySurface6 Copy 1
+    2300254: polySurface6 Copy 2
+    2300256: polySurface6 Copy Copy
+    2300258: polySurface6 Copy Copy 1
+    2300260: polySurface6 Copy Copy 2
+    2300262: polySurface6 Copy Copy Copy
+    2300264: polySurface7
+    2300266: polySurface8
+    2300268: polySurface9
+    2300270: powerup_base_01
+    2300272: powerup_base_01 Copy
+    2300274: pPlane8
+    2300276: pPlane8 1
+    2300278: quarter1_low
+    2300280: quarter1_low 1
+    2300282: quarter2_low
+    2300284: quarter2_low 1
+    2300286: quarter3_low
+    2300288: quarter3_low 1
+    2300290: quarter4_low
+    2300292: quarter4_low 1
+    2300294: RobotRig_0010:RobotRig_0009:Arm_Upper_R RobotRig_0010:RobotRig_0009:group1
+    2300296: RobotRig_0010:RobotRig_0009:Belly_Hatch_geo RobotRig_0010:RobotRig_0009:Body
+      RobotRig_0010:RobotRig_0009:Robot
+    2300298: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Belly_geo
+    2300300: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Pelvis_geo
+    2300302: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Ribs_geo
+    2300304: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_L
+    2300306: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_R
+    2300308: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Upper_L
+    2300310: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:BackPiece
+    2300312: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:ChestPlate
+    2300314: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Codpiece
+    2300316: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_L
+    2300318: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_R
+    2300320: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Helmet
+    2300322: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hips
+    2300324: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_L
+    2300326: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_R
+    2300328: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_L
+    2300330: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_R
+    2300332: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_L
+    2300334: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_R
+    2300336: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_L
+    2300338: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_R
+    2300340: RobotRig_0010:RobotRig_0009:polySurface40 RobotRig_0010:RobotRig_0009:polySurface41
+      RobotRig_0010:RobotRig_0009:Mech_Sword
+    2300342: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Arm_Upper_L_geo
+    2300344: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Arm_Lower_L_geo
+    2300346: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Wrist_L_geo
+    2300348: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Hand_L_geo
+    2300350: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low13
+    2300352: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low15
+    2300354: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low16
+    2300356: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low17
+    2300358: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low18
+    2300360: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low19
+    2300362: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low20
+    2300364: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low21
+    2300366: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low22
+    2300368: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low23
+    2300370: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low4
+    2300372: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low5
+    2300374: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low8
+    2300376: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low9
+    2300378: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_02_geo
+    2300380: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo
+    2300382: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo1
+    2300384: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_02_geo
+    2300386: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_03_geo
+    2300388: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo
+    2300390: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo1
+    2300392: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo2
+    2300394: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo3
+    2300396: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_02_geo
+    2300398: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_03_geo
+    2300400: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumb_L_geo
+    2300402: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumbtip_L_geo
+    2300404: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Ring_L_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_L RobotRig_0010:RobotRig_0009:group2
+    2300406: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Shoulder_L_geo
+    2300408: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Arm_Upper_R_geo
+    2300410: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Arm_Lower_R_geo
+    2300412: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Wrist_R
+    2300414: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hand_R_geo
+    2300416: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low13
+    2300418: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low14
+    2300420: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low24
+    2300422: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low25
+    2300424: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low26
+    2300426: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low27
+    2300428: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low28
+    2300430: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low29
+    2300432: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low30
+    2300434: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low31
+    2300436: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low4
+    2300438: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low5
+    2300440: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low8
+    2300442: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low9
+    2300444: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Middle_R_03_geo
+    2300446: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_02_geo
+    2300448: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_03_geo
+    2300450: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo
+    2300452: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo1
+    2300454: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo2
+    2300456: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo3
+    2300458: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo
+    2300460: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo1
+    2300462: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_03_geo
+    2300464: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Ring_R_03_geo
+    2300466: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumb_R_geo
+    2300468: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumbtip_R_geo
+    2300470: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Middle_R_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_R RobotRig_0010:RobotRig_0009:group1
+    2300472: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Shoulder_R_geo
+    2300474: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_L_geo
+      RobotRig_0010:RobotRig_0009:Arm_L
+    2300476: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_R
+      RobotRig_0010:RobotRig_0009:Arm_R
+    2300478: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_L_geo
+      RobotRig_0010:RobotRig_0009:Leg_L
+    2300480: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_R_geo
+      RobotRig_0010:RobotRig_0009:Leg_R
+    2300482: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_L_geo
+    2300484: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_R_geo
+    2300486: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Ankle_L_geo
+    2300488: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+    2300490: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    2300492: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Leg_Upper_L_geo
+    2300494: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Shin_L_geo
+    2300496: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Toes_L_geo
+    2300498: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Ankle_R_geo
+    2300500: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+    2300502: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    2300504: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Leg_Upper_R_geo
+    2300506: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Shin_R_geo
+    2300508: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Toes_R_geo
+    2300510: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Skull_geo
+      RobotRig_0010:RobotRig_0009:Head
+    2300512: ruinStairs_low_Group63540
+    2300514: ruinStairs_low_Group63540 Copy
+    2300516: side1
+    2300518: skull_low
+    2300520: stone_02_Low
+    2300522: stone_02_Low Copy
+    2300524: topCube_low
+    2300526: topCube_low 1
+    2300528: topCube_low 2
+    2300530: topCurves_low
+    2300532: topCurves_low 1
+    2300534: topCurves_low 2
+    2300536: topCylinder_low
+    2300538: topCylinder_low 1
+    2300540: topCylinder_low 2
+    2300542: topCylinderDetail_low
+    2300544: topCylinderDetail_low 1
+    2300546: topCylinderDetail_low 2
+    3300000: Bars
+    3300002: Bars 1
+    3300004: bars1_low
+    3300006: bars1_low 1
+    3300008: bars2_low
+    3300010: bars2_low 1
+    3300012: bars3_low
+    3300014: bars3_low 1
+    3300016: bars4_low
+    3300018: bars4_low 1
+    3300020: bottomCyliner_low
+    3300022: bottomCyliner_low 1
+    3300024: bottomCyliner_low 2
+    3300026: CenterPiece
+    3300028: CenterPiece 1
+    3300030: cube1_low
+    3300032: cube1_low 1
+    3300034: cube2_low
+    3300036: cube2_low 1
+    3300038: cube3_low
+    3300040: cube3_low 1
+    3300042: cube4_low
+    3300044: cube4_low 1
+    3300046: Dome_low
+    3300048: Dome_low 1
+    3300050: health_powerup
+    3300052: MainStructure
+    3300054: MainStructure 1
+    3300056: middleCylinder_low
+    3300058: middleCylinder_low 1
+    3300060: middleCylinder_low 2
+    3300062: middleCylinder_low 3
+    3300064: pCube34
+    3300066: pCube34 1
+    3300068: pCylinder25
+    3300070: pCylinder25 Copy
+    3300072: pCylinder25 Copy Copy
+    3300074: PillarBase_low
+    3300076: PillarBase_low 1
+    3300078: PillarBase_low 2
+    3300080: PillarBase_low 3
+    3300082: polySurface1
+    3300084: polySurface10
+    3300086: polySurface11
+    3300088: polySurface12
+    3300090: polySurface13
+    3300092: polySurface14
+    3300094: polySurface15
+    3300096: polySurface16
+    3300098: polySurface17
+    3300100: polySurface18
+    3300102: polySurface19
+    3300104: polySurface2
+    3300106: polySurface2 1
+    3300108: polySurface2 2
+    3300110: polySurface2 Copy
+    3300112: polySurface2 Copy 1
+    3300114: polySurface2 Copy 2
+    3300116: polySurface2 Copy 3
+    3300118: polySurface2 Copy 4
+    3300120: polySurface2 Copy Copy
+    3300122: polySurface2 Copy Copy 1
+    3300124: polySurface2 Copy Copy 2
+    3300126: polySurface2 Copy Copy 3
+    3300128: polySurface2 Copy Copy 4
+    3300130: polySurface2 Copy Copy 5
+    3300132: polySurface2 Copy Copy Copy
+    3300134: polySurface2 Copy Copy Copy 1
+    3300136: polySurface2 Copy Copy Copy 2
+    3300138: polySurface2 Copy Copy Copy 3
+    3300140: polySurface2 Copy Copy Copy 4
+    3300142: polySurface2 Copy Copy Copy 5
+    3300144: polySurface2 Copy Copy Copy 6
+    3300146: polySurface2 Copy Copy Copy 7
+    3300148: polySurface2 Copy Copy Copy Copy
+    3300150: polySurface20
+    3300152: polySurface21
+    3300154: polySurface21 Copy
+    3300156: polySurface21 Copy Copy
+    3300158: polySurface21 Copy Copy 1
+    3300160: polySurface21 Copy Copy Copy
+    3300162: polySurface21 Copy Copy Copy 1
+    3300164: polySurface21 Copy Copy Copy 2
+    3300166: polySurface21 Copy Copy Copy 3
+    3300168: polySurface21 Copy Copy Copy Copy
+    3300170: polySurface21 Copy Copy Copy Copy Copy
+    3300172: polySurface22
+    3300174: polySurface23
+    3300176: polySurface24
+    3300178: polySurface25
+    3300180: polySurface26
+    3300182: polySurface3
+    3300184: polySurface3 1
+    3300186: polySurface3 2
+    3300188: polySurface3 Copy
+    3300190: polySurface3 Copy 1
+    3300192: polySurface3 Copy 2
+    3300194: polySurface3 Copy 3
+    3300196: polySurface3 Copy Copy
+    3300198: polySurface3 Copy Copy 1
+    3300200: polySurface3 Copy Copy 2
+    3300202: polySurface3 Copy Copy 3
+    3300204: polySurface3 Copy Copy 4
+    3300206: polySurface3 Copy Copy 5
+    3300208: polySurface3 Copy Copy 6
+    3300210: polySurface3 Copy Copy 7
+    3300212: polySurface3 Copy Copy 8
+    3300214: polySurface3 Copy Copy 9
+    3300216: polySurface3 Copy Copy Copy
+    3300218: polySurface3 Copy Copy Copy 1
+    3300220: polySurface3 Copy Copy Copy 2
+    3300222: polySurface3 Copy Copy Copy 3
+    3300224: polySurface3 Copy Copy Copy 4
+    3300226: polySurface3 Copy Copy Copy 5
+    3300228: polySurface3 Copy Copy Copy 6
+    3300230: polySurface3 Copy Copy Copy Copy
+    3300232: polySurface3 Copy Copy Copy Copy 1
+    3300234: polySurface3 Copy Copy Copy Copy Copy
+    3300236: polySurface3 Copy Copy Copy Copy Copy Copy
+    3300238: polySurface3 Copy Copy Copy Copy Copy Copy Copy
+    3300240: polySurface4
+    3300242: polySurface5
+    3300244: polySurface6
+    3300246: polySurface6 1
+    3300248: polySurface6 2
+    3300250: polySurface6 Copy
+    3300252: polySurface6 Copy 1
+    3300254: polySurface6 Copy 2
+    3300256: polySurface6 Copy Copy
+    3300258: polySurface6 Copy Copy 1
+    3300260: polySurface6 Copy Copy 2
+    3300262: polySurface6 Copy Copy Copy
+    3300264: polySurface7
+    3300266: polySurface8
+    3300268: polySurface9
+    3300270: powerup_base_01
+    3300272: powerup_base_01 Copy
+    3300274: pPlane8
+    3300276: pPlane8 1
+    3300278: quarter1_low
+    3300280: quarter1_low 1
+    3300282: quarter2_low
+    3300284: quarter2_low 1
+    3300286: quarter3_low
+    3300288: quarter3_low 1
+    3300290: quarter4_low
+    3300292: quarter4_low 1
+    3300294: RobotRig_0010:RobotRig_0009:Arm_Upper_R RobotRig_0010:RobotRig_0009:group1
+    3300296: RobotRig_0010:RobotRig_0009:Belly_Hatch_geo RobotRig_0010:RobotRig_0009:Body
+      RobotRig_0010:RobotRig_0009:Robot
+    3300298: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Belly_geo
+    3300300: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Pelvis_geo
+    3300302: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Ribs_geo
+    3300304: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_L
+    3300306: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_R
+    3300308: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Upper_L
+    3300310: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:BackPiece
+    3300312: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:ChestPlate
+    3300314: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Codpiece
+    3300316: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_L
+    3300318: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_R
+    3300320: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Helmet
+    3300322: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hips
+    3300324: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_L
+    3300326: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_R
+    3300328: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_L
+    3300330: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_R
+    3300332: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_L
+    3300334: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_R
+    3300336: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_L
+    3300338: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_R
+    3300340: RobotRig_0010:RobotRig_0009:polySurface40 RobotRig_0010:RobotRig_0009:polySurface41
+      RobotRig_0010:RobotRig_0009:Mech_Sword
+    3300342: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Arm_Upper_L_geo
+    3300344: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Arm_Lower_L_geo
+    3300346: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Wrist_L_geo
+    3300348: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Hand_L_geo
+    3300350: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low13
+    3300352: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low15
+    3300354: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low16
+    3300356: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low17
+    3300358: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low18
+    3300360: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low19
+    3300362: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low20
+    3300364: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low21
+    3300366: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low22
+    3300368: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low23
+    3300370: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low4
+    3300372: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low5
+    3300374: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low8
+    3300376: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low9
+    3300378: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_02_geo
+    3300380: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo
+    3300382: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo1
+    3300384: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_02_geo
+    3300386: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_03_geo
+    3300388: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo
+    3300390: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo1
+    3300392: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo2
+    3300394: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo3
+    3300396: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_02_geo
+    3300398: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_03_geo
+    3300400: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumb_L_geo
+    3300402: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumbtip_L_geo
+    3300404: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Ring_L_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_L RobotRig_0010:RobotRig_0009:group2
+    3300406: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Shoulder_L_geo
+    3300408: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Arm_Upper_R_geo
+    3300410: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Arm_Lower_R_geo
+    3300412: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Wrist_R
+    3300414: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hand_R_geo
+    3300416: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low13
+    3300418: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low14
+    3300420: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low24
+    3300422: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low25
+    3300424: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low26
+    3300426: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low27
+    3300428: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low28
+    3300430: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low29
+    3300432: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low30
+    3300434: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low31
+    3300436: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low4
+    3300438: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low5
+    3300440: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low8
+    3300442: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low9
+    3300444: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Middle_R_03_geo
+    3300446: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_02_geo
+    3300448: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_03_geo
+    3300450: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo
+    3300452: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo1
+    3300454: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo2
+    3300456: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo3
+    3300458: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo
+    3300460: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo1
+    3300462: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_03_geo
+    3300464: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Ring_R_03_geo
+    3300466: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumb_R_geo
+    3300468: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumbtip_R_geo
+    3300470: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Middle_R_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_R RobotRig_0010:RobotRig_0009:group1
+    3300472: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Shoulder_R_geo
+    3300474: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_L_geo
+      RobotRig_0010:RobotRig_0009:Arm_L
+    3300476: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_R
+      RobotRig_0010:RobotRig_0009:Arm_R
+    3300478: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_L_geo
+      RobotRig_0010:RobotRig_0009:Leg_L
+    3300480: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_R_geo
+      RobotRig_0010:RobotRig_0009:Leg_R
+    3300482: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_L_geo
+    3300484: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_R_geo
+    3300486: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Ankle_L_geo
+    3300488: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+    3300490: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    3300492: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Leg_Upper_L_geo
+    3300494: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Shin_L_geo
+    3300496: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Toes_L_geo
+    3300498: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Ankle_R_geo
+    3300500: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+    3300502: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    3300504: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Leg_Upper_R_geo
+    3300506: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Shin_R_geo
+    3300508: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Toes_R_geo
+    3300510: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Skull_geo
+      RobotRig_0010:RobotRig_0009:Head
+    3300512: ruinStairs_low_Group63540
+    3300514: ruinStairs_low_Group63540 Copy
+    3300516: side1
+    3300518: skull_low
+    3300520: stone_02_Low
+    3300522: stone_02_Low Copy
+    3300524: topCube_low
+    3300526: topCube_low 1
+    3300528: topCube_low 2
+    3300530: topCurves_low
+    3300532: topCurves_low 1
+    3300534: topCurves_low 2
+    3300536: topCylinder_low
+    3300538: topCylinder_low 1
+    3300540: topCylinder_low 2
+    3300542: topCylinderDetail_low
+    3300544: topCylinderDetail_low 1
+    3300546: topCylinderDetail_low 2
+    4300000: polySurface3
+    4300002: polySurface3 Copy
+    4300004: polySurface3 Copy Copy
+    4300006: polySurface3 Copy Copy
+    4300008: polySurface2
+    4300010: polySurface2 Copy
+    4300012: polySurface2 Copy
+    4300014: polySurface2 Copy Copy
+    4300016: polySurface2 Copy Copy
+    4300018: polySurface2 Copy Copy Copy
+    4300020: side1
+    4300022: polySurface3
+    4300024: polySurface3 Copy
+    4300026: polySurface3 Copy
+    4300028: polySurface3 Copy Copy
+    4300030: polySurface3 Copy Copy
+    4300032: polySurface3 Copy Copy
+    4300034: polySurface3 Copy Copy Copy
+    4300036: polySurface3 Copy
+    4300038: polySurface3 Copy Copy
+    4300040: polySurface3 Copy Copy
+    4300042: polySurface3 Copy Copy Copy
+    4300044: polySurface3 Copy Copy
+    4300046: polySurface3 Copy Copy Copy
+    4300048: polySurface3 Copy Copy
+    4300050: polySurface3 Copy Copy
+    4300052: polySurface3 Copy Copy Copy
+    4300054: polySurface3 Copy Copy Copy
+    4300056: polySurface3 Copy Copy Copy Copy
+    4300058: polySurface3 Copy Copy Copy
+    4300060: polySurface3 Copy Copy Copy
+    4300062: polySurface3 Copy Copy Copy Copy
+    4300064: polySurface3 Copy Copy Copy Copy Copy
+    4300066: polySurface3 Copy Copy Copy Copy Copy Copy
+    4300068: polySurface3 Copy Copy Copy Copy Copy Copy Copy
+    4300070: polySurface2
+    4300072: polySurface2 Copy
+    4300074: polySurface2 Copy Copy
+    4300076: polySurface2 Copy
+    4300078: polySurface2 Copy
+    4300080: polySurface2 Copy Copy
+    4300082: polySurface2 Copy Copy Copy
+    4300084: polySurface2 Copy Copy Copy
+    4300086: polySurface2 Copy Copy Copy
+    4300088: polySurface2 Copy Copy Copy Copy
+    4300090: polySurface2 Copy Copy
+    4300092: polySurface2 Copy Copy Copy
+    4300094: polySurface2 Copy Copy Copy
+    4300096: polySurface2 Copy Copy Copy
+    4300098: polySurface2 Copy Copy
+    4300100: polySurface2 Copy Copy Copy
+    4300102: topCube_low
+    4300104: topCurves_low
+    4300106: bottomCyliner_low
+    4300108: middleCylinder_low
+    4300110: topCylinder_low
+    4300112: topCylinderDetail_low
+    4300114: PillarBase_low
+    4300116: topCube_low
+    4300118: topCurves_low
+    4300120: bottomCyliner_low
+    4300122: middleCylinder_low
+    4300124: topCylinder_low
+    4300126: topCylinderDetail_low
+    4300128: PillarBase_low
+    4300130: PillarBase_low
+    4300132: topCube_low
+    4300134: topCurves_low
+    4300136: bottomCyliner_low
+    4300138: middleCylinder_low
+    4300140: topCylinder_low
+    4300142: topCylinderDetail_low
+    4300144: PillarBase_low
+    4300146: middleCylinder_low
+    4300148: ruinStairs_low_Group63540
+    4300150: ruinStairs_low_Group63540 Copy
+    4300152: pCylinder25
+    4300154: pCylinder25 Copy
+    4300156: pCylinder25 Copy Copy
+    4300158: powerup_base_01
+    4300160: powerup_base_01 Copy
+    4300162: skull_low
+    4300164: polySurface6
+    4300166: polySurface6 Copy
+    4300168: polySurface6 Copy
+    4300170: polySurface6 Copy Copy
+    4300172: polySurface6 Copy Copy
+    4300174: polySurface21 Copy
+    4300176: polySurface21 Copy Copy
+    4300178: polySurface21 Copy Copy Copy
+    4300180: polySurface21 Copy Copy
+    4300182: polySurface21 Copy Copy Copy
+    4300184: polySurface21 Copy Copy Copy
+    4300186: polySurface21 Copy Copy Copy Copy
+    4300188: polySurface21 Copy Copy Copy Copy Copy
+    4300190: polySurface21 Copy Copy Copy
+    4300192: health_powerup
+    4300194: polySurface6
+    4300196: polySurface6 Copy
+    4300198: polySurface6 Copy Copy
+    4300200: polySurface6 Copy Copy Copy
+    4300202: stone_02_Low
+    4300204: stone_02_Low Copy
+    4300206: cube4_low
+    4300208: cube3_low
+    4300210: cube2_low
+    4300212: cube1_low
+    4300214: bars4_low
+    4300216: bars3_low
+    4300218: bars2_low
+    4300220: bars1_low
+    4300222: quarter4_low
+    4300224: quarter3_low
+    4300226: quarter2_low
+    4300228: quarter1_low
+    4300230: Dome_low
+    4300232: CenterPiece
+    4300234: Bars
+    4300236: MainStructure
+    4300238: pCube34
+    4300240: pPlane8
+    4300242: cube4_low
+    4300244: cube3_low
+    4300246: cube2_low
+    4300248: cube1_low
+    4300250: bars4_low
+    4300252: bars3_low
+    4300254: bars2_low
+    4300256: bars1_low
+    4300258: quarter4_low
+    4300260: quarter3_low
+    4300262: quarter2_low
+    4300264: quarter1_low
+    4300266: Dome_low
+    4300268: CenterPiece
+    4300270: Bars
+    4300272: MainStructure
+    4300274: pCube34
+    4300276: pPlane8
+    4300278: RobotRig_0010:RobotRig_0009:polySurface40 RobotRig_0010:RobotRig_0009:polySurface41
+      RobotRig_0010:RobotRig_0009:Mech_Sword
+    4300280: RobotRig_0010:RobotRig_0009:Arm_Upper_R RobotRig_0010:RobotRig_0009:group1
+    4300282: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:ChestPlate
+    4300284: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Upper_L
+    4300286: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hips
+    4300288: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_L
+    4300290: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Lower_R
+    4300292: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:BackPiece
+    4300294: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Codpiece
+    4300296: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_R
+    4300298: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Shoulder_L
+    4300300: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_L
+    4300302: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_R
+    4300304: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Foot_R
+    4300306: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Leg_Upper_L
+    4300308: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Helmet
+    4300310: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_R
+    4300312: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_R
+    4300314: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Knuckle_L
+    4300316: RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Arm_Lower_L
+    4300318: RobotRig_0010:RobotRig_0009:Belly_Hatch_geo RobotRig_0010:RobotRig_0009:Body
+      RobotRig_0010:RobotRig_0009:Robot
+    4300320: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Ribs_geo
+    4300322: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Belly_geo
+    4300324: RobotRig_0010:RobotRig_0009:Body RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Pelvis_geo
+    4300326: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Skull_geo
+      RobotRig_0010:RobotRig_0009:Head
+    4300328: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_R_geo
+    4300330: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Head RobotRig_0010:RobotRig_0009:Eye_L_geo
+    4300332: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_R_geo
+      RobotRig_0010:RobotRig_0009:Leg_R
+    4300334: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Ankle_R_geo
+    4300336: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+    4300338: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Knee_R_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    4300340: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Leg_Upper_R_geo
+    4300342: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Shin_R_geo
+    4300344: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_R RobotRig_0010:RobotRig_0009:Toes_R_geo
+    4300346: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_L_geo
+      RobotRig_0010:RobotRig_0009:Arm_L
+    4300348: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Arm_Upper_L_geo
+    4300350: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Shoulder_L_geo
+    4300352: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Ring_L_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_L RobotRig_0010:RobotRig_0009:group2
+    4300354: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_02_geo
+    4300356: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumbtip_L_geo
+    4300358: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Thumb_L_geo
+    4300360: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Hand_L_geo
+    4300362: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_02_geo
+    4300364: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_03_geo
+    4300366: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo
+    4300368: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pinky_L_03_geo
+    4300370: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_02_geo
+    4300372: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo
+    4300374: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low4
+    4300376: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low5
+    4300378: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low8
+    4300380: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low9
+    4300382: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low13
+    4300384: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low15
+    4300386: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo1
+    4300388: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low16
+    4300390: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low17
+    4300392: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo2
+    4300394: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low18
+    4300396: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low19
+    4300398: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Pointer_L_01_geo3
+    4300400: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low20
+    4300402: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low21
+    4300404: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low22
+    4300406: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Middle_L_03_geo1
+    4300408: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:Hand_L
+      RobotRig_0010:RobotRig_0009:group2 RobotRig_0010:RobotRig_0009:Joint_low23
+    4300410: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Wrist_L_geo
+    4300412: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_L RobotRig_0010:RobotRig_0009:group2
+      RobotRig_0010:RobotRig_0009:Arm_Lower_L_geo
+    4300414: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Foot_L_geo
+      RobotRig_0010:RobotRig_0009:Leg_L
+    4300416: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Ankle_L_geo
+    4300418: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+    4300420: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Knee_L_geo
+      RobotRig_0010:RobotRig_0009:Hip_R_geo
+    4300422: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Leg_Upper_L_geo
+    4300424: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Shin_L_geo
+    4300426: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Leg_L RobotRig_0010:RobotRig_0009:Toes_L_geo
+    4300428: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Elbow_R
+      RobotRig_0010:RobotRig_0009:Arm_R
+    4300430: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Arm_Upper_R_geo
+    4300432: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Shoulder_R_geo
+    4300434: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Middle_R_02_geo
+      RobotRig_0010:RobotRig_0009:Hand_R RobotRig_0010:RobotRig_0009:group1
+    4300436: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumbtip_R_geo
+    4300438: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Thumb_R_geo
+    4300440: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Hand_R_geo
+    4300442: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_02_geo
+    4300444: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_03_geo
+    4300446: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Middle_R_03_geo
+    4300448: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Ring_R_03_geo
+    4300450: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pinky_R_03_geo
+    4300452: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo
+    4300454: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo
+    4300456: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low4
+    4300458: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low5
+    4300460: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low8
+    4300462: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low9
+    4300464: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low13
+    4300466: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low14
+    4300468: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low24
+    4300470: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo1
+    4300472: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low25
+    4300474: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low26
+    4300476: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_02_geo1
+    4300478: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo2
+    4300480: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low27
+    4300482: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low28
+    4300484: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low29
+    4300486: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Pointer_R_01_geo3
+    4300488: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low30
+    4300490: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:Hand_R
+      RobotRig_0010:RobotRig_0009:group1 RobotRig_0010:RobotRig_0009:Joint_low31
+    4300492: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Arm_Lower_R_geo
+    4300494: RobotRig_0010:RobotRig_0009:Robot RobotRig_0010:RobotRig_0009:Arm_R RobotRig_0010:RobotRig_0009:group1
+      RobotRig_0010:RobotRig_0009:Wrist_R
+    4300496: polySurface1
+    4300498: polySurface2
+    4300500: polySurface3
+    4300502: polySurface4
+    4300504: polySurface5
+    4300506: polySurface6
+    4300508: polySurface7
+    4300510: polySurface8
+    4300512: polySurface9
+    4300514: polySurface10
+    4300516: polySurface11
+    4300518: polySurface12
+    4300520: polySurface13
+    4300522: polySurface14
+    4300524: polySurface15
+    4300526: polySurface16
+    4300528: polySurface17
+    4300530: polySurface18
+    4300532: polySurface19
+    4300534: polySurface20
+    4300536: polySurface21
+    4300538: polySurface22
+    4300540: polySurface23
+    4300542: polySurface24
+    4300544: polySurface25
+    4300546: polySurface26
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arch
+    second: {fileID: 2100000, guid: 7a0542910d241b0458888d60d2cdcd31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armour_01
+    second: {fileID: 2100000, guid: d4e3c1c20556cd046b39f8f4350143bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armour_02
+    second: {fileID: 2100000, guid: 22b177ff5056ed645bf68d91ab8ccdf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Broken Pillar
+    second: {fileID: 2100000, guid: e1391014d544d7442b1ebcc6c5a6d9bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Curve
+    second: {fileID: 2100000, guid: d53e2307d0f6ff04e90d11934da0481e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 1082d37faa08c80468fa59b62863b505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dome
+    second: {fileID: 2100000, guid: 7d688adec4230744890151667872c75b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor Blocks
+    second: {fileID: 2100000, guid: 3d02035ce9746314c820cb90ddaf165b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun
+    second: {fileID: 2100000, guid: 0240b6b0ede81cc4086e02e0760281de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Health
+    second: {fileID: 2100000, guid: 14dd76915ea217c45b56ebafb32fe544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar
+    second: {fileID: 2100000, guid: e1858e62987bbc54ab0a48d5d44c7057, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilot
+    second: {fileID: 2100000, guid: 9e18ca3f185671e4492dcf77d2c4204d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilot Clothes
+    second: {fileID: 2100000, guid: 51fb3151a7ce7d54e801f13119a77d08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RobotRig_0010_RobotRig_0009_Skull_geoSG
+    second: {fileID: 2100000, guid: e9776a8f43c91534a8c841eb34713447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton
+    second: {fileID: 2100000, guid: 47737e976a286d05d781041319077196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skull
+    second: {fileID: 2100000, guid: 53293991048905395969264c940adafb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steps
+    second: {fileID: 2100000, guid: 2d2236207bd221a5a367f7ad8cb879b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sword
+    second: {fileID: 2100000, guid: 76d5f796618bcecdd0b9945bb52baed7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Visor
+    second: {fileID: 2100000, guid: 7074750cbdf90fdf93dcc9c7c17278df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: 1a9d578bb1dcfe1e2e41b674c4d54acb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

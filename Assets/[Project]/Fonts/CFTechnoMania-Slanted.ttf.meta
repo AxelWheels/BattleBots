@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cf39b4142490fc94bb4694b5c0b1fa9d
+timeCreated: 1522231180
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CF TechnoMania
+  fontNames:
+  - CF TechnoMania
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 44846588ebbc5f045ba48be492806e91
+timeCreated: 1520877772
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Bulge_Mask: {fileID: 2800000, guid: e3811111bdff2e44690c7e1860686cba, type: 3}
+  - _Clouds_2: {fileID: 2800000, guid: ffc4da6e18bb0be44813c9eb9372293e, type: 3}
+  - _TextureSample1: {fileID: 2800000, guid: e3811111bdff2e44690c7e1860686cba, type: 3}
+  - _TextureSample0: {fileID: 2800000, guid: ffc4da6e18bb0be44813c9eb9372293e, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

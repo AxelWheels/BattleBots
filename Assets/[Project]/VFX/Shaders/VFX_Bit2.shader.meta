@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2cd740b265c52fe48ad307437cce713d
+timeCreated: 1519499263
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VFX_CentreLight_Bit1_Bit2: {fileID: 2800000, guid: 24862f6458071be4ba7ca052b83d952e,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

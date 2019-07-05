@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6eea3473b55a7a8458b15c869ed1d2ad
+timeCreated: 1520877884
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VoidSmoke_Mask: {fileID: 2800000, guid: f266331228cadff439b5389308ef1a30, type: 3}
+  - _TextureSample4: {fileID: 2800000, guid: 1e5c93fc4ce80e4498a9298bae9c2981, type: 3}
+  - _TextureSample1: {fileID: 2800000, guid: d5bef754157b8a546808c4d34889a25c, type: 3}
+  - _TextureSample2: {fileID: 2800000, guid: d5bef754157b8a546808c4d34889a25c, type: 3}
+  - _TextureSample0: {fileID: 2800000, guid: d5bef754157b8a546808c4d34889a25c, type: 3}
+  - _TextureSample3: {fileID: 2800000, guid: 1e5c93fc4ce80e4498a9298bae9c2981, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

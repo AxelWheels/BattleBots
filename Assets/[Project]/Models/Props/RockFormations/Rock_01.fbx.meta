@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 70ea6010e8c9fe94599b8e7c996d8597
+timeCreated: 1522414380
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Group37195
+    100002: Group37195 1
+    100004: Group37195 2
+    100006: polySurface6
+    100008: //RootNode
+    100010: stone_01_Low
+    100012: stone_01_Low 1
+    100014: stone_01_Low 2
+    100016: stone_02_Low
+    100018: stone_02_Low 1
+    100020: stone_02_Low 2
+    100022: stone_02_Low 3
+    100024: Stone_02_Low:Group12202
+    100026: Stone_02_Low:Group12202 1
+    100028: Stone_02_Low:Group12202 2
+    100030: Stone_02_Low:Group12202 3
+    100032: stone_02_Low_Stone_02_Low:Group12202
+    100034: stone_02_Low_Stone_02_Low:transform1
+    100036: stone_02_Low_Stone_02_Low:transform10
+    100038: stone_02_Low_Stone_02_Low:transform2
+    100040: stone_02_Low_Stone_02_Low:transform3
+    100042: stone_02_Low_Stone_02_Low:transform4
+    100044: stone_02_Low_Stone_02_Low:transform5
+    100046: stone_02_Low_Stone_02_Low:transform6
+    100048: stone_02_Low_Stone_02_Low:transform7
+    100050: stone_02_Low_Stone_02_Low:transform8
+    100052: stone_02_Low_Stone_02_Low:transform9
+    100054: stone_03_Low
+    100056: stone_03_Low 1
+    100058: stone_03_Low 2
+    100060: stone_03_low:Group28278
+    100062: stone_03_low:Group28278 1
+    100064: stone_03_low:Group28278 2
+    100066: transform1
+    100068: polySurface21
+    400000: Group37195
+    400002: Group37195 1
+    400004: Group37195 2
+    400006: polySurface6
+    400008: //RootNode
+    400010: stone_01_Low
+    400012: stone_01_Low 1
+    400014: stone_01_Low 2
+    400016: stone_02_Low
+    400018: stone_02_Low 1
+    400020: stone_02_Low 2
+    400022: stone_02_Low 3
+    400024: Stone_02_Low:Group12202
+    400026: Stone_02_Low:Group12202 1
+    400028: Stone_02_Low:Group12202 2
+    400030: Stone_02_Low:Group12202 3
+    400032: stone_02_Low_Stone_02_Low:Group12202
+    400034: stone_02_Low_Stone_02_Low:transform1
+    400036: stone_02_Low_Stone_02_Low:transform10
+    400038: stone_02_Low_Stone_02_Low:transform2
+    400040: stone_02_Low_Stone_02_Low:transform3
+    400042: stone_02_Low_Stone_02_Low:transform4
+    400044: stone_02_Low_Stone_02_Low:transform5
+    400046: stone_02_Low_Stone_02_Low:transform6
+    400048: stone_02_Low_Stone_02_Low:transform7
+    400050: stone_02_Low_Stone_02_Low:transform8
+    400052: stone_02_Low_Stone_02_Low:transform9
+    400054: stone_03_Low
+    400056: stone_03_Low 1
+    400058: stone_03_Low 2
+    400060: stone_03_low:Group28278
+    400062: stone_03_low:Group28278 1
+    400064: stone_03_low:Group28278 2
+    400066: transform1
+    400068: polySurface21
+    2100000: lambert1
+    2100002: lambert4
+    2300000: polySurface6
+    2300002: polySurface21
+    3300000: polySurface6
+    3300002: polySurface21
+    4300000: polySurface6
+    4300002: polySurface21
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 19ed165f8540b8049ae285be018eaf23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 19ed165f8540b8049ae285be018eaf23, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

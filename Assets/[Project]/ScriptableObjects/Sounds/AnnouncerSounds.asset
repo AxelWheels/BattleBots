@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbd70163a05d7f842bf2c08f44002433, type: 3}
+  m_Name: AnnouncerSounds
+  m_EditorClassIdentifier: 
+  m_Sounds:
+  - Name: AnnouncerKill
+    Clip: {fileID: 8300000, guid: bbca62bf27c42974ebf937e737e85d71, type: 3}
+    Volume: 0.1
+  - Name: AnnouncerDoubleKill
+    Clip: {fileID: 8300000, guid: 6ef29a266eaf1bc4ab50e08e73840ba6, type: 3}
+    Volume: 0.1
+  - Name: AnnouncerTripleKill
+    Clip: {fileID: 8300000, guid: 6ef29a266eaf1bc4ab50e08e73840ba6, type: 3}
+    Volume: 0.1
+  - Name: AnnouncerSuicide
+    Clip: {fileID: 0}
+    Volume: 0.1
+  - Name: AnnouncerCountdown
+    Clip: {fileID: 8300000, guid: 0d41cba81867b644192e871250daaf52, type: 3}
+    Volume: 0.1
+  - Name: AnnouncerStart
+    Clip: {fileID: 8300000, guid: 0f6733d19bdd93c4d9c7d1744f087cec, type: 3}
+    Volume: 0.1
+  - Name: AnnouncerEnd
+    Clip: {fileID: 8300000, guid: 07bab9fd4e9bcf14082fbdbda3d4bc0f, type: 3}
+    Volume: 0.1

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 8213122b7fbee134987df1dcba6f0cc5
+timeCreated: 1519198874
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VFX_CentreLight_Lightning_SoftIshDot: {fileID: 2800000, guid: 0b1ef26be157ab04f9ee51a87923f2fe,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

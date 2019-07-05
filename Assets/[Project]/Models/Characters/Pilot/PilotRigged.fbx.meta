@@ -1,0 +1,2162 @@
+fileFormatVersion: 2
+guid: e88ac89c5eb0d864b8820b78c3809d79
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Eye_L_GEO
+  - first:
+      1: 100002
+    second: Eye_R_GEO
+  - first:
+      1: 100004
+    second: Eyebrow_L_GEO
+  - first:
+      1: 100006
+    second: Eyebrow_R_GEO
+  - first:
+      1: 100008
+    second: Helmet_Low_GEO
+  - first:
+      1: 100010
+    second: Pants_GEO
+  - first:
+      1: 100012
+    second: Pilot_Body_GEO
+  - first:
+      1: 100014
+    second: PILOT_GEO
+  - first:
+      1: 100016
+    second: PilotRig_0003:Character1_Face
+  - first:
+      1: 100018
+    second: PilotRig_0003:Character1_Head
+  - first:
+      1: 100020
+    second: PilotRig_0003:Character1_Hips
+  - first:
+      1: 100022
+    second: PilotRig_0003:Character1_LeftArm
+  - first:
+      1: 100024
+    second: PilotRig_0003:Character1_LeftEye
+  - first:
+      1: 100026
+    second: PilotRig_0003:Character1_LeftFoot
+  - first:
+      1: 100028
+    second: PilotRig_0003:Character1_LeftFootRoll
+  - first:
+      1: 100030
+    second: PilotRig_0003:Character1_LeftForeArm
+  - first:
+      1: 100032
+    second: PilotRig_0003:Character1_LeftForeArmRoll
+  - first:
+      1: 100034
+    second: PilotRig_0003:Character1_LeftHand
+  - first:
+      1: 100036
+    second: PilotRig_0003:Character1_LeftHandIndex1
+  - first:
+      1: 100038
+    second: PilotRig_0003:Character1_LeftHandIndex2
+  - first:
+      1: 100040
+    second: PilotRig_0003:Character1_LeftHandIndex3
+  - first:
+      1: 100042
+    second: PilotRig_0003:Character1_LeftHandIndex4
+  - first:
+      1: 100044
+    second: PilotRig_0003:Character1_LeftHandMiddle1
+  - first:
+      1: 100046
+    second: PilotRig_0003:Character1_LeftHandMiddle2
+  - first:
+      1: 100048
+    second: PilotRig_0003:Character1_LeftHandMiddle3
+  - first:
+      1: 100050
+    second: PilotRig_0003:Character1_LeftHandMiddle4
+  - first:
+      1: 100052
+    second: PilotRig_0003:Character1_LeftHandPinky1
+  - first:
+      1: 100054
+    second: PilotRig_0003:Character1_LeftHandPinky2
+  - first:
+      1: 100056
+    second: PilotRig_0003:Character1_LeftHandPinky3
+  - first:
+      1: 100058
+    second: PilotRig_0003:Character1_LeftHandPinky4
+  - first:
+      1: 100060
+    second: PilotRig_0003:Character1_LeftHandRing1
+  - first:
+      1: 100062
+    second: PilotRig_0003:Character1_LeftHandRing2
+  - first:
+      1: 100064
+    second: PilotRig_0003:Character1_LeftHandRing3
+  - first:
+      1: 100066
+    second: PilotRig_0003:Character1_LeftHandRing4
+  - first:
+      1: 100068
+    second: PilotRig_0003:Character1_LeftHandThumb1
+  - first:
+      1: 100070
+    second: PilotRig_0003:Character1_LeftHandThumb2
+  - first:
+      1: 100072
+    second: PilotRig_0003:Character1_LeftHandThumb3
+  - first:
+      1: 100074
+    second: PilotRig_0003:Character1_LeftLeg
+  - first:
+      1: 100076
+    second: PilotRig_0003:Character1_LeftShoulder
+  - first:
+      1: 100078
+    second: PilotRig_0003:Character1_LeftToeBase
+  - first:
+      1: 100080
+    second: PilotRig_0003:Character1_LeftUpLeg
+  - first:
+      1: 100082
+    second: PilotRig_0003:Character1_Neck
+  - first:
+      1: 100084
+    second: PilotRig_0003:Character1_Reference
+  - first:
+      1: 100086
+    second: PilotRig_0003:Character1_RightArm
+  - first:
+      1: 100088
+    second: PilotRig_0003:Character1_RightEye
+  - first:
+      1: 100090
+    second: PilotRig_0003:Character1_RightFoot
+  - first:
+      1: 100092
+    second: PilotRig_0003:Character1_RightFootRoll
+  - first:
+      1: 100094
+    second: PilotRig_0003:Character1_RightForeArm
+  - first:
+      1: 100096
+    second: PilotRig_0003:Character1_RightForeArmRoll
+  - first:
+      1: 100098
+    second: PilotRig_0003:Character1_RightHand
+  - first:
+      1: 100100
+    second: PilotRig_0003:Character1_RightHandIndex1
+  - first:
+      1: 100102
+    second: PilotRig_0003:Character1_RightHandIndex2
+  - first:
+      1: 100104
+    second: PilotRig_0003:Character1_RightHandIndex3
+  - first:
+      1: 100106
+    second: PilotRig_0003:Character1_RightHandIndex4
+  - first:
+      1: 100108
+    second: PilotRig_0003:Character1_RightHandMiddle1
+  - first:
+      1: 100110
+    second: PilotRig_0003:Character1_RightHandMiddle2
+  - first:
+      1: 100112
+    second: PilotRig_0003:Character1_RightHandMiddle3
+  - first:
+      1: 100114
+    second: PilotRig_0003:Character1_RightHandMiddle4
+  - first:
+      1: 100116
+    second: PilotRig_0003:Character1_RightHandPinky1
+  - first:
+      1: 100118
+    second: PilotRig_0003:Character1_RightHandPinky2
+  - first:
+      1: 100120
+    second: PilotRig_0003:Character1_RightHandPinky3
+  - first:
+      1: 100122
+    second: PilotRig_0003:Character1_RightHandPinky4
+  - first:
+      1: 100124
+    second: PilotRig_0003:Character1_RightHandRing1
+  - first:
+      1: 100126
+    second: PilotRig_0003:Character1_RightHandRing2
+  - first:
+      1: 100128
+    second: PilotRig_0003:Character1_RightHandRing3
+  - first:
+      1: 100130
+    second: PilotRig_0003:Character1_RightHandRing4
+  - first:
+      1: 100132
+    second: PilotRig_0003:Character1_RightHandThumb1
+  - first:
+      1: 100134
+    second: PilotRig_0003:Character1_RightHandThumb2
+  - first:
+      1: 100136
+    second: PilotRig_0003:Character1_RightHandThumb3
+  - first:
+      1: 100138
+    second: PilotRig_0003:Character1_RightLeg
+  - first:
+      1: 100140
+    second: PilotRig_0003:Character1_RightShoulder
+  - first:
+      1: 100142
+    second: PilotRig_0003:Character1_RightToeBase
+  - first:
+      1: 100144
+    second: PilotRig_0003:Character1_RightUpLeg
+  - first:
+      1: 100146
+    second: PilotRig_0003:Character1_Spine
+  - first:
+      1: 100148
+    second: PilotRig_0003:Character1_Spine1
+  - first:
+      1: 100150
+    second: PilotRig_0003:Character1_Spine2
+  - first:
+      1: 100152
+    second: PilotRig_0003:Character1_Spine3
+  - first:
+      1: 100154
+    second: PilotRig_0003:Character1_Spine4
+  - first:
+      1: 100156
+    second: PilotRig_0003:Character1_TongueBase
+  - first:
+      1: 100158
+    second: PilotRig_0003:Character1_TongueMiddle
+  - first:
+      1: 100160
+    second: PilotRig_0003:Character1_TongueTip
+  - first:
+      1: 100162
+    second: //RootNode
+  - first:
+      1: 100164
+    second: Teeth_Lower_GEO
+  - first:
+      1: 100166
+    second: Teeth_Upper_GEO
+  - first:
+      1: 100168
+    second: Tongue_GEO
+  - first:
+      1: 100170
+    second: Visor_GEO
+  - first:
+      1: 100172
+    second: Pilot_Gun
+  - first:
+      1: 100174
+    second: PilotRig_0003:Character1_Ctrl_ChestEndEffector
+  - first:
+      1: 100176
+    second: PilotRig_0003:Character1_Ctrl_ChestOriginEffector
+  - first:
+      1: 100178
+    second: PilotRig_0003:Character1_Ctrl_EyesEffector
+  - first:
+      1: 100180
+    second: PilotRig_0003:Character1_Ctrl_Head
+  - first:
+      1: 100182
+    second: PilotRig_0003:Character1_Ctrl_HeadEffector
+  - first:
+      1: 100184
+    second: PilotRig_0003:Character1_Ctrl_Hips
+  - first:
+      1: 100186
+    second: PilotRig_0003:Character1_Ctrl_HipsEffector
+  - first:
+      1: 100188
+    second: PilotRig_0003:Character1_Ctrl_LeftAnkleEffector
+  - first:
+      1: 100190
+    second: PilotRig_0003:Character1_Ctrl_LeftArm
+  - first:
+      1: 100192
+    second: PilotRig_0003:Character1_Ctrl_LeftElbowEffector
+  - first:
+      1: 100194
+    second: PilotRig_0003:Character1_Ctrl_LeftEyeEffector
+  - first:
+      1: 100196
+    second: PilotRig_0003:Character1_Ctrl_LeftFoot
+  - first:
+      1: 100198
+    second: PilotRig_0003:Character1_Ctrl_LeftFootEffector
+  - first:
+      1: 100200
+    second: PilotRig_0003:Character1_Ctrl_LeftForeArm
+  - first:
+      1: 100202
+    second: PilotRig_0003:Character1_Ctrl_LeftForeArmRoll
+  - first:
+      1: 100204
+    second: PilotRig_0003:Character1_Ctrl_LeftHand
+  - first:
+      1: 100206
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndex1
+  - first:
+      1: 100208
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndex2
+  - first:
+      1: 100210
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndex3
+  - first:
+      1: 100212
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndex4
+  - first:
+      1: 100214
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndexEffector
+  - first:
+      1: 100216
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddle1
+  - first:
+      1: 100218
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddle2
+  - first:
+      1: 100220
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddle3
+  - first:
+      1: 100222
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddle4
+  - first:
+      1: 100224
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddleEffector
+  - first:
+      1: 100226
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinky1
+  - first:
+      1: 100228
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinky2
+  - first:
+      1: 100230
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinky3
+  - first:
+      1: 100232
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinky4
+  - first:
+      1: 100234
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinkyEffector
+  - first:
+      1: 100236
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRing1
+  - first:
+      1: 100238
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRing2
+  - first:
+      1: 100240
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRing3
+  - first:
+      1: 100242
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRing4
+  - first:
+      1: 100244
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRingEffector
+  - first:
+      1: 100246
+    second: PilotRig_0003:Character1_Ctrl_LeftHandThumb1
+  - first:
+      1: 100248
+    second: PilotRig_0003:Character1_Ctrl_LeftHandThumb2
+  - first:
+      1: 100250
+    second: PilotRig_0003:Character1_Ctrl_LeftHandThumb3
+  - first:
+      1: 100252
+    second: PilotRig_0003:Character1_Ctrl_LeftHandThumbEffector
+  - first:
+      1: 100254
+    second: PilotRig_0003:Character1_Ctrl_LeftHipEffector
+  - first:
+      1: 100256
+    second: PilotRig_0003:Character1_Ctrl_LeftKneeEffector
+  - first:
+      1: 100258
+    second: PilotRig_0003:Character1_Ctrl_LeftLeg
+  - first:
+      1: 100260
+    second: PilotRig_0003:Character1_Ctrl_LeftShoulder
+  - first:
+      1: 100262
+    second: PilotRig_0003:Character1_Ctrl_LeftShoulderEffector
+  - first:
+      1: 100264
+    second: PilotRig_0003:Character1_Ctrl_LeftToeBase
+  - first:
+      1: 100266
+    second: PilotRig_0003:Character1_Ctrl_LeftToeRoll
+  - first:
+      1: 100268
+    second: PilotRig_0003:Character1_Ctrl_LeftUpLeg
+  - first:
+      1: 100270
+    second: PilotRig_0003:Character1_Ctrl_LeftWristEffector
+  - first:
+      1: 100272
+    second: PilotRig_0003:Character1_Ctrl_Neck
+  - first:
+      1: 100274
+    second: PilotRig_0003:Character1_Ctrl_Reference
+  - first:
+      1: 100276
+    second: PilotRig_0003:Character1_Ctrl_RightAnkleEffector
+  - first:
+      1: 100278
+    second: PilotRig_0003:Character1_Ctrl_RightArm
+  - first:
+      1: 100280
+    second: PilotRig_0003:Character1_Ctrl_RightElbowEffector
+  - first:
+      1: 100282
+    second: PilotRig_0003:Character1_Ctrl_RightEyeEffector
+  - first:
+      1: 100284
+    second: PilotRig_0003:Character1_Ctrl_RightFoot
+  - first:
+      1: 100286
+    second: PilotRig_0003:Character1_Ctrl_RightFootEffector
+  - first:
+      1: 100288
+    second: PilotRig_0003:Character1_Ctrl_RightForeArm
+  - first:
+      1: 100290
+    second: PilotRig_0003:Character1_Ctrl_RightForeArmRoll
+  - first:
+      1: 100292
+    second: PilotRig_0003:Character1_Ctrl_RightHand
+  - first:
+      1: 100294
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndex1
+  - first:
+      1: 100296
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndex2
+  - first:
+      1: 100298
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndex3
+  - first:
+      1: 100300
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndex4
+  - first:
+      1: 100302
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndexEffector
+  - first:
+      1: 100304
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddle1
+  - first:
+      1: 100306
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddle2
+  - first:
+      1: 100308
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddle3
+  - first:
+      1: 100310
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddle4
+  - first:
+      1: 100312
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddleEffector
+  - first:
+      1: 100314
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinky1
+  - first:
+      1: 100316
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinky2
+  - first:
+      1: 100318
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinky3
+  - first:
+      1: 100320
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinky4
+  - first:
+      1: 100322
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinkyEffector
+  - first:
+      1: 100324
+    second: PilotRig_0003:Character1_Ctrl_RightHandRing1
+  - first:
+      1: 100326
+    second: PilotRig_0003:Character1_Ctrl_RightHandRing2
+  - first:
+      1: 100328
+    second: PilotRig_0003:Character1_Ctrl_RightHandRing3
+  - first:
+      1: 100330
+    second: PilotRig_0003:Character1_Ctrl_RightHandRing4
+  - first:
+      1: 100332
+    second: PilotRig_0003:Character1_Ctrl_RightHandRingEffector
+  - first:
+      1: 100334
+    second: PilotRig_0003:Character1_Ctrl_RightHandThumb1
+  - first:
+      1: 100336
+    second: PilotRig_0003:Character1_Ctrl_RightHandThumb2
+  - first:
+      1: 100338
+    second: PilotRig_0003:Character1_Ctrl_RightHandThumb3
+  - first:
+      1: 100340
+    second: PilotRig_0003:Character1_Ctrl_RightHandThumbEffector
+  - first:
+      1: 100342
+    second: PilotRig_0003:Character1_Ctrl_RightHipEffector
+  - first:
+      1: 100344
+    second: PilotRig_0003:Character1_Ctrl_RightKneeEffector
+  - first:
+      1: 100346
+    second: PilotRig_0003:Character1_Ctrl_RightLeg
+  - first:
+      1: 100348
+    second: PilotRig_0003:Character1_Ctrl_RightShoulder
+  - first:
+      1: 100350
+    second: PilotRig_0003:Character1_Ctrl_RightShoulderEffector
+  - first:
+      1: 100352
+    second: PilotRig_0003:Character1_Ctrl_RightToeBase
+  - first:
+      1: 100354
+    second: PilotRig_0003:Character1_Ctrl_RightToeRoll
+  - first:
+      1: 100356
+    second: PilotRig_0003:Character1_Ctrl_RightUpLeg
+  - first:
+      1: 100358
+    second: PilotRig_0003:Character1_Ctrl_RightWristEffector
+  - first:
+      1: 100360
+    second: PilotRig_0003:Character1_Ctrl_Spine
+  - first:
+      1: 100362
+    second: PilotRig_0003:Character1_Ctrl_Spine1
+  - first:
+      1: 100364
+    second: PilotRig_0003:Character1_Ctrl_Spine2
+  - first:
+      1: 100366
+    second: PilotRig_0003:Character1_Ctrl_Spine3
+  - first:
+      1: 100368
+    second: PilotRig_0003:Character1_Ctrl_Spine4
+  - first:
+      4: 400000
+    second: Eye_L_GEO
+  - first:
+      4: 400002
+    second: Eye_R_GEO
+  - first:
+      4: 400004
+    second: Eyebrow_L_GEO
+  - first:
+      4: 400006
+    second: Eyebrow_R_GEO
+  - first:
+      4: 400008
+    second: Helmet_Low_GEO
+  - first:
+      4: 400010
+    second: Pants_GEO
+  - first:
+      4: 400012
+    second: Pilot_Body_GEO
+  - first:
+      4: 400014
+    second: PILOT_GEO
+  - first:
+      4: 400016
+    second: PilotRig_0003:Character1_Face
+  - first:
+      4: 400018
+    second: PilotRig_0003:Character1_Head
+  - first:
+      4: 400020
+    second: PilotRig_0003:Character1_Hips
+  - first:
+      4: 400022
+    second: PilotRig_0003:Character1_LeftArm
+  - first:
+      4: 400024
+    second: PilotRig_0003:Character1_LeftEye
+  - first:
+      4: 400026
+    second: PilotRig_0003:Character1_LeftFoot
+  - first:
+      4: 400028
+    second: PilotRig_0003:Character1_LeftFootRoll
+  - first:
+      4: 400030
+    second: PilotRig_0003:Character1_LeftForeArm
+  - first:
+      4: 400032
+    second: PilotRig_0003:Character1_LeftForeArmRoll
+  - first:
+      4: 400034
+    second: PilotRig_0003:Character1_LeftHand
+  - first:
+      4: 400036
+    second: PilotRig_0003:Character1_LeftHandIndex1
+  - first:
+      4: 400038
+    second: PilotRig_0003:Character1_LeftHandIndex2
+  - first:
+      4: 400040
+    second: PilotRig_0003:Character1_LeftHandIndex3
+  - first:
+      4: 400042
+    second: PilotRig_0003:Character1_LeftHandIndex4
+  - first:
+      4: 400044
+    second: PilotRig_0003:Character1_LeftHandMiddle1
+  - first:
+      4: 400046
+    second: PilotRig_0003:Character1_LeftHandMiddle2
+  - first:
+      4: 400048
+    second: PilotRig_0003:Character1_LeftHandMiddle3
+  - first:
+      4: 400050
+    second: PilotRig_0003:Character1_LeftHandMiddle4
+  - first:
+      4: 400052
+    second: PilotRig_0003:Character1_LeftHandPinky1
+  - first:
+      4: 400054
+    second: PilotRig_0003:Character1_LeftHandPinky2
+  - first:
+      4: 400056
+    second: PilotRig_0003:Character1_LeftHandPinky3
+  - first:
+      4: 400058
+    second: PilotRig_0003:Character1_LeftHandPinky4
+  - first:
+      4: 400060
+    second: PilotRig_0003:Character1_LeftHandRing1
+  - first:
+      4: 400062
+    second: PilotRig_0003:Character1_LeftHandRing2
+  - first:
+      4: 400064
+    second: PilotRig_0003:Character1_LeftHandRing3
+  - first:
+      4: 400066
+    second: PilotRig_0003:Character1_LeftHandRing4
+  - first:
+      4: 400068
+    second: PilotRig_0003:Character1_LeftHandThumb1
+  - first:
+      4: 400070
+    second: PilotRig_0003:Character1_LeftHandThumb2
+  - first:
+      4: 400072
+    second: PilotRig_0003:Character1_LeftHandThumb3
+  - first:
+      4: 400074
+    second: PilotRig_0003:Character1_LeftLeg
+  - first:
+      4: 400076
+    second: PilotRig_0003:Character1_LeftShoulder
+  - first:
+      4: 400078
+    second: PilotRig_0003:Character1_LeftToeBase
+  - first:
+      4: 400080
+    second: PilotRig_0003:Character1_LeftUpLeg
+  - first:
+      4: 400082
+    second: PilotRig_0003:Character1_Neck
+  - first:
+      4: 400084
+    second: PilotRig_0003:Character1_Reference
+  - first:
+      4: 400086
+    second: PilotRig_0003:Character1_RightArm
+  - first:
+      4: 400088
+    second: PilotRig_0003:Character1_RightEye
+  - first:
+      4: 400090
+    second: PilotRig_0003:Character1_RightFoot
+  - first:
+      4: 400092
+    second: PilotRig_0003:Character1_RightFootRoll
+  - first:
+      4: 400094
+    second: PilotRig_0003:Character1_RightForeArm
+  - first:
+      4: 400096
+    second: PilotRig_0003:Character1_RightForeArmRoll
+  - first:
+      4: 400098
+    second: PilotRig_0003:Character1_RightHand
+  - first:
+      4: 400100
+    second: PilotRig_0003:Character1_RightHandIndex1
+  - first:
+      4: 400102
+    second: PilotRig_0003:Character1_RightHandIndex2
+  - first:
+      4: 400104
+    second: PilotRig_0003:Character1_RightHandIndex3
+  - first:
+      4: 400106
+    second: PilotRig_0003:Character1_RightHandIndex4
+  - first:
+      4: 400108
+    second: PilotRig_0003:Character1_RightHandMiddle1
+  - first:
+      4: 400110
+    second: PilotRig_0003:Character1_RightHandMiddle2
+  - first:
+      4: 400112
+    second: PilotRig_0003:Character1_RightHandMiddle3
+  - first:
+      4: 400114
+    second: PilotRig_0003:Character1_RightHandMiddle4
+  - first:
+      4: 400116
+    second: PilotRig_0003:Character1_RightHandPinky1
+  - first:
+      4: 400118
+    second: PilotRig_0003:Character1_RightHandPinky2
+  - first:
+      4: 400120
+    second: PilotRig_0003:Character1_RightHandPinky3
+  - first:
+      4: 400122
+    second: PilotRig_0003:Character1_RightHandPinky4
+  - first:
+      4: 400124
+    second: PilotRig_0003:Character1_RightHandRing1
+  - first:
+      4: 400126
+    second: PilotRig_0003:Character1_RightHandRing2
+  - first:
+      4: 400128
+    second: PilotRig_0003:Character1_RightHandRing3
+  - first:
+      4: 400130
+    second: PilotRig_0003:Character1_RightHandRing4
+  - first:
+      4: 400132
+    second: PilotRig_0003:Character1_RightHandThumb1
+  - first:
+      4: 400134
+    second: PilotRig_0003:Character1_RightHandThumb2
+  - first:
+      4: 400136
+    second: PilotRig_0003:Character1_RightHandThumb3
+  - first:
+      4: 400138
+    second: PilotRig_0003:Character1_RightLeg
+  - first:
+      4: 400140
+    second: PilotRig_0003:Character1_RightShoulder
+  - first:
+      4: 400142
+    second: PilotRig_0003:Character1_RightToeBase
+  - first:
+      4: 400144
+    second: PilotRig_0003:Character1_RightUpLeg
+  - first:
+      4: 400146
+    second: PilotRig_0003:Character1_Spine
+  - first:
+      4: 400148
+    second: PilotRig_0003:Character1_Spine1
+  - first:
+      4: 400150
+    second: PilotRig_0003:Character1_Spine2
+  - first:
+      4: 400152
+    second: PilotRig_0003:Character1_Spine3
+  - first:
+      4: 400154
+    second: PilotRig_0003:Character1_Spine4
+  - first:
+      4: 400156
+    second: PilotRig_0003:Character1_TongueBase
+  - first:
+      4: 400158
+    second: PilotRig_0003:Character1_TongueMiddle
+  - first:
+      4: 400160
+    second: PilotRig_0003:Character1_TongueTip
+  - first:
+      4: 400162
+    second: //RootNode
+  - first:
+      4: 400164
+    second: Teeth_Lower_GEO
+  - first:
+      4: 400166
+    second: Teeth_Upper_GEO
+  - first:
+      4: 400168
+    second: Tongue_GEO
+  - first:
+      4: 400170
+    second: Visor_GEO
+  - first:
+      4: 400172
+    second: Pilot_Gun
+  - first:
+      4: 400174
+    second: PilotRig_0003:Character1_Ctrl_ChestEndEffector
+  - first:
+      4: 400176
+    second: PilotRig_0003:Character1_Ctrl_ChestOriginEffector
+  - first:
+      4: 400178
+    second: PilotRig_0003:Character1_Ctrl_EyesEffector
+  - first:
+      4: 400180
+    second: PilotRig_0003:Character1_Ctrl_Head
+  - first:
+      4: 400182
+    second: PilotRig_0003:Character1_Ctrl_HeadEffector
+  - first:
+      4: 400184
+    second: PilotRig_0003:Character1_Ctrl_Hips
+  - first:
+      4: 400186
+    second: PilotRig_0003:Character1_Ctrl_HipsEffector
+  - first:
+      4: 400188
+    second: PilotRig_0003:Character1_Ctrl_LeftAnkleEffector
+  - first:
+      4: 400190
+    second: PilotRig_0003:Character1_Ctrl_LeftArm
+  - first:
+      4: 400192
+    second: PilotRig_0003:Character1_Ctrl_LeftElbowEffector
+  - first:
+      4: 400194
+    second: PilotRig_0003:Character1_Ctrl_LeftEyeEffector
+  - first:
+      4: 400196
+    second: PilotRig_0003:Character1_Ctrl_LeftFoot
+  - first:
+      4: 400198
+    second: PilotRig_0003:Character1_Ctrl_LeftFootEffector
+  - first:
+      4: 400200
+    second: PilotRig_0003:Character1_Ctrl_LeftForeArm
+  - first:
+      4: 400202
+    second: PilotRig_0003:Character1_Ctrl_LeftForeArmRoll
+  - first:
+      4: 400204
+    second: PilotRig_0003:Character1_Ctrl_LeftHand
+  - first:
+      4: 400206
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndex1
+  - first:
+      4: 400208
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndex2
+  - first:
+      4: 400210
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndex3
+  - first:
+      4: 400212
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndex4
+  - first:
+      4: 400214
+    second: PilotRig_0003:Character1_Ctrl_LeftHandIndexEffector
+  - first:
+      4: 400216
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddle1
+  - first:
+      4: 400218
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddle2
+  - first:
+      4: 400220
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddle3
+  - first:
+      4: 400222
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddle4
+  - first:
+      4: 400224
+    second: PilotRig_0003:Character1_Ctrl_LeftHandMiddleEffector
+  - first:
+      4: 400226
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinky1
+  - first:
+      4: 400228
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinky2
+  - first:
+      4: 400230
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinky3
+  - first:
+      4: 400232
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinky4
+  - first:
+      4: 400234
+    second: PilotRig_0003:Character1_Ctrl_LeftHandPinkyEffector
+  - first:
+      4: 400236
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRing1
+  - first:
+      4: 400238
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRing2
+  - first:
+      4: 400240
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRing3
+  - first:
+      4: 400242
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRing4
+  - first:
+      4: 400244
+    second: PilotRig_0003:Character1_Ctrl_LeftHandRingEffector
+  - first:
+      4: 400246
+    second: PilotRig_0003:Character1_Ctrl_LeftHandThumb1
+  - first:
+      4: 400248
+    second: PilotRig_0003:Character1_Ctrl_LeftHandThumb2
+  - first:
+      4: 400250
+    second: PilotRig_0003:Character1_Ctrl_LeftHandThumb3
+  - first:
+      4: 400252
+    second: PilotRig_0003:Character1_Ctrl_LeftHandThumbEffector
+  - first:
+      4: 400254
+    second: PilotRig_0003:Character1_Ctrl_LeftHipEffector
+  - first:
+      4: 400256
+    second: PilotRig_0003:Character1_Ctrl_LeftKneeEffector
+  - first:
+      4: 400258
+    second: PilotRig_0003:Character1_Ctrl_LeftLeg
+  - first:
+      4: 400260
+    second: PilotRig_0003:Character1_Ctrl_LeftShoulder
+  - first:
+      4: 400262
+    second: PilotRig_0003:Character1_Ctrl_LeftShoulderEffector
+  - first:
+      4: 400264
+    second: PilotRig_0003:Character1_Ctrl_LeftToeBase
+  - first:
+      4: 400266
+    second: PilotRig_0003:Character1_Ctrl_LeftToeRoll
+  - first:
+      4: 400268
+    second: PilotRig_0003:Character1_Ctrl_LeftUpLeg
+  - first:
+      4: 400270
+    second: PilotRig_0003:Character1_Ctrl_LeftWristEffector
+  - first:
+      4: 400272
+    second: PilotRig_0003:Character1_Ctrl_Neck
+  - first:
+      4: 400274
+    second: PilotRig_0003:Character1_Ctrl_Reference
+  - first:
+      4: 400276
+    second: PilotRig_0003:Character1_Ctrl_RightAnkleEffector
+  - first:
+      4: 400278
+    second: PilotRig_0003:Character1_Ctrl_RightArm
+  - first:
+      4: 400280
+    second: PilotRig_0003:Character1_Ctrl_RightElbowEffector
+  - first:
+      4: 400282
+    second: PilotRig_0003:Character1_Ctrl_RightEyeEffector
+  - first:
+      4: 400284
+    second: PilotRig_0003:Character1_Ctrl_RightFoot
+  - first:
+      4: 400286
+    second: PilotRig_0003:Character1_Ctrl_RightFootEffector
+  - first:
+      4: 400288
+    second: PilotRig_0003:Character1_Ctrl_RightForeArm
+  - first:
+      4: 400290
+    second: PilotRig_0003:Character1_Ctrl_RightForeArmRoll
+  - first:
+      4: 400292
+    second: PilotRig_0003:Character1_Ctrl_RightHand
+  - first:
+      4: 400294
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndex1
+  - first:
+      4: 400296
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndex2
+  - first:
+      4: 400298
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndex3
+  - first:
+      4: 400300
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndex4
+  - first:
+      4: 400302
+    second: PilotRig_0003:Character1_Ctrl_RightHandIndexEffector
+  - first:
+      4: 400304
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddle1
+  - first:
+      4: 400306
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddle2
+  - first:
+      4: 400308
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddle3
+  - first:
+      4: 400310
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddle4
+  - first:
+      4: 400312
+    second: PilotRig_0003:Character1_Ctrl_RightHandMiddleEffector
+  - first:
+      4: 400314
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinky1
+  - first:
+      4: 400316
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinky2
+  - first:
+      4: 400318
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinky3
+  - first:
+      4: 400320
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinky4
+  - first:
+      4: 400322
+    second: PilotRig_0003:Character1_Ctrl_RightHandPinkyEffector
+  - first:
+      4: 400324
+    second: PilotRig_0003:Character1_Ctrl_RightHandRing1
+  - first:
+      4: 400326
+    second: PilotRig_0003:Character1_Ctrl_RightHandRing2
+  - first:
+      4: 400328
+    second: PilotRig_0003:Character1_Ctrl_RightHandRing3
+  - first:
+      4: 400330
+    second: PilotRig_0003:Character1_Ctrl_RightHandRing4
+  - first:
+      4: 400332
+    second: PilotRig_0003:Character1_Ctrl_RightHandRingEffector
+  - first:
+      4: 400334
+    second: PilotRig_0003:Character1_Ctrl_RightHandThumb1
+  - first:
+      4: 400336
+    second: PilotRig_0003:Character1_Ctrl_RightHandThumb2
+  - first:
+      4: 400338
+    second: PilotRig_0003:Character1_Ctrl_RightHandThumb3
+  - first:
+      4: 400340
+    second: PilotRig_0003:Character1_Ctrl_RightHandThumbEffector
+  - first:
+      4: 400342
+    second: PilotRig_0003:Character1_Ctrl_RightHipEffector
+  - first:
+      4: 400344
+    second: PilotRig_0003:Character1_Ctrl_RightKneeEffector
+  - first:
+      4: 400346
+    second: PilotRig_0003:Character1_Ctrl_RightLeg
+  - first:
+      4: 400348
+    second: PilotRig_0003:Character1_Ctrl_RightShoulder
+  - first:
+      4: 400350
+    second: PilotRig_0003:Character1_Ctrl_RightShoulderEffector
+  - first:
+      4: 400352
+    second: PilotRig_0003:Character1_Ctrl_RightToeBase
+  - first:
+      4: 400354
+    second: PilotRig_0003:Character1_Ctrl_RightToeRoll
+  - first:
+      4: 400356
+    second: PilotRig_0003:Character1_Ctrl_RightUpLeg
+  - first:
+      4: 400358
+    second: PilotRig_0003:Character1_Ctrl_RightWristEffector
+  - first:
+      4: 400360
+    second: PilotRig_0003:Character1_Ctrl_Spine
+  - first:
+      4: 400362
+    second: PilotRig_0003:Character1_Ctrl_Spine1
+  - first:
+      4: 400364
+    second: PilotRig_0003:Character1_Ctrl_Spine2
+  - first:
+      4: 400366
+    second: PilotRig_0003:Character1_Ctrl_Spine3
+  - first:
+      4: 400368
+    second: PilotRig_0003:Character1_Ctrl_Spine4
+  - first:
+      21: 2100000
+    second: Clothes1
+  - first:
+      21: 2100002
+    second: Skin
+  - first:
+      21: 2100004
+    second: bolt_low4SG1
+  - first:
+      43: 4300000
+    second: Pants_GEO
+  - first:
+      43: 4300002
+    second: Eye_R_GEO
+  - first:
+      43: 4300004
+    second: Eye_L_GEO
+  - first:
+      43: 4300006
+    second: Teeth_Lower_GEO
+  - first:
+      43: 4300008
+    second: Teeth_Upper_GEO
+  - first:
+      43: 4300010
+    second: Eyebrow_R_GEO
+  - first:
+      43: 4300012
+    second: Eyebrow_L_GEO
+  - first:
+      43: 4300014
+    second: Helmet_Low_GEO
+  - first:
+      43: 4300016
+    second: Visor_GEO
+  - first:
+      43: 4300018
+    second: Tongue_GEO
+  - first:
+      43: 4300020
+    second: Pilot_Body_GEO
+  - first:
+      43: 4300022
+    second: Pilot_Gun
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Eye_L_GEO
+  - first:
+      137: 13700002
+    second: Eye_R_GEO
+  - first:
+      137: 13700004
+    second: Eyebrow_L_GEO
+  - first:
+      137: 13700006
+    second: Eyebrow_R_GEO
+  - first:
+      137: 13700008
+    second: Helmet_Low_GEO
+  - first:
+      137: 13700010
+    second: Pants_GEO
+  - first:
+      137: 13700012
+    second: Pilot_Body_GEO
+  - first:
+      137: 13700014
+    second: Teeth_Lower_GEO
+  - first:
+      137: 13700016
+    second: Teeth_Upper_GEO
+  - first:
+      137: 13700018
+    second: Tongue_GEO
+  - first:
+      137: 13700020
+    second: Visor_GEO
+  - first:
+      137: 13700022
+    second: Pilot_Gun
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - ea8ecb1566838ea45bc237dda6113d17
+  - 8c9c316c63a53a0488d84b3c75583311
+  - 992749369350def439c5c851fd84ab64
+  - 60deeb9c638cb9943a93ec53e640bb97
+  - 080007a2ceebecb4e86178c6d898cd9a
+  - c93c60f4b67c9c7438cea8bdb2276043
+  - 6b4e53c5439290848aae97263d420699
+  - b56230b8a22dbc247baa50d4edface87
+  - ddf2bb8203ace1f42836fd831a4dc2ee
+  - 7e98c7a8b7ad3354c955d737e20ff19b
+  - bedc413bfd61030419c855653f442514
+  - 83c42cb06d176884aa813539e0c43ccd
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: PilotRig_0003:Character1_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_Face
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftFootRoll
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightFootRoll
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftEye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightEye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_Head
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PilotRig_0003:Character1_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PilotRigged(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PILOT_GEO
+      parentName: PilotRigged(Clone)
+      position: {x: -0, y: -0.004820456, z: -0.1703559}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 52.58733, y: 52.58733, z: 52.58733}
+    - name: Eye_L_GEO
+      parentName: PILOT_GEO
+      position: {x: -0, y: 0.027113387, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye_R_GEO
+      parentName: PILOT_GEO
+      position: {x: -0, y: 0.027113387, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyebrow_L_GEO
+      parentName: PILOT_GEO
+      position: {x: -0.000000055272224, y: 0.027105723, z: -0.0000039742476}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9899768, y: 0.97763574, z: 1}
+    - name: Eyebrow_R_GEO
+      parentName: PILOT_GEO
+      position: {x: 0.000000055272224, y: 0.027105723, z: -0.0000039742476}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9899768, y: 0.97763574, z: 1}
+    - name: Helmet_Low_GEO
+      parentName: PILOT_GEO
+      position: {x: -0, y: 0.027113387, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pants_GEO
+      parentName: PILOT_GEO
+      position: {x: -0, y: 0.027113387, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot_Body_GEO
+      parentName: PILOT_GEO
+      position: {x: -0, y: 0.027113387, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Teeth_Lower_GEO
+      parentName: PILOT_GEO
+      position: {x: -0, y: 0.02712329, z: 0}
+      rotation: {x: 0.04621626, y: -0.00423366, z: -0.008983531, w: 0.9988821}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Teeth_Upper_GEO
+      parentName: PILOT_GEO
+      position: {x: -0, y: 0.027115677, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tongue_GEO
+      parentName: PILOT_GEO
+      position: {x: -0, y: 0.027113387, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Visor_GEO
+      parentName: PILOT_GEO
+      position: {x: -0.0000084743815, y: 0.027021958, z: 0.000106232976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.939217, y: 0.7774496, z: 1.0168643}
+    - name: PilotRig_0003:Character1_Reference
+      parentName: PilotRigged(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_Hips
+      parentName: PilotRig_0003:Character1_Reference
+      position: {x: 1.23512475e-17, y: 0.8871624, z: 2.4702495e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftUpLeg
+      parentName: PilotRig_0003:Character1_Hips
+      position: {x: -0.079046175, y: -0.055625074, z: -7.150721e-18}
+      rotation: {x: 0.0000022005534, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftLeg
+      parentName: PilotRig_0003:Character1_LeftUpLeg
+      position: {x: -0.06374671, y: -0.41372517, z: -0.02053032}
+      rotation: {x: -0.0000047300255, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftFoot
+      parentName: PilotRig_0003:Character1_LeftLeg
+      position: {x: -0.040166855, y: -0.36108357, z: -0.03631833}
+      rotation: {x: 0.0000025294719, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftFootRoll
+      parentName: PilotRig_0003:Character1_LeftFoot
+      position: {x: -0.010528086, y: -0.039201513, z: 0.11922791}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftToeBase
+      parentName: PilotRig_0003:Character1_LeftFootRoll
+      position: {x: -0.0042548953, y: -0.013048547, z: 0.052750006}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightUpLeg
+      parentName: PilotRig_0003:Character1_Hips
+      position: {x: 0.079046175, y: -0.055625074, z: -4.2254272e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightLeg
+      parentName: PilotRig_0003:Character1_RightUpLeg
+      position: {x: 0.062902406, y: -0.41372517, z: -0.02052639}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightFoot
+      parentName: PilotRig_0003:Character1_RightLeg
+      position: {x: 0.039446905, y: -0.3610836, z: -0.036318354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightFootRoll
+      parentName: PilotRig_0003:Character1_RightFoot
+      position: {x: 0.0154423565, y: -0.039201513, z: 0.11922402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightToeBase
+      parentName: PilotRig_0003:Character1_RightFootRoll
+      position: {x: 0.0028656528, y: -0.013048547, z: 0.052646164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_Spine
+      parentName: PilotRig_0003:Character1_Hips
+      position: {x: 1.0972317e-17, y: 0.0513369, z: -0.0019219731}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_Spine1
+      parentName: PilotRig_0003:Character1_Spine
+      position: {x: 2.8330665e-17, y: 0.05458984, z: -0.01221642}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_Spine2
+      parentName: PilotRig_0003:Character1_Spine1
+      position: {x: 4.4553288e-17, y: 0.05293373, z: -0.011342539}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_Spine3
+      parentName: PilotRig_0003:Character1_Spine2
+      position: {x: 4.942736e-17, y: 0.06535423, z: -0.014232506}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_Spine4
+      parentName: PilotRig_0003:Character1_Spine3
+      position: {x: 5.9858985e-17, y: 0.057073973, z: 0.014904611}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftShoulder
+      parentName: PilotRig_0003:Character1_Spine4
+      position: {x: -0.06210137, y: 0.03166725, z: 0.027278367}
+      rotation: {x: -0, y: 0.016967421, z: -0.0049712015, w: 0.9998437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftArm
+      parentName: PilotRig_0003:Character1_LeftShoulder
+      position: {x: -0.0949907, y: -0.010244446, z: -0.0349655}
+      rotation: {x: 0.0066942223, y: 0.009687302, z: -0.20001265, w: 0.97972256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftForeArm
+      parentName: PilotRig_0003:Character1_LeftArm
+      position: {x: -0.15539461, y: -0.08031746, z: -0.009090948}
+      rotation: {x: 0.0026631784, y: -0.008714338, z: 0.021199953, w: 0.99973375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftForeArmRoll
+      parentName: PilotRig_0003:Character1_LeftForeArm
+      position: {x: -0.08126236, y: -0.026208648, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHand
+      parentName: PilotRig_0003:Character1_LeftForeArmRoll
+      position: {x: -0.1184235, y: -0.034817047, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandThumb1
+      parentName: PilotRig_0003:Character1_LeftHand
+      position: {x: 0.0006192398, y: 0.003288269, z: 0.034089126}
+      rotation: {x: -0.003626245, y: -0.000049674883, z: -0.003688506, w: 0.99998665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandThumb2
+      parentName: PilotRig_0003:Character1_LeftHandThumb1
+      position: {x: -0.025514564, y: -0.010097045, z: 0.025219988}
+      rotation: {x: 0.049305912, y: 0.0035036837, z: 0.05128465, w: 0.9974601}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandThumb3
+      parentName: PilotRig_0003:Character1_LeftHandThumb2
+      position: {x: -0.018391114, y: -0.0014276885, z: 0.017779006}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandIndex1
+      parentName: PilotRig_0003:Character1_LeftHand
+      position: {x: -0.032077063, y: -0.0011914825, z: 0.020393653}
+      rotation: {x: 0.009709794, y: -0.055808783, z: -0.11199141, w: 0.9920933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandIndex2
+      parentName: PilotRig_0003:Character1_LeftHandIndex1
+      position: {x: -0.022549018, y: -0.012712936, z: 0.0043802215}
+      rotation: {x: 0.003706127, y: -0.008824517, z: -0.0065172776, w: 0.99993294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandIndex3
+      parentName: PilotRig_0003:Character1_LeftHandIndex2
+      position: {x: -0.017201023, y: -0.01115509, z: 0.005313665}
+      rotation: {x: 0.007008703, y: 0.00451901, z: 0.03201653, w: 0.9994526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandIndex4
+      parentName: PilotRig_0003:Character1_LeftHandIndex3
+      position: {x: -0.019307716, y: -0.008724823, z: 0.0054347483}
+      rotation: {x: 0, y: -0.00055824063, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandMiddle1
+      parentName: PilotRig_0003:Character1_LeftHand
+      position: {x: -0.04216709, y: -0.0062885284, z: -0.00052217004}
+      rotation: {x: 0.0047144955, y: -0.021818893, z: -0.11794566, w: 0.9927692}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandMiddle2
+      parentName: PilotRig_0003:Character1_LeftHandMiddle1
+      position: {x: -0.0130729675, y: -0.0077802273, z: 0.00091673847}
+      rotation: {x: -0.0012018264, y: -0.0027414851, z: -0.040405188, w: 0.9991789}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandMiddle3
+      parentName: PilotRig_0003:Character1_LeftHandMiddle2
+      position: {x: -0.021521682, y: -0.018030396, z: 0.001863501}
+      rotation: {x: 0.0064145867, y: -0.00737898, z: 0.0026869113, w: 0.9999486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandMiddle4
+      parentName: PilotRig_0003:Character1_LeftHandMiddle3
+      position: {x: -0.021092033, y: -0.016704177, z: 0.004479883}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandRing1
+      parentName: PilotRig_0003:Character1_LeftHand
+      position: {x: -0.035328217, y: -0.01591713, z: -0.019263314}
+      rotation: {x: -0.001420078, y: 0.021313911, z: -0.14200822, w: 0.989635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandRing2
+      parentName: PilotRig_0003:Character1_LeftHandRing1
+      position: {x: -0.01609043, y: -0.010647965, z: -0.0014372491}
+      rotation: {x: 0.011170642, y: -0.010239209, z: -0.049199596, w: 0.9986741}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandRing3
+      parentName: PilotRig_0003:Character1_LeftHandRing2
+      position: {x: -0.016650619, y: -0.015769577, z: -0.0004986286}
+      rotation: {x: 0.00062712556, y: -0.0014984717, z: 0.02644875, w: 0.99964887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandRing4
+      parentName: PilotRig_0003:Character1_LeftHandRing3
+      position: {x: -0.017444076, y: -0.012581329, z: -0.00029918193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandPinky1
+      parentName: PilotRig_0003:Character1_LeftHand
+      position: {x: -0.021118278, y: -0.023452148, z: -0.034680337}
+      rotation: {x: -0.014853421, y: 0.11267626, z: -0.15750019, w: 0.9809573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandPinky2
+      parentName: PilotRig_0003:Character1_LeftHandPinky1
+      position: {x: -0.013627815, y: -0.009332122, z: -0.00539104}
+      rotation: {x: 0.044909917, y: -0.041452292, z: -0.041769966, w: 0.99725634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandPinky3
+      parentName: PilotRig_0003:Character1_LeftHandPinky2
+      position: {x: -0.013468857, y: -0.012150421, z: -0.002423296}
+      rotation: {x: -0.011428542, y: 0.009168588, z: 0.017549768, w: 0.99973863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftHandPinky4
+      parentName: PilotRig_0003:Character1_LeftHandPinky3
+      position: {x: -0.014078865, y: -0.010345535, z: -0.0037633036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightShoulder
+      parentName: PilotRig_0003:Character1_Spine4
+      position: {x: 0.062101364, y: 0.03166725, z: 0.027278367}
+      rotation: {x: -0, y: -0.016964063, z: 0.0049690027, w: 0.9998438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightArm
+      parentName: PilotRig_0003:Character1_RightShoulder
+      position: {x: 0.09499092, y: -0.010241851, z: -0.0349655}
+      rotation: {x: 0.006509981, y: -0.009194274, z: 0.19447882, w: 0.980842}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightForeArm
+      parentName: PilotRig_0003:Character1_RightArm
+      position: {x: 0.15874544, y: -0.07989418, z: -0.009090948}
+      rotation: {x: 0.0014692481, y: 0.004541693, z: -0.008627102, w: 0.9999514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightForeArmRoll
+      parentName: PilotRig_0003:Character1_RightForeArm
+      position: {x: 0.09069059, y: -0.028981857, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHand
+      parentName: PilotRig_0003:Character1_RightForeArmRoll
+      position: {x: 0.10652199, y: -0.034817047, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandThumb1
+      parentName: PilotRig_0003:Character1_RightHand
+      position: {x: 0.0014614868, y: 0.0040750885, z: 0.039626837}
+      rotation: {x: -0.02192996, y: -0.018034687, z: 0.019469764, w: 0.9994072}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandThumb2
+      parentName: PilotRig_0003:Character1_RightHandThumb1
+      position: {x: 0.025023269, y: -0.00983963, z: 0.019070758}
+      rotation: {x: 0.056783386, y: 0.09784622, z: -0.049576394, w: 0.99234265}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: PilotRig_0003:Character1_RightHandThumb3
+      parentName: PilotRig_0003:Character1_RightHandThumb2
+      position: {x: 0.016739542, y: -0.0019632534, z: 0.019107005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: PilotRig_0003:Character1_RightHandIndex1
+      parentName: PilotRig_0003:Character1_RightHand
+      position: {x: 0.032989006, y: -0.000010528564, z: 0.021010753}
+      rotation: {x: 0.012363723, y: 0.06789853, z: 0.109282985, w: 0.99161196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandIndex2
+      parentName: PilotRig_0003:Character1_RightHandIndex1
+      position: {x: 0.020197028, y: -0.0114040375, z: 0.004800465}
+      rotation: {x: 0, y: -0.0000053167487, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandIndex3
+      parentName: PilotRig_0003:Character1_RightHandIndex2
+      position: {x: 0.018738545, y: -0.010965271, z: 0.0061704973}
+      rotation: {x: -0.005489883, y: -0.023262762, z: -0.024803407, w: 0.9994066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandIndex4
+      parentName: PilotRig_0003:Character1_RightHandIndex3
+      position: {x: 0.019218229, y: -0.008504868, z: 0.0037516856}
+      rotation: {x: 0, y: -0.0005582587, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandMiddle1
+      parentName: PilotRig_0003:Character1_RightHand
+      position: {x: 0.04378105, y: -0.0070721433, z: -0.000559144}
+      rotation: {x: 0.0062127234, y: 0.030708855, z: 0.09804341, w: 0.99468887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandMiddle2
+      parentName: PilotRig_0003:Character1_RightHandMiddle1
+      position: {x: 0.014319992, y: -0.007943878, z: 0.0015807056}
+      rotation: {x: -0.0022858554, y: 0.0037927611, z: 0.039797258, w: 0.99919796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandMiddle3
+      parentName: PilotRig_0003:Character1_RightHandMiddle2
+      position: {x: 0.019258222, y: -0.015147781, z: 0.0025516846}
+      rotation: {x: 0, y: 0.00007975123, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandMiddle4
+      parentName: PilotRig_0003:Character1_RightHandMiddle3
+      position: {x: 0.019985562, y: -0.016227646, z: 0.0034476945}
+      rotation: {x: 0, y: -0.0005582587, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandRing1
+      parentName: PilotRig_0003:Character1_RightHand
+      position: {x: 0.03807541, y: -0.015079346, z: -0.019426364}
+      rotation: {x: -0.004845243, y: -0.04118534, z: 0.14154023, w: 0.98906356}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandRing2
+      parentName: PilotRig_0003:Character1_RightHandRing1
+      position: {x: 0.012505798, y: -0.008426361, z: -0.0020237921}
+      rotation: {x: 0.026150404, y: 0.029250735, z: 0.039781127, w: 0.99843776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandRing3
+      parentName: PilotRig_0003:Character1_RightHandRing2
+      position: {x: 0.016999627, y: -0.0151737975, z: -0.00001580195}
+      rotation: {x: 0.0006246417, y: 0.00079050835, z: -0.011516518, w: 0.99993324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandRing4
+      parentName: PilotRig_0003:Character1_RightHandRing3
+      position: {x: 0.018454982, y: -0.013285293, z: 0.00018253406}
+      rotation: {x: 0, y: -0.0005582587, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandPinky1
+      parentName: PilotRig_0003:Character1_RightHand
+      position: {x: 0.020510405, y: -0.019860992, z: -0.03381673}
+      rotation: {x: -0.01905412, y: -0.13551286, z: 0.22206229, w: 0.96538156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightHandPinky2
+      parentName: PilotRig_0003:Character1_RightHandPinky1
+      position: {x: 0.00945549, y: -0.008896713, z: -0.004617953}
+      rotation: {x: 0.005915199, y: 0.012364986, z: -0.016513528, w: 0.9997697}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: PilotRig_0003:Character1_RightHandPinky3
+      parentName: PilotRig_0003:Character1_RightHandPinky2
+      position: {x: 0.013846396, y: -0.01212576, z: -0.004379763}
+      rotation: {x: -0.00090383185, y: -0.0003068792, z: -0.0017875211, w: 0.999998}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: PilotRig_0003:Character1_RightHandPinky4
+      parentName: PilotRig_0003:Character1_RightHandPinky3
+      position: {x: 0.016613308, y: -0.012315652, z: -0.005734906}
+      rotation: {x: 0, y: -0.0005582587, z: -0, w: 0.9999999}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: PilotRig_0003:Character1_Neck
+      parentName: PilotRig_0003:Character1_Spine4
+      position: {x: 1.0785746e-16, y: 0.10244735, z: 0.00963134}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_Face
+      parentName: PilotRig_0003:Character1_Neck
+      position: {x: 3.2641058e-16, y: 0.08531267, z: -0.000000011672973}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_TongueBase
+      parentName: PilotRig_0003:Character1_Face
+      position: {x: -0, y: -0.027967237, z: 0.03379687}
+      rotation: {x: -0.027399268, y: 0.70657575, z: -0.027399268, w: 0.70657575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_TongueMiddle
+      parentName: PilotRig_0003:Character1_TongueBase
+      position: {x: -0.02895634, y: -1.9428903e-18, z: -1.11022296e-17}
+      rotation: {x: -4.1811584e-29, y: -1.3934783e-28, z: 0.2830733, w: 0.95909834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_TongueTip
+      parentName: PilotRig_0003:Character1_TongueMiddle
+      position: {x: -0.016852992, y: -3.4638957e-16, z: -7.8381745e-16}
+      rotation: {x: -0.17373411, y: -0.6854316, z: -0.17373411, w: 0.6854316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_RightEye
+      parentName: PilotRig_0003:Character1_Face
+      position: {x: 0.02294385, y: 0.033166267, z: 0.053252432}
+      rotation: {x: 0.05801359, y: 0.0013853735, z: -0.00008050616, w: 0.99831486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_LeftEye
+      parentName: PilotRig_0003:Character1_Face
+      position: {x: -0.02294385, y: 0.033166267, z: 0.053252432}
+      rotation: {x: 0.057998616, y: -0.010279119, z: 0.0005972117, w: 0.99826354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PilotRig_0003:Character1_Head
+      parentName: PilotRig_0003:Character1_Face
+      position: {x: 7.6338097e-17, y: 0.13881727, z: 0.050199732}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

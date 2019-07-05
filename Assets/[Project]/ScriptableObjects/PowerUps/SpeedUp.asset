@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe870cb0439063408530a1fd2ee551f, type: 3}
+  m_Name: SpeedUp
+  m_EditorClassIdentifier: 
+  m_BuffType: 1
+  m_Mesh: {fileID: 4300000, guid: ec63905bea180d14fa15b4a523ddcc75, type: 3}
+  m_Material: {fileID: 2100000, guid: 02b8e28a64ae34c468b96eb2411c74e8, type: 2}
+  m_Effect: {fileID: 1919445870217124, guid: 42a8f21a89b7e434b9d0db667c7027f5, type: 2}
+  m_HealValue: 25
+  m_SpeedMultiplier: 2
+  m_DamageUpMultiplier: 1.5
+  m_DamageReductionMultipler: 1.5
+  m_Duration: 15
+  m_RespawnTime: 30

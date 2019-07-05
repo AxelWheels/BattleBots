@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: e237cf5d6e889be46b7e8b81986c7313
+timeCreated: 1521680186
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VFX_Fire1_2_3: {fileID: 2800000, guid: 57e672e2f3686704bb40770971c37e54, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

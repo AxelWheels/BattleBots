@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1567de518d572314ca014bb91cfe5f1e, type: 3}
+  m_Name: PilotRangedAttack
+  m_EditorClassIdentifier: 
+  m_AttackType: 2
+  m_OffsetZ: 1
+  m_OffsetY: 2.5
+  m_Damage: 25
+  m_Knockback: 0
+  m_HitStun: 1
+  m_StartUpTime: 0.3
+  m_ActiveTime: 3
+  m_RecoveryTime: 0.1
+  m_ProjectileSpeed: 1000
+  m_HitRadius: 0

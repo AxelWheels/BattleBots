@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 475b09fd93f721c458509d45ab2ea6b8
+timeCreated: 1519487011
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VFX_Spots_Clouds_Dot: {fileID: 2800000, guid: 4bddc3a600889a943906204a238fa1d2,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

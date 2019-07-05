@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725d944f416f78d40ad7e2cc6946af57, type: 3}
+  m_Name: Player - Green
+  m_EditorClassIdentifier: 
+  m_Colour: {r: 0.26666668, g: 0.90588236, b: 0.26666668, a: 1}
+  m_MechIcon: {fileID: 21300000, guid: 61c1c9c13bfc3ad4faef4f4a08b4fd4b, type: 3}
+  m_PilotIcon: {fileID: 21300000, guid: 15aba9c611809794cb855fb73c8ee05c, type: 3}
+  m_ColourName: Green
+  m_MatColour: 0.35

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: baab1afe4b23990419f099c3da490ce6
+timeCreated: 1519493875
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VFX_ExplosionMark_Lines_Clouds: {fileID: 2800000, guid: 6cb6e53cbc08bd7408833c9a7a44ef8e,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6ac6690db9e49e441b377f3b55d05884
+timeCreated: 1521742815
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TextureSample2: {fileID: 2800000, guid: 4bddc3a600889a943906204a238fa1d2, type: 3}
+  - _VFX_Spots_Clouds_Dot: {fileID: 2800000, guid: 4bddc3a600889a943906204a238fa1d2,
+      type: 3}
+  - _TextureSample1: {fileID: 2800000, guid: 4bddc3a600889a943906204a238fa1d2, type: 3}
+  - _TextureSample0: {fileID: 2800000, guid: 4bddc3a600889a943906204a238fa1d2, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

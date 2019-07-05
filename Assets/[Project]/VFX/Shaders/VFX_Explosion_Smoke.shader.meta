@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 7a635a96db997264283d65e458709042
+timeCreated: 1521681979
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VFX_Explosion_Smoke_Hmm: {fileID: 2800000, guid: 6272b7051cdf23e4b9ebcb0a3580ea08,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
