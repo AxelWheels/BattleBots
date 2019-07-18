@@ -9,17 +9,13 @@ using UnityEngine.UI;
 /// 
 public class GamePanel : UIPanel
 {
-    [SerializeField]
-    private Text m_TimerText;
-    [SerializeField]
-    private GameObject m_TimerObject;
-    [SerializeField]
-    private GameObject m_Countdown;
-    [SerializeField]
-    private PlayerStatus[] m_Players;
+    [SerializeField] private Text timerText = null;
+    [SerializeField] private GameObject timerObject = null;
+    [SerializeField] private GameObject countdown = null;
+    [SerializeField] private PlayerStatus[] players = null;
 
-    public GameObject Countdown { get { return m_Countdown; } }
-    public PlayerStatus[] Players { get { return m_Players; } }
+    public GameObject Countdown { get { return countdown; } }
+    public PlayerStatus[] Players { get { return players; } }
 
     private void Start()
     {
@@ -29,22 +25,22 @@ public class GamePanel : UIPanel
 
     private void OnMatchStarted(GameModeData lGameData)
     {
-        m_TimerObject.SetActive(!lGameData.UnlimitedTime);
+        timerObject.SetActive(!lGameData.UnlimitedTime);
     }
 
     private void OnMatchEnded()
     {
-        m_TimerObject.SetActive(false);
+        timerObject.SetActive(false);
     }
 
-    private void Update()
+    private new void Update()
     {
         if (MatchController.Instance.InProgress)
         {
             string lMinutes = (Mathf.Floor(MatchController.Instance.TimeLeft / 60)).ToString("00");
             string lSeconds = (Mathf.Floor(MatchController.Instance.TimeLeft % 60)).ToString("00");
 
-            m_TimerText.text = lMinutes + ":" + lSeconds;
+            timerText.text = lMinutes + ":" + lSeconds;
         }
     }
 }

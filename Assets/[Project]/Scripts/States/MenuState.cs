@@ -15,7 +15,7 @@ public class MenuState : GameStateBase
     {
         base.OnBegin();
 
-        GameController.Instance.MenuBackground.SetActive(true);
+        //GameController.Instance.MenuBackground.SetActive(true);
 
         ArenaController.Instance.UnloadArena();
 

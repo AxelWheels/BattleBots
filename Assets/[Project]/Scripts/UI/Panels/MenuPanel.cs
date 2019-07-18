@@ -13,7 +13,7 @@ public class MenuPanel : UIPanel
 
     [SerializeField] private GameObject m_SettingsFocusObject;
 
-    private void Update()
+    private new void Update()
     {
         if (Input.GetButtonDown("B_All"))
         {

@@ -39,7 +39,15 @@ public class GlowController : SingletonManager<GlowController>
 
         m_CommandBuffer = new CommandBuffer();
         m_CommandBuffer.name = "Glowing Objects Buffer";
-        GetComponent<Camera>().AddCommandBuffer(CameraEvent.BeforeImageEffects, m_CommandBuffer);
+
+        if (!GetComponent<Camera>())
+        {
+            gameObject.AddComponent<Camera>().AddCommandBuffer(CameraEvent.BeforeImageEffects, m_CommandBuffer);
+        }
+        else
+        {
+            GetComponent<Camera>().AddCommandBuffer(CameraEvent.BeforeImageEffects, m_CommandBuffer);
+        }
     }
 
     /// <summary>

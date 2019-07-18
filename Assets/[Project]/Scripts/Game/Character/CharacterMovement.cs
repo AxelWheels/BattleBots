@@ -42,6 +42,11 @@ public class CharacterMovement : MonoBehaviour
     public bool Boosting { get { return m_Boosting; } }
     #endregion
 
+    private void Awake()
+    {
+        m_Capsule = GetComponentInChildren<CapsuleCollider>();
+    }
+
     private void Start()
     {
         m_PlayerController = GetComponent<PlayerController>();

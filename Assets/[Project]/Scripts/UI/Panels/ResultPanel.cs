@@ -16,7 +16,7 @@ public class ResultPanel : UIPanel
     public Image[] WinnerSprite { get { return m_WinnerSprite; } set { m_WinnerSprite = value; } }
     public GameObject[] PodiumMechs { get { return m_PodiumMechs; } set { m_PodiumMechs = value; } }
 
-    private void Update()
+    private new void Update()
     {
         CheckEventSystem();
     }

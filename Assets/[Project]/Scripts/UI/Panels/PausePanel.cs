@@ -10,7 +10,7 @@
 public class PausePanel : UIPanel
 {
     // Update is called once per frame
-    private void Update()
+    private new void Update()
     {
         if (Input.GetButtonDown("B_All"))
         {

@@ -187,6 +187,11 @@ public class PlayerController : MonoBehaviour
 
     #endregion
 
+    private void Awake()
+    {
+        Initialise(0, false);
+    }
+
     public void Initialise(int lPlayerID, bool lAIControl)
     {
         PlayerID = lPlayerID;
@@ -195,7 +200,7 @@ public class PlayerController : MonoBehaviour
         m_CharInput = GetComponent<CharacterInput>();
         m_CharMovement = GetComponent<CharacterMovement>();
         m_CharAttack = GetComponent<CharacterAttack>();
-        m_PlayerColour = GameController.Instance.PlayerColours[lPlayerID];
+        //m_PlayerColour = GameController.Instance.PlayerColours[lPlayerID];
 
         if (lAIControl)
         {
@@ -236,19 +241,19 @@ public class PlayerController : MonoBehaviour
 
         ArenaController.Instance.OnArenaLoad += OnArenaLoad;
 
-        //Initialise PlayerStatus on in game screen
-        GamePanel lGP = (GamePanel)UIController.Instance.UIPanels[eUIPanel.Game];
-        //m_PlayerStatusObject = GameObject.Instantiate( UIController.Instance.PlayerStatusPrefab, UIController.Instance.GameUIParent );
-        m_PlayerStatus = lGP.Players[lPlayerID];
-        lGP.Players[lPlayerID].PlayerInstance = this;
-        lGP.Players[lPlayerID].MechIcon.sprite = m_PlayerColour.MechAvatar;
-        lGP.Players[lPlayerID].PilotIcon.sprite = m_PlayerColour.PilotAvatar;
+        ////Initialise PlayerStatus on in game screen
+        //GamePanel lGP = (GamePanel)UIController.Instance.UIPanels[eUIPanel.Game];
+        ////m_PlayerStatusObject = GameObject.Instantiate( UIController.Instance.PlayerStatusPrefab, UIController.Instance.GameUIParent );
+        //m_PlayerStatus = lGP.Players[lPlayerID];
+        //lGP.Players[lPlayerID].PlayerInstance = this;
+        //lGP.Players[lPlayerID].MechIcon.sprite = m_PlayerColour.MechAvatar;
+        //lGP.Players[lPlayerID].PilotIcon.sprite = m_PlayerColour.PilotAvatar;
 
-        lGP.Players[lPlayerID].gameObject.SetActive(true);
+        //lGP.Players[lPlayerID].gameObject.SetActive(true);
 
-        m_PlayerLight.color = m_PlayerColour.PColour;
+        //m_PlayerLight.color = m_PlayerColour.PColour;
 
-        GameController.Instance.SetMechMaterial(gameObject, m_PlayerColour);
+        //GameController.Instance.SetMechMaterial(gameObject, m_PlayerColour);
 
         CreateAudioSources();
     }
@@ -309,10 +314,12 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        if (!MatchController.Instance.GameModeData.UnlimitedLives)
-            PlayerStats.Score = GameController.Instance.NumberOfPlayers;
+        //if (!MatchController.Instance.GameModeData.UnlimitedLives)
+        //{
+        //    PlayerStats.Score = GameController.Instance.NumberOfPlayers;
+        //}
 
-        GameController.Instance.OnGameStateChange += OnGameStateChange;
+        //GameController.Instance.OnGameStateChange += OnGameStateChange;
     }
 
     private void OnGameStateChange(GameStateBase lState)
@@ -334,10 +341,10 @@ public class PlayerController : MonoBehaviour
             m_PilotToMechTimeRemaining = Mathf.Max(0f, m_PilotToMechTimeRemaining - Time.deltaTime);
         }
 
-        if (Input.GetKeyDown(KeyCode.M) && GameController.Instance.DebugMode)
-        {
-            SwapCharacter(!m_IsMech);
-        }
+        //if (Input.GetKeyDown(KeyCode.M) && GameController.Instance.DebugMode)
+        //{
+        //    SwapCharacter(!m_IsMech);
+        //}
 
         CheckChevron();
 
@@ -559,7 +566,7 @@ public class PlayerController : MonoBehaviour
 
             if (Lives <= 0)
             {
-                PlayerStats.Score = GameController.Instance.NumberOfPlayers - MatchController.Instance.PlayersLeft;
+                //PlayerStats.Score = GameController.Instance.NumberOfPlayers - MatchController.Instance.PlayersLeft;
                 MatchController.Instance.PlayersLeft--;
             }
         }

@@ -24,7 +24,7 @@ public class SetupPanel : UIPanel
         SetGameMode();
     }
 
-    void Update()
+    new void Update()
     {
         if (UIController.Instance.CurrentPanel == eUIPanel.Setup)
         {

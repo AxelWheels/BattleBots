@@ -12,30 +12,22 @@ using UnityEngine.SceneManagement;
 
 public class ArenaController : SingletonManager<ArenaController>
 {
-    [SerializeField]
-    private SceneLoadData m_SceneLoadData;
+    [SerializeField] private SceneLoadData sceneLoadData = null;
+    [SerializeField] private SoundData gameSounds = null;
+    [SerializeField] private List<SpawnPoint> spawnPoints = new List<SpawnPoint>();
+    [SerializeField] private string environmentScene = string.Empty;
 
-    [SerializeField]
-    private SoundData m_GameSounds;
-
-    [SerializeField]
-    private List<SpawnPoint> m_SpawnPoints;
-
-    [SerializeField]
-    private string m_EnvironmentScene;
-
-    private SpawnPoint m_LastSpawnPoint;
-
-    private string m_LoadedArena;
+    private SpawnPoint lastSpawnPoint = null;
+    private string loadedArena = string.Empty;
 
     public delegate void ArenaLoad(string lArena);
     public event ArenaLoad OnArenaLoad;
 
-    public List<SpawnPoint> SpawnPoints { get { return m_SpawnPoints; } }
+    public List<SpawnPoint> SpawnPoints { get { return spawnPoints; } }
 
-    public SpawnPoint LastSpawn { get { return m_LastSpawnPoint; } set { m_LastSpawnPoint = value; } }
+    public SpawnPoint LastSpawn { get { return lastSpawnPoint; } set { lastSpawnPoint = value; } }
 
-    public string LoadedArena { get { return m_LoadedArena; } }
+    public string LoadedArena { get { return loadedArena; } }
 
     public SpawnPoint GetSpawnPoint()
     {
@@ -59,20 +51,20 @@ public class ArenaController : SingletonManager<ArenaController>
 
         AsyncLoadScene(lArena, LoadSceneMode.Additive);
 
-        m_LoadedArena = lArena;
+        loadedArena = lArena;
     }
 
     public void UnloadArena()
     {
-        m_SpawnPoints = new List<SpawnPoint>();
+        spawnPoints = new List<SpawnPoint>();
 
         //If we're loading a level for the first time, there will not be an arena loaded
-        if (m_LoadedArena != null)
+        if (loadedArena != null)
         {
-            SceneManager.UnloadSceneAsync(m_EnvironmentScene);
-            SceneManager.UnloadSceneAsync(m_LoadedArena);
+            SceneManager.UnloadSceneAsync(environmentScene);
+            SceneManager.UnloadSceneAsync(loadedArena);
 
-            m_LoadedArena = null;
+            loadedArena = null;
         }
     }
 
@@ -91,7 +83,7 @@ public class ArenaController : SingletonManager<ArenaController>
 
         yield return lAsyncOperation;
 
-        lAsyncOperation = SceneManager.LoadSceneAsync(m_EnvironmentScene, LoadSceneMode.Additive);
+        lAsyncOperation = SceneManager.LoadSceneAsync(environmentScene, LoadSceneMode.Additive);
 
         yield return lAsyncOperation;
 
@@ -104,6 +96,6 @@ public class ArenaController : SingletonManager<ArenaController>
             OnArenaLoad(lScene);
         }
 
-        SoundController.Instance.PlaySound(m_GameSounds.GetSound("GameLoaded"), Camera.main.transform, false, m_GameSounds.GetVolume("GameLoaded"));
+        SoundController.Instance.PlaySound(gameSounds.GetSound("GameLoaded"), Camera.main.transform, false, gameSounds.GetVolume("GameLoaded"));
     }
 }

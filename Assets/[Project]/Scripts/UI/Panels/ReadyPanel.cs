@@ -44,7 +44,7 @@ public class ReadyPanel : UIPanel
     }
 
     // Update is called once per frame
-    void Update()
+    private new void Update()
     {
         if (Input.GetButtonDown("B_All") && GameController.Instance.CurrentState.GetType() != typeof(GameState))
         {

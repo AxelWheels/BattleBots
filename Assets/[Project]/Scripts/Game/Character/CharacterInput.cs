@@ -62,6 +62,11 @@ public class CharacterInput : MonoBehaviour
         }
     }
 
+    private void Awake()
+    {
+        Controller = GetComponent<PlayerController>();
+    }
+
     private void Start()
     {
         if (Camera.main != null)
@@ -86,7 +91,7 @@ public class CharacterInput : MonoBehaviour
             m_CharacterMovement.MoveSpeedMultiplier = Controller.CurrentData.MoveSpeed;
         }
 
-        if (Input.GetButtonUp(m_InputData.BlockAxis + ControllerID) && Controller.IsMech)
+        if (Input.GetButtonUp(m_InputData.BlockAxis + "1") && Controller.IsMech)
         {
             Controller.ActiveObject.GetComponent<CharacterAttackJoint>().BlockObject.SetActive(false);
             Controller.IsBlocking = false;
@@ -94,7 +99,7 @@ public class CharacterInput : MonoBehaviour
             //Controller.Animator.SetTrigger( "BlockEnd" );
         }
 
-        if (Input.GetButtonUp(m_InputData.HeavyAttackAxis + ControllerID) && m_ChargingHeavy && !Controller.IsHitStun)
+        if (Input.GetButtonUp(m_InputData.HeavyAttackAxis + "1") && m_ChargingHeavy && !Controller.IsHitStun)
         {
             if (!CooldownActive(eAttackType.HeavyMelee))
             {
@@ -114,13 +119,13 @@ public class CharacterInput : MonoBehaviour
                 {
                     if (!m_ChargingHeavy)
                     {
-                        if (Input.GetButtonDown(m_InputData.QuickAttackAxis + ControllerID) && m_RecoveryTime == 0)
+                        if (Input.GetButtonDown(m_InputData.QuickAttackAxis + "1") && m_RecoveryTime == 0)
                         {
                             Attack(eAttackType.QuickMelee, m_InputData.QuickCooldown, "QuickAttack");
                             StartCoroutine(m_CharacterMovement.ChangeMoveSpeedTemporarily(-1f, 1));
                         }
 
-                        if (Input.GetButtonDown(m_InputData.HeavyAttackAxis + ControllerID) && m_RecoveryTime == 0)
+                        if (Input.GetButtonDown(m_InputData.HeavyAttackAxis + "1") && m_RecoveryTime == 0)
                         {
                             if (!CooldownActive(eAttackType.HeavyMelee))
                             {
@@ -132,7 +137,7 @@ public class CharacterInput : MonoBehaviour
                             }
                         }
 
-                        if (Input.GetButtonDown(m_InputData.RangedAttackAxis + ControllerID))
+                        if (Input.GetButtonDown(m_InputData.RangedAttackAxis + "1"))
                         {
                             if (!CooldownActive(eAttackType.Ranged))
                             {
@@ -152,7 +157,7 @@ public class CharacterInput : MonoBehaviour
                             }
                         }
 
-                        if (Input.GetButtonDown(m_InputData.PilotBombAxis + ControllerID))
+                        if (Input.GetButtonDown(m_InputData.PilotBombAxis + "1"))
                         {
                             if (CooldownActive(eAttackType.Ranged))
                             {
@@ -167,12 +172,12 @@ public class CharacterInput : MonoBehaviour
                             }
                         }
 
-                        if (Input.GetButtonDown(m_InputData.MobilityAxis + ControllerID))
+                        if (Input.GetButtonDown(m_InputData.MobilityAxis + "1"))
                         {
                             Mobility(m_InputData.RocketBoostCooldown);
                         }
 
-                        if (Input.GetButtonDown(m_InputData.BlockAxis + ControllerID))
+                        if (Input.GetButtonDown(m_InputData.BlockAxis + "1"))
                         {
                             Controller.IsBlocking = true;
                             Controller.Animator.SetBool("Blocking", true);
@@ -186,17 +191,17 @@ public class CharacterInput : MonoBehaviour
             {
                 Controller.IsBlocking = false;
 
-                if (Input.GetButtonUp(m_InputData.RangedAttackAxis + ControllerID))
+                if (Input.GetButtonUp(m_InputData.RangedAttackAxis + "1"))
                 {
                     Controller.Animator.SetTrigger("FinishShooting");
                 }
 
-                if (Input.GetButtonDown(m_InputData.RangedAttackAxis + ControllerID))
+                if (Input.GetButtonDown(m_InputData.RangedAttackAxis + "1"))
                 {
                     Attack(eAttackType.Ranged, m_InputData.PilotRangedCooldown, "RangedAttack");
                 }
 
-                if (Input.GetButtonDown(m_InputData.PilotBombAxis + ControllerID)) //Pilot Bomb
+                if (Input.GetButtonDown(m_InputData.PilotBombAxis + "1")) //Pilot Bomb
                 {
                     if (!CooldownActive(eAttackType.BombPlot))
                     {
@@ -217,7 +222,7 @@ public class CharacterInput : MonoBehaviour
                     }
                 }
 
-                if (Input.GetButtonDown(m_InputData.MobilityAxis + ControllerID))
+                if (Input.GetButtonDown(m_InputData.MobilityAxis + "1"))
                 {
                     Mobility(m_InputData.DodgeCooldown);
                     m_RecoveryTime += 0.2f;
@@ -350,10 +355,10 @@ public class CharacterInput : MonoBehaviour
     {
         if (!Controller.IsHitStun && Controller.CanInput && !Controller.IsBlocking)
         {
-            float lHorizontal = Input.GetAxis(m_InputData.MoveXAxis + ControllerID);
+            float lHorizontal = Input.GetAxis(m_InputData.MoveXAxis + "1");
             //lHorizontal = Mathf.Clamp( lHorizontal * lHorizontal * Mathf.Sign( lHorizontal ), -1, 1 );
 
-            float lVertical = Input.GetAxis(m_InputData.MoveYAxis + ControllerID);
+            float lVertical = Input.GetAxis(m_InputData.MoveYAxis + "1");
             //lVertical = Mathf.Clamp( lVertical * lVertical * Mathf.Sign( lVertical ), -1, 1 );
 
             m_Move = new Vector3(lHorizontal, 0, lVertical);
