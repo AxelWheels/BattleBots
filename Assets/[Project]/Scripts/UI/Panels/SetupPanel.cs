@@ -75,21 +75,6 @@ public class SetupPanel : UIPanel
 		CheckEventSystem();
 	}
 
-	public override void OnTransitionIn()
-	{
-		base.OnTransitionIn();
-	}
-
-	public override void OnTransitionOut()
-	{
-		base.OnTransitionOut();
-	}
-
-	public override void OnTransition()
-	{
-		base.OnTransition();
-	}
-
 	public void SetGameMode()
 	{
 		//ToDo: Set game mode to use before game start

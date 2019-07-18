@@ -12,12 +12,6 @@ using UnityEngine.EventSystems;
 
 public class PausePanel : UIPanel
 {
-	// Use this for initialization
-	void Start()
-	{
-
-	}
-
 	// Update is called once per frame
 	private void Update()
 	{
@@ -49,20 +43,5 @@ public class PausePanel : UIPanel
 
 		CG.interactable = !lIn;
 		UIController.Instance.UIPanels[eUIPanel.Settings].CG.interactable = lIn;
-	}
-
-	public override void OnTransitionIn()
-	{
-		base.OnTransitionIn();
-	}
-
-	public override void OnTransitionOut()
-	{
-		base.OnTransitionOut();
-	}
-
-	public override void OnTransition()
-	{
-		base.OnTransition();
 	}
 }

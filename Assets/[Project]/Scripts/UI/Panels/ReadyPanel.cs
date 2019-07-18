@@ -166,19 +166,4 @@ public class ReadyPanel : UIPanel
 			m_MechUIPanels[lIndex].m_APanel.SetActive( !lEnable );
 		}
 	}
-
-	public override void OnTransitionIn()
-	{
-		base.OnTransitionIn();
-	}
-
-	public override void OnTransitionOut()
-	{
-		base.OnTransitionOut();
-	}
-
-	public override void OnTransition()
-	{
-		base.OnTransition();
-	}
 }

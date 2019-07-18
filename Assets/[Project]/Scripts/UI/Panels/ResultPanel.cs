@@ -35,19 +35,4 @@ public class ResultPanel : UIPanel
 			m_PodiumMechs[i].SetActive( false );
 		}
 	}
-
-	public override void OnTransitionIn()
-	{
-		base.OnTransitionIn();
-	}
-
-	public override void OnTransitionOut()
-	{
-		base.OnTransitionOut();
-	}
-
-	public override void OnTransition()
-	{
-		base.OnTransition();
-	}
 }

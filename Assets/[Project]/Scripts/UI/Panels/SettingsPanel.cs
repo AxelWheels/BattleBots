@@ -15,18 +15,4 @@ public class SettingsPanel : UIPanel
 	{
 		m_GameUI.SetActive( lValue );
 	}
-	public override void OnTransitionIn()
-	{
-		base.OnTransitionIn();
-	}
-
-	public override void OnTransitionOut()
-	{
-		base.OnTransitionOut();
-	}
-
-	public override void OnTransition()
-	{
-		base.OnTransition();
-	}
 }

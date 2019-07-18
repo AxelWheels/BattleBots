@@ -46,19 +46,4 @@ public class MenuPanel : UIPanel
 		CG.interactable = !lIn;
 		UIController.Instance.UIPanels[eUIPanel.Settings].CG.interactable = lIn;
 	}
-
-	public override void OnTransitionIn()
-	{
-		base.OnTransitionIn();
-	}
-
-	public override void OnTransitionOut()
-	{
-		base.OnTransitionOut();
-	}
-
-	public override void OnTransition()
-	{
-		base.OnTransition();
-	}
 }

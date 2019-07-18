@@ -49,21 +49,4 @@ public class GamePanel : UIPanel
 			m_TimerText.text = lMinutes + ":" + lSeconds;
 		}
 	}
-
-	public override void OnTransitionIn()
-	{
-		base.OnTransitionIn();
-	}
-
-	public override void OnTransitionOut()
-	{
-		base.OnTransitionOut();
-
-		m_Countdown.SetActive( false );
-	}
-
-	public override void OnTransition()
-	{
-		base.OnTransition();
-	}
 }
