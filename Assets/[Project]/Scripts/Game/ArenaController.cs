@@ -12,98 +12,98 @@ using UnityEngine.SceneManagement;
 
 public class ArenaController : SingletonManager<ArenaController>
 {
-	[SerializeField]
-	private SceneLoadData m_SceneLoadData;
+    [SerializeField]
+    private SceneLoadData m_SceneLoadData;
 
-	[SerializeField]
-	private SoundData m_GameSounds;
+    [SerializeField]
+    private SoundData m_GameSounds;
 
-	[SerializeField]
-	private List<SpawnPoint> m_SpawnPoints;
+    [SerializeField]
+    private List<SpawnPoint> m_SpawnPoints;
 
-	[SerializeField]
-	private string m_EnvironmentScene;
+    [SerializeField]
+    private string m_EnvironmentScene;
 
-	private SpawnPoint m_LastSpawnPoint;
+    private SpawnPoint m_LastSpawnPoint;
 
-	private string m_LoadedArena;
+    private string m_LoadedArena;
 
-	public delegate void ArenaLoad( string lArena );
-	public event ArenaLoad OnArenaLoad;
+    public delegate void ArenaLoad(string lArena);
+    public event ArenaLoad OnArenaLoad;
 
-	public List<SpawnPoint> SpawnPoints { get { return m_SpawnPoints; } }
+    public List<SpawnPoint> SpawnPoints { get { return m_SpawnPoints; } }
 
-	public SpawnPoint LastSpawn { get { return m_LastSpawnPoint; } set { m_LastSpawnPoint = value; } }
+    public SpawnPoint LastSpawn { get { return m_LastSpawnPoint; } set { m_LastSpawnPoint = value; } }
 
-	public string LoadedArena { get { return m_LoadedArena; } }
+    public string LoadedArena { get { return m_LoadedArena; } }
 
-	public SpawnPoint GetSpawnPoint()
-	{
-		SpawnPoint lRandomSpawnPoint = SpawnPoints[Random.Range( 0, SpawnPoints.Count )];
+    public SpawnPoint GetSpawnPoint()
+    {
+        SpawnPoint lRandomSpawnPoint = SpawnPoints[Random.Range(0, SpawnPoints.Count)];
 
-		if( lRandomSpawnPoint.Active )
-		{
-			lRandomSpawnPoint.Deactivate();
+        if (lRandomSpawnPoint.Active)
+        {
+            lRandomSpawnPoint.Deactivate();
 
-			return lRandomSpawnPoint;
-		}
-		else
-		{
-			return GetSpawnPoint();
-		}
-	}
+            return lRandomSpawnPoint;
+        }
+        else
+        {
+            return GetSpawnPoint();
+        }
+    }
 
-	public void LoadArena( string lArena )
-	{
-		UnloadArena();
+    public void LoadArena(string lArena)
+    {
+        UnloadArena();
 
-		AsyncLoadScene( lArena, LoadSceneMode.Additive );
+        AsyncLoadScene(lArena, LoadSceneMode.Additive);
 
-		m_LoadedArena = lArena;
-	}
+        m_LoadedArena = lArena;
+    }
 
-	public void UnloadArena()
-	{
-		m_SpawnPoints = new List<SpawnPoint>();
+    public void UnloadArena()
+    {
+        m_SpawnPoints = new List<SpawnPoint>();
 
-		//If we're loading a level for the first time, there will not be an arena loaded
-		if( m_LoadedArena != null )
-		{
-			SceneManager.UnloadSceneAsync( m_EnvironmentScene );
-			SceneManager.UnloadSceneAsync( m_LoadedArena );
+        //If we're loading a level for the first time, there will not be an arena loaded
+        if (m_LoadedArena != null)
+        {
+            SceneManager.UnloadSceneAsync(m_EnvironmentScene);
+            SceneManager.UnloadSceneAsync(m_LoadedArena);
 
-			m_LoadedArena = null;
-		}
-	}
+            m_LoadedArena = null;
+        }
+    }
 
-	private void AsyncLoadScene( string lScene, LoadSceneMode lMode )
-	{
-		StartCoroutine( LoadSceneCoroutine( lScene, lMode ) );
-	}
+    private void AsyncLoadScene(string lScene, LoadSceneMode lMode)
+    {
+        StartCoroutine(LoadSceneCoroutine(lScene, lMode));
+    }
 
-	private IEnumerator LoadSceneCoroutine( string lScene, LoadSceneMode lMode )
-	{
-		UIController.Instance.GetScreen( eUIPanel.Load ).Show();
+    private IEnumerator LoadSceneCoroutine(string lScene, LoadSceneMode lMode)
+    {
+        UIController.Instance.GetScreen(eUIPanel.Load).Show();
 
-		Application.backgroundLoadingPriority = ThreadPriority.Low;
+        Application.backgroundLoadingPriority = ThreadPriority.Low;
 
-		AsyncOperation lAsyncOperation = SceneManager.LoadSceneAsync( lScene, lMode );
+        AsyncOperation lAsyncOperation = SceneManager.LoadSceneAsync(lScene, lMode);
 
-		yield return lAsyncOperation;
+        yield return lAsyncOperation;
 
-		lAsyncOperation = SceneManager.LoadSceneAsync( m_EnvironmentScene, LoadSceneMode.Additive );
+        lAsyncOperation = SceneManager.LoadSceneAsync(m_EnvironmentScene, LoadSceneMode.Additive);
 
-		yield return lAsyncOperation;
+        yield return lAsyncOperation;
 
-		Application.backgroundLoadingPriority = ThreadPriority.Normal;
+        Application.backgroundLoadingPriority = ThreadPriority.Normal;
 
-		UIController.Instance.GetScreen( eUIPanel.Load ).Hide();
+        UIController.Instance.GetScreen(eUIPanel.Load).Hide();
 
-		if( OnArenaLoad != null )
-		{
-			OnArenaLoad( lScene );
-		}
+        if (OnArenaLoad != null)
+        {
+            OnArenaLoad(lScene);
+        }
 
-		SoundController.Instance.PlaySound( m_GameSounds.GetSound( "GameLoaded" ), Camera.main.transform, false, m_GameSounds.GetVolume( "GameLoaded" ) );
-	}
+        SoundController.Instance.PlaySound(m_GameSounds.GetSound("GameLoaded"), Camera.main.transform, false, m_GameSounds.GetVolume("GameLoaded"));
+    }
 }

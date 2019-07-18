@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
@@ -11,42 +9,42 @@ using UnityEngine.UI;
 /// 
 public class GamePanel : UIPanel
 {
-	[SerializeField]
-	private Text m_TimerText;
-	[SerializeField]
-	private GameObject m_TimerObject;
-	[SerializeField]
-	private GameObject m_Countdown;
-	[SerializeField]
-	private PlayerStatus[] m_Players;
+    [SerializeField]
+    private Text m_TimerText;
+    [SerializeField]
+    private GameObject m_TimerObject;
+    [SerializeField]
+    private GameObject m_Countdown;
+    [SerializeField]
+    private PlayerStatus[] m_Players;
 
-	public GameObject Countdown { get { return m_Countdown; } }
-	public PlayerStatus[] Players { get { return m_Players; } }
+    public GameObject Countdown { get { return m_Countdown; } }
+    public PlayerStatus[] Players { get { return m_Players; } }
 
-	private void Start()
-	{
-		MatchController.Instance.OnMatchStarted += OnMatchStarted;
-		MatchController.Instance.OnMatchEnded += OnMatchEnded;
-	}
+    private void Start()
+    {
+        MatchController.Instance.OnMatchStarted += OnMatchStarted;
+        MatchController.Instance.OnMatchEnded += OnMatchEnded;
+    }
 
-	private void OnMatchStarted( GameModeData lGameData )
-	{
-		m_TimerObject.SetActive( !lGameData.UnlimitedTime );
-	}
+    private void OnMatchStarted(GameModeData lGameData)
+    {
+        m_TimerObject.SetActive(!lGameData.UnlimitedTime);
+    }
 
-	private void OnMatchEnded()
-	{
-		m_TimerObject.SetActive( false );
-	}
+    private void OnMatchEnded()
+    {
+        m_TimerObject.SetActive(false);
+    }
 
-	private void Update()
-	{
-		if( MatchController.Instance.InProgress )
-		{
-			string lMinutes = ( Mathf.Floor( MatchController.Instance.TimeLeft / 60 ) ).ToString( "00" );
-			string lSeconds = ( Mathf.Floor( MatchController.Instance.TimeLeft % 60 ) ).ToString( "00" );
+    private void Update()
+    {
+        if (MatchController.Instance.InProgress)
+        {
+            string lMinutes = (Mathf.Floor(MatchController.Instance.TimeLeft / 60)).ToString("00");
+            string lSeconds = (Mathf.Floor(MatchController.Instance.TimeLeft % 60)).ToString("00");
 
-			m_TimerText.text = lMinutes + ":" + lSeconds;
-		}
-	}
+            m_TimerText.text = lMinutes + ":" + lSeconds;
+        }
+    }
 }

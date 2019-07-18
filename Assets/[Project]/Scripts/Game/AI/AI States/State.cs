@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-/// <summary>
+﻿/// <summary>
 /// Abstract class all player/AI states must inherit from.
 /// </summary>
 /// 
@@ -10,9 +6,9 @@ using UnityEngine;
 ///
 public abstract class State<T>
 {
-	public abstract void EnterState( T lOwner );
+    public abstract void EnterState(T lOwner);
 
-	public abstract void ExitState( T lOwner );
+    public abstract void ExitState(T lOwner);
 
-	public abstract void UpdateState( T lOwner );
+    public abstract void UpdateState(T lOwner);
 }

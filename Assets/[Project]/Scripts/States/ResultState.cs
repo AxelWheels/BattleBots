@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-/// <summary>
+﻿/// <summary>
 /// A class that controls the end of the gameplay phase and cleans up anything from the game so far so that it can be cleanly restarted
 /// </summary>
 /// 
@@ -11,25 +6,25 @@ using UnityEngine;
 ///
 public class ResultState : GameStateBase
 {
-	public override void PushState()
-	{
-		OnBegin();
-	}
+    public override void PushState()
+    {
+        OnBegin();
+    }
 
-	protected override void OnBegin()
-	{
-		base.OnBegin();
-		UIController.Instance.ChangePanel( eUIPanel.Results );
-		GameController.Instance.MenuBackground.SetActive( true );
-	}
+    protected override void OnBegin()
+    {
+        base.OnBegin();
+        UIController.Instance.ChangePanel(eUIPanel.Results);
+        GameController.Instance.MenuBackground.SetActive(true);
+    }
 
-	public override void PopState()
-	{
-		OnEnd();
-	}
+    public override void PopState()
+    {
+        OnEnd();
+    }
 
-	protected override void OnEnd()
-	{
-		base.OnEnd();
-	}
+    protected override void OnEnd()
+    {
+        base.OnEnd();
+    }
 }

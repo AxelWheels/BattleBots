@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
@@ -11,14 +9,14 @@ using UnityEngine.SceneManagement;
 /// 
 public class SplashController : MonoBehaviour
 {
-	[SerializeField]
-	private SceneLoadData m_SceneLoadData;
+    [SerializeField]
+    private SceneLoadData m_SceneLoadData;
 
-	private void Update()
-	{
-		if( Input.anyKeyDown )
-		{
-			SceneManager.LoadScene( m_SceneLoadData.StartSceneToLoad );
-		}
-	}
+    private void Update()
+    {
+        if (Input.anyKeyDown)
+        {
+            SceneManager.LoadScene(m_SceneLoadData.StartSceneToLoad);
+        }
+    }
 }

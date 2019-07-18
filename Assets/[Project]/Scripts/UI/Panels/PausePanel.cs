@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
+﻿using UnityEngine;
 
 /// <summary>
 /// A class that controls the pause menu UIPanel
@@ -12,36 +9,36 @@ using UnityEngine.EventSystems;
 
 public class PausePanel : UIPanel
 {
-	// Update is called once per frame
-	private void Update()
-	{
-		if( Input.GetButtonDown( "B_All" ) )
-		{
-			if( GameController.Instance.InSettings )
-			{
-				ToggleSettings( false );
-			}
-		}
+    // Update is called once per frame
+    private void Update()
+    {
+        if (Input.GetButtonDown("B_All"))
+        {
+            if (GameController.Instance.InSettings)
+            {
+                ToggleSettings(false);
+            }
+        }
 
-		CheckEventSystem();
-	}
+        CheckEventSystem();
+    }
 
-	public void ToggleSettings( bool lIn )
-	{
-		GameController.Instance.InSettings = lIn;
+    public void ToggleSettings(bool lIn)
+    {
+        GameController.Instance.InSettings = lIn;
 
-		if( lIn )
-		{
-			UIController.Instance.TransitionPanelIn( eUIPanel.Settings );
-			StartCoroutine( SetEventSystem( UIController.Instance.UIPanels[eUIPanel.Settings] ) );
-		}
-		else
-		{
-			UIController.Instance.TransitionPanelOut( eUIPanel.Settings );
-			StartCoroutine( SetEventSystem( this ) );
-		}
+        if (lIn)
+        {
+            UIController.Instance.TransitionPanelIn(eUIPanel.Settings);
+            StartCoroutine(SetEventSystem(UIController.Instance.UIPanels[eUIPanel.Settings]));
+        }
+        else
+        {
+            UIController.Instance.TransitionPanelOut(eUIPanel.Settings);
+            StartCoroutine(SetEventSystem(this));
+        }
 
-		CG.interactable = !lIn;
-		UIController.Instance.UIPanels[eUIPanel.Settings].CG.interactable = lIn;
-	}
+        CG.interactable = !lIn;
+        UIController.Instance.UIPanels[eUIPanel.Settings].CG.interactable = lIn;
+    }
 }
