@@ -7,11 +7,9 @@ public class AttackObject : MonoBehaviour
 	[SerializeField]
 	private AttackData m_AttackData;
 	[SerializeField]
-	private PooledObject m_HitEffect;
+	private GameObject m_HitEffect;
 	[SerializeField]
-	private PooledObject m_FireEffect;
-	[SerializeField]
-	private EffectObjectData m_AreaOfEffect;
+	private GameObject m_FireEffect;
 	[SerializeField]
 	private SoundData m_SoundData;
 
@@ -54,11 +52,6 @@ public class AttackObject : MonoBehaviour
 
 			Invoke( "RangedStartTime", m_AttackData.StartUpTime );
 		}
-
-		if( m_AreaOfEffect != null )
-		{
-			//EffectsController.Instance.PlayEffectAtPosition( m_AreaOfEffect, transform.position, Quaternion.Euler( Vector3.up ) );
-		}
 	}
 
 	private void Update()
@@ -70,7 +63,7 @@ public class AttackObject : MonoBehaviour
 
 		if( m_ActiveTime <= 0 )
 		{
-			if( m_AreaOfEffect != null )
+            if (true)//m_AreaOfEffect != null )
 			{
 				GetComponent<SphereCollider>().radius = 5f;
 				Destroy( gameObject );
@@ -158,18 +151,18 @@ public class AttackObject : MonoBehaviour
 				//Play Effects and Sound
 				if( m_HitEffect != null )
 				{
-					EffectsController.Instance.PlayEffectAtPosition( m_HitEffect.name, transform.position, Quaternion.Euler( Vector3.up ) );
+					//EffectsController.Instance.PlayEffectAtPosition( m_HitEffect.name, transform.position, Quaternion.Euler( Vector3.up ) );
 				}
 
 				PlayHitSound();
 
 				if( m_AttackData.ProjectileSpeed > 0 )
 				{
-					CameraShake.Instance.Shake( 0.1f, 10.0f, 0.5f );
+					//CameraShake.Instance.Shake( 0.1f, 10.0f, 0.5f );
 				}
 				else
 				{
-					CameraShake.Instance.Shake( 0.01f, 10.0f, 0.5f );
+					//CameraShake.Instance.Shake( 0.01f, 10.0f, 0.5f );
 				}
 
 				Vector3 lAttackDirection = m_OwnerCollider.transform.position - lPlayerController.transform.position;
@@ -223,7 +216,7 @@ public class AttackObject : MonoBehaviour
 
 			if( m_HitEffect != null && m_AttackData.AttackType != eAttackType.BombPlot )
 			{
-				EffectsController.Instance.PlayEffectAtPosition( m_HitEffect.name, transform.position, Quaternion.Euler( Vector3.up ) );
+				//EffectsController.Instance.PlayEffectAtPosition( m_HitEffect.name, transform.position, Quaternion.Euler( Vector3.up ) );
 			}
 		}
 	}
@@ -265,7 +258,7 @@ public class AttackObject : MonoBehaviour
 	public void DestroyAndExplode()
 	{
 		PlayHitSound();
-		EffectsController.Instance.PlayEffectAtPosition( m_HitEffect.name, transform.position, Quaternion.Euler( Vector3.up ) );
+		//EffectsController.Instance.PlayEffectAtPosition( m_HitEffect.name, transform.position, Quaternion.Euler( Vector3.up ) );
 		Destroy( gameObject, 0.1f );
 	}
 }

@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-using XInputDotNetPure;
 
 public class PlayerController : MonoBehaviour
 {
@@ -35,13 +34,13 @@ public class PlayerController : MonoBehaviour
 	private SoundData m_SoundData;
 
 	[SerializeField]
-	private PooledObject m_SpawnEffect;
+	private GameObject m_SpawnEffect;
 
 	[SerializeField]
-	private PooledObject m_MechExplosionEffect;
+	private GameObject m_MechExplosionEffect;
 
 	[SerializeField]
-	private PooledObject m_DeathEffect;
+	private GameObject m_DeathEffect;
 
 	[SerializeField]
 	private AudioMixerGroup m_MasterMixerGroup;
@@ -446,7 +445,7 @@ public class PlayerController : MonoBehaviour
 			CameraController.Instance.AddToGroup( transform, 1, 2.5f );
 
 			//Play Spawn effect
-			EffectsController.Instance.PlayEffectAtPosition( m_SpawnEffect.name, transform.position, Quaternion.identity );
+			//EffectsController.Instance.PlayEffectAtPosition( m_SpawnEffect.name, transform.position, Quaternion.identity );
 
 			if( MatchController.Instance.InProgress )
 				CanInput = true;
@@ -493,7 +492,7 @@ public class PlayerController : MonoBehaviour
 
 				TimeController.Instance.TryDampenTime();
 
-				CameraShake.Instance.Shake( 0.05f, 10.0f, 1.0f );
+				//CameraShake.Instance.Shake( 0.05f, 10.0f, 1.0f );
 
 				SwapCharacter( lToMech: false );
 
@@ -515,7 +514,7 @@ public class PlayerController : MonoBehaviour
 
 				VibrateController( 75.0f, 0.65f );
 
-				EffectsController.Instance.PlayEffectAtPosition( m_MechExplosionEffect.name, transform.position, Quaternion.identity );
+				//EffectsController.Instance.PlayEffectAtPosition( m_MechExplosionEffect.name, transform.position, Quaternion.identity );
 			}
 			else
 			{
@@ -581,13 +580,13 @@ public class PlayerController : MonoBehaviour
 		//Add to controller target group
 		CameraController.Instance.RemoveFromGroup( transform );
 
-		CameraShake.Instance.Shake( 0.10f, 10.0f, 1.0f );
+		//CameraShake.Instance.Shake( 0.10f, 10.0f, 1.0f );
 
 		if( m_SoundData != null )
 			SoundController.Instance.PlaySound( m_SoundData.GetSound( m_KillSound ), Camera.main.transform, false, 0.02f );
 
 		//Play Death effect
-		EffectsController.Instance.PlayEffectAtPosition( m_DeathEffect.name, transform.position, Quaternion.identity );
+		//EffectsController.Instance.PlayEffectAtPosition( m_DeathEffect.name, transform.position, Quaternion.identity );
 
 		VibrateController( 100.0f, 0.35f );
 
@@ -596,7 +595,7 @@ public class PlayerController : MonoBehaviour
 
 	private void OnCollisionEnter( Collision lCollision )
 	{
-		if( lCollision.gameObject.tag == StaticTags.KillPlane )
+		if( lCollision.gameObject.tag == "KillPlane" )
 		{
 			KillPlayer();
 		}
@@ -612,16 +611,16 @@ public class PlayerController : MonoBehaviour
 
 	public IEnumerator SetVibration( float lStrength, float lTime )
 	{
-		GamePad.SetVibration( (PlayerIndex)PlayerID, lStrength, lStrength );
+		//GamePad.SetVibration( (PlayerIndex)PlayerID, lStrength, lStrength );
 
 		yield return new WaitForSeconds( lTime );
 
-		GamePad.SetVibration( (PlayerIndex)PlayerID, 0.0f, 0.0f );
+		//GamePad.SetVibration( (PlayerIndex)PlayerID, 0.0f, 0.0f );
 	}
 
 	public void ResetVibration()
 	{
-		GamePad.SetVibration( (PlayerIndex)PlayerID, 0.0f, 0.0f );
+		//GamePad.SetVibration( (PlayerIndex)PlayerID, 0.0f, 0.0f );
 	}
 
 	public IEnumerator RemoveInput( float lTime )

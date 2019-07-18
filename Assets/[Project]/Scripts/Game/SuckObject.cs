@@ -5,7 +5,7 @@ using UnityEngine;
 public class SuckObject : MonoBehaviour
 {
 	[SerializeField]
-	private PooledObject m_SuckEffect;
+	private GameObject m_SuckEffect;
 
 	// Use this for initialization
 	[SerializeField]
@@ -25,8 +25,10 @@ public class SuckObject : MonoBehaviour
 
 	void Start()
 	{
-		if( m_SuckEffect != null )
-			EffectsController.Instance.PlayEffectAtPosition( m_SuckEffect.name, transform.position, Quaternion.identity );
+        if (m_SuckEffect != null)
+        {
+			//EffectsController.Instance.PlayEffectAtPosition( m_SuckEffect.name, transform.position, Quaternion.identity );
+        }
 	}
 
 	// Update is called once per frame

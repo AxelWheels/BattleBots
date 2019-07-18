@@ -8,8 +8,6 @@
 /// 
 public class MenuPanel : UIPanel
 {
-	[SerializeField] private Tweener m_SettingsTweener;
-
 	[SerializeField] private CanvasGroup m_MenuCanvasGroup;
 	[SerializeField] private CanvasGroup m_SettingsCanvasGroup;
 

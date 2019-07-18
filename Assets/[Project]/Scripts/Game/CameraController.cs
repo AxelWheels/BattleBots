@@ -19,26 +19,26 @@ public class CameraController : SingletonManager<CameraController>
 	[SerializeField]
 	private GameObject m_MainCam;
 
-	private CameraBehaviour m_ActiveCameraBehaviour;
+	private Camera m_ActiveCameraBehaviour;
 
-	public CameraBehaviour ActiveCamera { get { return m_ActiveCameraBehaviour; } }
+	public Camera ActiveCamera { get { return m_ActiveCameraBehaviour; } }
 	public GameObject MenuCam { get { return m_MenuCam; } }
 	public GameObject MainCam { get { return m_MainCam; } }
 
-	public void SetActiveCamera( CameraBehaviour lNewCamera )
+	public void SetActiveCamera( Camera lNewCamera )
 	{
 		if( lNewCamera != null )
 		{
 			if( m_ActiveCameraBehaviour != null )
 			{
-				//Turn off the top level object in the hierarchy of the current camera
-				m_ActiveCameraBehaviour.DisableCamera();
+                //Turn off the top level object in the hierarchy of the current camera
+                m_ActiveCameraBehaviour.enabled = false;
 			}
 
 			m_ActiveCameraBehaviour = lNewCamera;
 
-			//Turn on the new main camera at it's root (Should be disabled by default anyway)
-			m_ActiveCameraBehaviour.EnableCamera();
+            //Turn on the new main camera at it's root (Should be disabled by default anyway)
+            m_ActiveCameraBehaviour.enabled = true;
 		}
 		else
 		{

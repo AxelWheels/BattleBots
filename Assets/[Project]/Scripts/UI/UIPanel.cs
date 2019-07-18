@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-[RequireComponent( typeof( Tweener ) )]
 public class UIPanel : MonoBehaviour
 {
 	public delegate void UIPanelEvent( UIPanel lPanel );

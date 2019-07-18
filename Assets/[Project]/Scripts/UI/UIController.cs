@@ -68,22 +68,22 @@ public class UIController : SingletonManager<UIController>
 	public void TransitionPanelIn( int lUIPanelType )
 	{
 		m_CurrentPanel = (eUIPanel)lUIPanelType;
-		m_UIPanels[(eUIPanel)lUIPanelType].GetComponent<Tweener>().Play( false );
+		//m_UIPanels[(eUIPanel)lUIPanelType].GetComponent<Tweener>().Play( false );
 	}
 
 	public void TransitionPanelIn( eUIPanel lUIPanelType )
 	{
-		m_UIPanels[lUIPanelType].GetComponent<Tweener>().Play( false );
+		//m_UIPanels[lUIPanelType].GetComponent<Tweener>().Play( false );
 	}
 
 	public void TransitionPanelOut( int lUIPanelType )
 	{
-		m_UIPanels[(eUIPanel)lUIPanelType].GetComponent<Tweener>().Play( true );
+		//m_UIPanels[(eUIPanel)lUIPanelType].GetComponent<Tweener>().Play( true );
 	}
 
 	public void TransitionPanelOut( eUIPanel lUIPanelType )
 	{
-		m_UIPanels[lUIPanelType].GetComponent<Tweener>().Play( true );
+		//m_UIPanels[lUIPanelType].GetComponent<Tweener>().Play( true );
 	}
 
 	/// <summary>
@@ -97,13 +97,17 @@ public class UIController : SingletonManager<UIController>
 
 	public void ChangePanel( eUIPanel lUIPanelType )
 	{
-		m_UIPanels[m_CurrentPanel].GetComponent<Tweener>().Play( true );
+		//m_UIPanels[m_CurrentPanel].GetComponent<Tweener>().Play( true );
 
 		//If transition hold is true delay next transition by the duration of the first tweener
 		if( m_UIPanels[m_CurrentPanel].HoldTransition )
-			StartCoroutine( DelayTransition( m_UIPanels[(eUIPanel)m_CurrentPanel].GetComponent<Tweener>().Duration, (int)lUIPanelType ) );
+        {
+			//StartCoroutine( DelayTransition( m_UIPanels[(eUIPanel)m_CurrentPanel].GetComponent<Tweener>().Duration, (int)lUIPanelType ) );
+        }
 		else
-			m_UIPanels[lUIPanelType].GetComponent<Tweener>().Play( false );
+        {
+			//m_UIPanels[lUIPanelType].GetComponent<Tweener>().Play( false );
+        }
 
 		SoundController.Instance.PlaySound( m_UISoundData.GetSound( m_ChangePanelSound ), CameraController.Instance.MenuCam.transform, false, m_UISoundData.GetVolume( m_ChangePanelSound ) );
 
@@ -114,6 +118,6 @@ public class UIController : SingletonManager<UIController>
 	{
 		yield return new WaitForSecondsRealtime( time );
 
-		m_UIPanels[(eUIPanel)lUIPanelType].GetComponent<Tweener>().Play( false );
+		//m_UIPanels[(eUIPanel)lUIPanelType].GetComponent<Tweener>().Play( false );
 	}
 }
