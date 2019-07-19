@@ -4,54 +4,54 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    [SerializeField] private float m_TurnSpeed = 360f;
-    [SerializeField] private float m_RollPower = 12f;
-    [SerializeField] private float m_RocketPower = 10f;
-    [SerializeField] private float m_GroundCheckDistance;
+    [SerializeField] private float turnSpeed = 360f;
+    [SerializeField] private float rollPower = 12f;
+    [SerializeField] private float rocketPower = 10f;
+    [SerializeField] private float groundCheckDistance;
 
     [SerializeField, Range(1f, 100f)]
-    private float m_MoveSpeedMultiplier = 1f;
+    private float moveSpeedMultiplier = 1f;
 
     [SerializeField, Range(1f, 5f)]
-    private float m_AnimSpeedMultiplier = 1f;
+    private float animSpeedMultiplier = 1f;
 
-    private PlayerController m_PlayerController;
-    private Rigidbody m_Rigidbody;
-    private Animator m_Animator;
-    private CapsuleCollider m_Capsule;
-    private Vector3 m_GroundNormal;
-    private Vector3 m_DeltaPosition;
-    private Vector3 m_LastPosition = Vector3.zero;
+    private PlayerController playerController;
+    private Rigidbody rigidbody;
+    private Animator animator;
+    private CapsuleCollider capsule;
+    private Vector3 groundNormal;
+    private Vector3 deltaPosition;
+    private Vector3 lastPosition = Vector3.zero;
 
-    private float m_OrigGroundCheckDistance;
-    private float m_CapsuleHeight;
-    private bool m_Boosting;
+    private float origGroundCheckDistance;
+    private float capsuleHeight;
+    private bool boosting;
 
     #region Properties
 
     public PlayerController Controller { get; set; }
 
-    public bool Grounded { get { return Physics.Raycast(transform.position + Vector3.up * m_CapsuleHeight, Vector3.down, m_CapsuleHeight + m_GroundCheckDistance); } }
+    public bool Grounded { get { return Physics.Raycast(transform.position + Vector3.up * capsuleHeight, Vector3.down, capsuleHeight + groundCheckDistance); } }
 
-    public float TurnSpeed { get { return m_TurnSpeed; } }
-    public float RollPower { get { return m_RollPower; } }
-    public float RocketPower { get { return m_RocketPower; } }
-    public float MoveSpeedMultiplier { get { return m_MoveSpeedMultiplier; } set { m_MoveSpeedMultiplier = value; } }
-    public float AnimSpeedMultiplier { get { return m_AnimSpeedMultiplier; } }
-    public float GroundCheckDistance { get { return m_GroundCheckDistance; } }
-    public bool Boosting { get { return m_Boosting; } }
+    public float TurnSpeed { get { return turnSpeed; } }
+    public float RollPower { get { return rollPower; } }
+    public float RocketPower { get { return rocketPower; } }
+    public float MoveSpeedMultiplier { get { return moveSpeedMultiplier; } set { moveSpeedMultiplier = value; } }
+    public float AnimSpeedMultiplier { get { return animSpeedMultiplier; } }
+    public float GroundCheckDistance { get { return groundCheckDistance; } }
+    public bool Boosting { get { return boosting; } }
     #endregion
 
     private void Awake()
     {
-        m_Capsule = GetComponentInChildren<CapsuleCollider>();
+        capsule = GetComponentInChildren<CapsuleCollider>();
     }
 
     private void Start()
     {
-        m_PlayerController = GetComponent<PlayerController>();
-        m_Rigidbody = GetComponent<Rigidbody>();
-        m_CapsuleHeight = m_Capsule.bounds.extents.y * 0.5f;
+        playerController = GetComponent<PlayerController>();
+        rigidbody = GetComponent<Rigidbody>();
+        capsuleHeight = capsule.bounds.extents.y * 0.5f;
     }
 
     public void UpdateAnimator(Animator lAnimator, Vector3 lMove)
@@ -66,12 +66,12 @@ public class CharacterMovement : MonoBehaviour
         {
             Quaternion lDirectionRotation = Quaternion.LookRotation(lDirection, Vector3.up);
 
-            Vector3 lRelativeDirection = lDirectionRotation * (lDirection.magnitude * transform.forward * m_MoveSpeedMultiplier);
+            Vector3 lRelativeDirection = lDirectionRotation * (lDirection.magnitude * transform.forward * moveSpeedMultiplier);
 
-            m_Rigidbody.MovePosition(m_Rigidbody.position + lRelativeDirection * Time.fixedDeltaTime);
+            rigidbody.MovePosition(rigidbody.position + lRelativeDirection * Time.fixedDeltaTime);
 
             //Set the currently active mech/pilot to the same rotation as the PlayerController object
-            Controller.ActiveObject.transform.rotation = Quaternion.Slerp(Controller.ActiveObject.transform.rotation, lDirectionRotation, Time.fixedDeltaTime * m_TurnSpeed);
+            Controller.ActiveObject.transform.rotation = Quaternion.Slerp(Controller.ActiveObject.transform.rotation, lDirectionRotation, Time.fixedDeltaTime * turnSpeed);
 
             UpdateActiveObject();
         }
@@ -81,7 +81,7 @@ public class CharacterMovement : MonoBehaviour
 
     public void UpdateActiveObject()
     {
-        UpdateAnimator(Controller.Animator, m_Rigidbody.velocity);
+        UpdateAnimator(Controller.Animator, rigidbody.velocity);
         if (Controller.transform.localRotation != Quaternion.identity)
         {
             Controller.ActiveObject.transform.localRotation = Quaternion.identity;
@@ -90,15 +90,15 @@ public class CharacterMovement : MonoBehaviour
 
     private void DampenRigidbodyVelocity()
     {
-        if (m_Rigidbody.velocity.magnitude > Controller.MaxVelocity)
+        if (rigidbody.velocity.magnitude > Controller.MaxVelocity)
         {
-            Vector3 lAllowedVelocity = Vector3.ClampMagnitude(m_Rigidbody.velocity, Controller.MaxVelocity);
+            Vector3 lAllowedVelocity = Vector3.ClampMagnitude(rigidbody.velocity, Controller.MaxVelocity);
 
-            Vector3 lDampenedVelocity = m_Rigidbody.velocity - lAllowedVelocity;
+            Vector3 lDampenedVelocity = rigidbody.velocity - lAllowedVelocity;
 
             lDampenedVelocity *= Controller.VelocityDampening;
 
-            m_Rigidbody.velocity = lAllowedVelocity + lDampenedVelocity;
+            rigidbody.velocity = lAllowedVelocity + lDampenedVelocity;
         }
     }
 
@@ -106,7 +106,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if (Grounded)
         {
-            m_Rigidbody.AddForce(Controller.ActiveObject.transform.forward * RollPower, ForceMode.Impulse);
+            rigidbody.AddForce(Controller.ActiveObject.transform.forward * RollPower, ForceMode.Impulse);
             StartCoroutine(Invincible(Controller.InvincibilityData.DodgeTime));
         }
     }
@@ -124,10 +124,10 @@ public class CharacterMovement : MonoBehaviour
         }
 
         Controller.CanInput = false;
-        m_Rigidbody.AddForce((Controller.ActiveObject.transform.forward * RocketPower) + (Grounded ? Vector3.zero : (Controller.ActiveObject.transform.up * RocketPower)), ForceMode.VelocityChange);
+        rigidbody.AddForce((Controller.ActiveObject.transform.forward * RocketPower) + (Grounded ? Vector3.zero : (Controller.ActiveObject.transform.up * RocketPower)), ForceMode.VelocityChange);
         yield return new WaitForSeconds(lTime);
         Controller.CanInput = true;
-        m_Animator.SetTrigger("Landing");
+        animator.SetTrigger("Landing");
 
         yield return new WaitForSeconds(lTime);
 
@@ -172,25 +172,25 @@ public class CharacterMovement : MonoBehaviour
 
     public void UpdateData(CharacterData lData, GameObject lActiveObject)
     {
-        m_TurnSpeed = lData.TurnSpeed;
-        m_RollPower = lData.MobilityPower;
-        m_MoveSpeedMultiplier = lData.MoveSpeed;
+        turnSpeed = lData.TurnSpeed;
+        rollPower = lData.MobilityPower;
+        moveSpeedMultiplier = lData.MoveSpeed;
 
-        m_Animator = lActiveObject.GetComponentInChildren<Animator>();
-        m_Capsule = lActiveObject.GetComponent<CapsuleCollider>();
+        animator = lActiveObject.GetComponentInChildren<Animator>();
+        capsule = lActiveObject.GetComponent<CapsuleCollider>();
 
-        m_OrigGroundCheckDistance = lData.GroundCheckDistance;
+        origGroundCheckDistance = lData.GroundCheckDistance;
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawRay(transform.position + Vector3.up * m_CapsuleHeight, Vector3.down * (m_CapsuleHeight + m_GroundCheckDistance));
+        Gizmos.DrawRay(transform.position + Vector3.up * capsuleHeight, Vector3.down * (capsuleHeight + groundCheckDistance));
     }
 
     public IEnumerator ChangeMoveSpeedTemporarily(float lValue, float lSeconds)
     {
-        m_MoveSpeedMultiplier += lValue;
+        moveSpeedMultiplier += lValue;
         yield return new WaitForSeconds(lSeconds);
-        m_MoveSpeedMultiplier -= lValue;
+        moveSpeedMultiplier -= lValue;
     }
 }

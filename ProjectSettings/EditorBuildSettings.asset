@@ -38,4 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/[Project]/Scenes/Arenas/Boreas/Boreas.unity
     guid: 0641544cf7697a94b861355b9741ca9a
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 865ff781a02b94d4994d29cfaccab0a6,
+      type: 2}
