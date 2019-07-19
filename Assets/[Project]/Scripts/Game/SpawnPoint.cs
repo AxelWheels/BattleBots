@@ -9,12 +9,6 @@ public class SpawnPoint : MonoBehaviour
 
     public bool Active { get { return m_Active; } }
 
-    private void Awake()
-    {
-        ArenaController.Instance.SpawnPoints.Add(this);
-        //ArenaController.Instance.OnArenaLoad += OnArenaLoad;
-    }
-
     public void Deactivate()
     {
         m_Active = false;

@@ -45,7 +45,7 @@ public class PowerUp : MonoBehaviour
         {
             if (m_PowerUpData.BuffType == eBuffType.Heal)
             {
-                lOther.gameObject.GetComponentInParent<PlayerController>().ChangeHealth(null, m_PowerUpData.HealValue);
+
             }
             else
             {
@@ -66,26 +66,6 @@ public class PowerUp : MonoBehaviour
 
     public IEnumerator DurationTimer(float lSeconds, eBuffType lBuffType, Collider lOther)
     {
-        if (m_PowerUpData.BuffType == eBuffType.Speed)
-        {
-            //EffectsController.Instance.PlayEffectAtPosition( m_MoveSpeedEffect.name, lOther.transform.position, Quaternion.identity, Vector3.up, lOther.transform, m_PowerUpData.Duration );
-            lOther.gameObject.GetComponentInParent<CharacterMovement>().MoveSpeedMultiplier += m_PowerUpData.SpeedMultipler;
-            yield return new WaitForSeconds(lSeconds);
-            lOther.gameObject.GetComponentInParent<CharacterMovement>().MoveSpeedMultiplier -= m_PowerUpData.SpeedMultipler;
-        }
-        if (m_PowerUpData.BuffType == eBuffType.DamageUp)
-        {
-            //EffectsController.Instance.PlayEffectAtPosition( m_DamageUpEffect.name, lOther.transform.position, Quaternion.identity, Vector3.up, lOther.transform, m_PowerUpData.Duration );
-            lOther.gameObject.GetComponentInParent<PlayerController>().DamageMultiplier += m_PowerUpData.DamageUpMultiplier;
-            yield return new WaitForSeconds(lSeconds);
-            lOther.gameObject.GetComponentInParent<PlayerController>().DamageMultiplier -= m_PowerUpData.DamageUpMultiplier;
-        }
-        if (m_PowerUpData.BuffType == eBuffType.DamageReduction)
-        {
-            //EffectsController.Instance.PlayEffectAtPosition( m_DamageReductionEffect.name, lOther.transform.position, Quaternion.identity, Vector3.up, lOther.transform, m_PowerUpData.Duration );
-            lOther.gameObject.GetComponentInParent<PlayerController>().DamageReduction += m_PowerUpData.DamageReductionMultiplier;
-            yield return new WaitForSeconds(lSeconds);
-            lOther.gameObject.GetComponentInParent<PlayerController>().DamageReduction -= m_PowerUpData.DamageReductionMultiplier;
-        }
+		yield return null;
     }
 }
