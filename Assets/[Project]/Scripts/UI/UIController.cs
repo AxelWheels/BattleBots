@@ -25,7 +25,7 @@ public enum eUIPanel
     Settings
 }
 
-public class UIController : SingletonManager<UIController>
+public class UIController : MonoBehaviourSingleton<UIController>
 {
     public eUIPanel CurrentPanel
     {
