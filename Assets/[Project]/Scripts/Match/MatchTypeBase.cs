@@ -16,7 +16,7 @@ namespace BattleBots
 		[SerializeField] private float m_CountdownTime = 0;
 		[SerializeField] private float m_EndMatchTime = 0;
 
-		public GameModeData GameModeData { get; private set; }
+		public MatchSettings GameModeData { get; private set; }
 
 		public bool InProgress { get; private set; } = false;
 

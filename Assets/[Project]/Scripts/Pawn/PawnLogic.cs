@@ -5,22 +5,17 @@ namespace BattleBots
 {
     public abstract class PawnLogic : MonoBehaviour
     {
+        [SerializeField] public PlayerInput PlayerInput = null;
+
         [Header("Action Map")]
         [SerializeField] private string actionMapName = "";
         [SerializeField] private bool activateOnEnable = true;
-
-        protected PlayerInput playerInput = null;
-
-        protected virtual void Awake()
-        {
-            playerInput = GetComponentInParent<PlayerInput>();
-        }
 
         protected virtual void OnEnable()
         {
             if (!string.IsNullOrWhiteSpace(actionMapName) && activateOnEnable)
             {
-                playerInput.SwitchCurrentActionMap(actionMapName);
+                PlayerInput.SwitchCurrentActionMap(actionMapName);
             }
 
             RegisterActions();

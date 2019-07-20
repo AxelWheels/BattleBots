@@ -33,18 +33,18 @@ namespace BattleBots
 
         protected override void DeregisterActions()
         {
-            playerInput.actions.FindAction(move.name).performed -= Input_Move;
-            playerInput.actions.FindAction(move.name).canceled -= Input_Move;
+            PlayerInput.actions.FindAction(move.name).performed -= Input_Move;
+            PlayerInput.actions.FindAction(move.name).canceled -= Input_Move;
 
-            playerInput.actions.FindAction(shoot.name).performed += Input_Shoot;
+            PlayerInput.actions.FindAction(shoot.name).performed += Input_Shoot;
         }
 
         protected override void RegisterActions()
         {
-            playerInput.actions.FindAction(move.name).performed += Input_Move;
-            playerInput.actions.FindAction(move.name).canceled += Input_Move;
+            PlayerInput.actions.FindAction(move.name).performed += Input_Move;
+            PlayerInput.actions.FindAction(move.name).canceled += Input_Move;
 
-            playerInput.actions.FindAction(shoot.name).performed -= Input_Shoot;
+            PlayerInput.actions.FindAction(shoot.name).performed -= Input_Shoot;
         }
     }
 }
