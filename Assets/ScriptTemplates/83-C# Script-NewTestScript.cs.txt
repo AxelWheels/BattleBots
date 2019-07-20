@@ -1,0 +1,6 @@
+namespace BattleBots.Tests
+{
+    internal class #SCRIPTNAME#
+    {
+    }
+}
