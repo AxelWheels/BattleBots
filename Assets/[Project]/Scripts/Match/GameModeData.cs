@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "GameModeData.asset", menuName = "Onyx/Create GameModeData Object", order = 0)]
+[CreateAssetMenu(fileName = "GameModeData.asset", menuName = "Battle Bots/GameMode Data", order = 0)]
 public class GameModeData : ScriptableObject
 {
     [SerializeField]
