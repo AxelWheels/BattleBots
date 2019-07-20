@@ -2,18 +2,36 @@
 
 public class CameraSmoothFollow : MonoBehaviour
 {
-    [SerializeField]
-    private Transform m_Target;
+	[SerializeField] private Transform hostTransform;
+	[SerializeField] private Transform target;
+
+    public Transform Target { set { target = value; } }
 
     [SerializeField]
-    private float m_MoveSpeed = 1.0f;
+    private float moveSpeed = 1.0f;
 
     [SerializeField]
-    private float m_RotateSpeed = 1.0f;
+    private float rotateSpeed = 1.0f;
 
-    private void LateUpdate()
+	private void Start()
+	{
+		if (hostTransform == null)
+		{
+			hostTransform = this.transform;
+		}
+	}
+
+	private void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, m_Target.position, Time.deltaTime * m_MoveSpeed);
-        transform.rotation = Quaternion.Slerp(transform.rotation, m_Target.rotation, Time.deltaTime * m_RotateSpeed);
+		if (transform != null)
+		{
+			hostTransform.position = Vector3.Lerp(transform.position, target.position, Time.deltaTime * moveSpeed);
+			hostTransform.rotation = Quaternion.Slerp(transform.rotation, target.rotation, Time.deltaTime * rotateSpeed);
+		}
     }
+
+	private IEnumerator FixedTransition(Transform targetTransform)
+	{
+
+	}
 }
