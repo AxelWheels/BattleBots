@@ -12,19 +12,19 @@ EditorBuildSettings:
     path: Assets/[Project]/Scenes/Legacy/MainScene/MainScene.unity
     guid: efcc3f3d57a424c4ba94f03d52290617
   - enabled: 1
-    path: Assets/[Project]/Scenes/Legacy/Arenas/Prototypes/TestArena - T Shape.unity
+    path: Assets/[Project]/Scenes/Legacy/Arenas/Prototypes/T Shape.unity
     guid: 0d598057bc5783e4697d400815c7cf97
   - enabled: 1
     path: Assets/[Project]/Scenes/Legacy/Arenas/GreekSci-fi/GreekSci-fi.unity
     guid: 9664043f90f015c4faaac412a8f25a8d
   - enabled: 0
-    path: Assets/[Project]/Scenes/Legacy/Arenas/Prototypes/TestArena - Islands.unity
+    path: Assets/[Project]/Scenes/Legacy/Arenas/Prototypes/Islands.unity
     guid: ed6f5388dd2582c488d838a15881a3c0
   - enabled: 0
-    path: Assets/[Project]/Scenes/Legacy/Arenas/Prototypes/TestArena - Pool Table.unity
+    path: Assets/[Project]/Scenes/Legacy/Arenas/Prototypes/Pool Table.unity
     guid: b47a753b3dec90d41bb41d05c06d0b6c
   - enabled: 1
-    path: Assets/[Project]/Scenes/Legacy/Arenas/Prototypes/TestArena - Figure 8.unity
+    path: Assets/[Project]/Scenes/Legacy/Arenas/Prototypes/Figure 8.unity
     guid: ad43bfa1a6f540c4c925113d5d18beef
   - enabled: 1
     path: Assets/[Project]/Scenes/Legacy/Arenas/Tutorial/Tutorial.unity
