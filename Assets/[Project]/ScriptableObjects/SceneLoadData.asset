@@ -14,7 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startScene: LaunchScreen
   arenaScenes:
-  - Figure 8
-  - Islands
-  - Pool Table
-  - T Shape
+  - Development
