@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using System.Collections;
 public class CameraSmoothFollow : MonoBehaviour
 {
 	[SerializeField] private Transform hostTransform;
@@ -32,6 +32,6 @@ public class CameraSmoothFollow : MonoBehaviour
 
 	private IEnumerator FixedTransition(Transform targetTransform)
 	{
-
+        yield return new WaitForEndOfFrame();
 	}
 }
