@@ -29,21 +29,8 @@ public class MonoBehaviourSingleton<T> : MonoBehaviour where T : MonoBehaviour
 						Debug.LogError("There is more than one singleton in this scene");
 						return instance;
 					}
-
-					if(instance == null)
-					{
-						GameObject singleton = new GameObject();
-						instance = singleton.AddComponent<T>();
-						singleton.name = "Singleton " + typeof(T).ToString();
-
-						Debug.Log("Singleton needed so was created with DDOL");
-					}
-					else
-					{
-						Debug.LogError("Singleton already exists at " + instance.gameObject.name);
-					}
 				}
-				return Instance;
+				return instance;
 			}
 		}
 	}
@@ -52,6 +39,11 @@ public class MonoBehaviourSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
 	public virtual void Awake()
 	{
+		if (instance != null)
+		{
+			Destroy(this);
+		}
+
 		if (dontDestroyOnLoad)
 		{
 			DontDestroyOnLoad(gameObject);
