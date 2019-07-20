@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/[Hesketh]/InputActions.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/[Project]/Input/InputActions.inputactions'
 
 using System;
 using System.Collections;
