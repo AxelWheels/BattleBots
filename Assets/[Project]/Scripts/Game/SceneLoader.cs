@@ -21,7 +21,7 @@ namespace BattleBots
 
 		private IEnumerator LoadSceneCoroutine(string sceneName, LoadSceneMode sceneMode)
 		{
-			UIController.Instance.GetScreen(eUIPanel.Load).Show();
+			//UIController.Instance.GetScreen(eUIPanel.Load).Show();
 			Application.backgroundLoadingPriority = ThreadPriority.Low;
 			AsyncOperation lAsyncOperation = SceneManager.LoadSceneAsync(sceneName, sceneMode);
 
