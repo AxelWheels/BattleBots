@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class SoundController : SingletonManager<SoundController>
+public class SoundController : MonoBehaviourSingleton<SoundController>
 {
     [SerializeField]
     private AudioMixer m_MasterMixer;

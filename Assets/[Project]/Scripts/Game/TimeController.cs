@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class TimeController : SingletonManager<TimeController>
+public class TimeController : MonoBehaviourSingleton<TimeController>
 {
     [SerializeField]
     private AnimationCurve m_TimeDampCurve;
@@ -16,11 +16,6 @@ public class TimeController : SingletonManager<TimeController>
 
     private bool m_SlowTime = false;
 
-    private void Start()
-    {
-        GameController.Instance.OnGameStateChange += OnGameStateChange;
-    }
-
     private void OnGameStateChange(GameStateBase lState)
     {
         Time.timeScale = 1.0f;
@@ -28,19 +23,19 @@ public class TimeController : SingletonManager<TimeController>
 
     public void TryDampenTime()
     {
-        //if( !m_SlowTime )
-        //{
-        //	SoundController.Instance.PlaySound( m_SoundData.GetSound( m_SlowTimeSound ), Camera.main.transform, false, 0.02f);
+		if(!m_SlowTime)
+		{
+			SoundController.Instance.PlaySound(m_SoundData.GetSound(m_SlowTimeSound), Camera.main.transform, false, 0.02f);
 
-        //	//Just in case the coroutine is still running for some reason
-        //	if( m_DampenTimeRoutine != null && MatchController.Instance.InProgress )
-        //	{
-        //		StopCoroutine( m_DampenTimeRoutine );
-        //	}
+			//Just in case the coroutine is still running for some reason
+			if(m_DampenTimeRoutine != null)
+			{
+				StopCoroutine(m_DampenTimeRoutine);
+			}
 
-        //	m_DampenTimeRoutine = StartCoroutine( DampenTimeRoutine() );
-        //}
-    }
+			m_DampenTimeRoutine = StartCoroutine(DampenTimeRoutine());
+		}
+	}
 
     private IEnumerator DampenTimeRoutine()
     {

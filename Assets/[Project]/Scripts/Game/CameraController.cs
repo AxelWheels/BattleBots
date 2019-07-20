@@ -9,7 +9,7 @@ using UnityEngine;
 /// 
 /// Daniel Beard
 ///
-public class CameraController : SingletonManager<CameraController>
+public class CameraController : MonoBehaviourSingleton<CameraController>
 {
     [SerializeField]
     private CinemachineTargetGroup m_TargetGroup;

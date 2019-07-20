@@ -46,23 +46,6 @@ public class SuckObject : MonoBehaviour
 
     private void FixedUpdate()
     {
-        for (int i = 0; i < m_PlayersInRange.Count; i++)
-        {
-            if (m_PlayersInRange[i] != null)
-            {
-                if (m_PlayersInRange[i].GetComponent<PlayerController>().Dead)
-                {
-                    m_PlayersInRange.Remove(m_PlayersInRange[i]);
-                    i--;
-                }
-                else
-                {
-                    Vector3 lDirection = gameObject.transform.position - m_PlayersInRange[i].transform.position;
-                    Vector3 lPull = new Vector3(lDirection.x, 0, lDirection.z);
-                    m_PlayersInRange[i].AddForce(lPull * m_PullingPower);
-                }
-            }
-        }
 
     }
 
@@ -70,15 +53,7 @@ public class SuckObject : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            m_PlayersInRange.Add(other.GetComponentInParent<Rigidbody>());
-            if (!m_Permanent)
-            {
-                StartCoroutine(other.GetComponentInParent<PlayerController>().Detach(m_ActiveTime));
-            }
-            if (other != m_OwnerCollider)
-            {
-                other.GetComponentInParent<PlayerController>().ChangeHealth(m_OwnerCollider, 0);
-            }
+
         }
     }
 
@@ -86,14 +61,7 @@ public class SuckObject : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.GetComponentInParent<Rigidbody>().velocity = Vector3.zero;
-            m_PlayersInRange.Remove(other.GetComponentInParent<Rigidbody>());
-            other.GetComponentInParent<PlayerController>().ShouldDetach = false;
 
-            if (other != m_OwnerCollider)
-            {
-                other.GetComponentInParent<PlayerController>().ChangeHealth(m_OwnerCollider, 0);
-            }
         }
     }
 }
