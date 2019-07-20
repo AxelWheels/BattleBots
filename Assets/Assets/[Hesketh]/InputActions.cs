@@ -157,6 +157,17 @@ namespace BattleBots
                     ""processors"": """",
                     ""interactions"": """",
                     ""bindings"": []
+                },
+                {
+                    ""name"": ""Eject"",
+                    ""id"": ""49f66f63-92c2-4e18-bb0e-5b4b6141ec4e"",
+                    ""expectedControlLayout"": ""Button"",
+                    ""continuous"": false,
+                    ""passThrough"": false,
+                    ""initialStateCheck"": false,
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""bindings"": []
                 }
             ],
             ""bindings"": [
@@ -231,6 +242,30 @@ namespace BattleBots
                     ""isComposite"": false,
                     ""isPartOfComposite"": false,
                     ""modifiers"": """"
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ad89e0bb-1a0e-4b5e-84c6-2b8f95636b04"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard + Mouse"",
+                    ""action"": ""Eject"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false,
+                    ""modifiers"": """"
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""347759c7-b912-4ad0-bb29-3f22c2e3c076"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Controller"",
+                    ""action"": ""Eject"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false,
+                    ""modifiers"": """"
                 }
             ]
         }
@@ -274,6 +309,7 @@ namespace BattleBots
             // Mech
             m_Mech = asset.GetActionMap("Mech");
             m_Mech_Move = m_Mech.GetAction("Move");
+            m_Mech_Eject = m_Mech.GetAction("Eject");
         }
 
         ~InputActions()
@@ -375,11 +411,13 @@ namespace BattleBots
         private InputActionMap m_Mech;
         private IMechActions m_MechActionsCallbackInterface;
         private InputAction m_Mech_Move;
+        private InputAction m_Mech_Eject;
         public struct MechActions
         {
             private InputActions m_Wrapper;
             public MechActions(InputActions wrapper) { m_Wrapper = wrapper; }
             public InputAction @Move { get { return m_Wrapper.m_Mech_Move; } }
+            public InputAction @Eject { get { return m_Wrapper.m_Mech_Eject; } }
             public InputActionMap Get() { return m_Wrapper.m_Mech; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -393,6 +431,9 @@ namespace BattleBots
                     Move.started -= m_Wrapper.m_MechActionsCallbackInterface.OnMove;
                     Move.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnMove;
                     Move.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnMove;
+                    Eject.started -= m_Wrapper.m_MechActionsCallbackInterface.OnEject;
+                    Eject.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnEject;
+                    Eject.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnEject;
                 }
                 m_Wrapper.m_MechActionsCallbackInterface = instance;
                 if (instance != null)
@@ -400,6 +441,9 @@ namespace BattleBots
                     Move.started += instance.OnMove;
                     Move.performed += instance.OnMove;
                     Move.canceled += instance.OnMove;
+                    Eject.started += instance.OnEject;
+                    Eject.performed += instance.OnEject;
+                    Eject.canceled += instance.OnEject;
                 }
             }
         }
@@ -436,6 +480,7 @@ namespace BattleBots
         public interface IMechActions
         {
             void OnMove(InputAction.CallbackContext context);
+            void OnEject(InputAction.CallbackContext context);
         }
     }
 }

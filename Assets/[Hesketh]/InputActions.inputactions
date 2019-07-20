@@ -141,6 +141,17 @@
                     "processors": "",
                     "interactions": "",
                     "bindings": []
+                },
+                {
+                    "name": "Eject",
+                    "id": "49f66f63-92c2-4e18-bb0e-5b4b6141ec4e",
+                    "expectedControlLayout": "Button",
+                    "continuous": false,
+                    "passThrough": false,
+                    "initialStateCheck": false,
+                    "processors": "",
+                    "interactions": "",
+                    "bindings": []
                 }
             ],
             "bindings": [
@@ -212,6 +223,30 @@
                     "processors": "",
                     "groups": "Controller",
                     "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "id": "ad89e0bb-1a0e-4b5e-84c6-2b8f95636b04",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard + Mouse",
+                    "action": "Eject",
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "id": "347759c7-b912-4ad0-bb29-3f22c2e3c076",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Eject",
                     "isComposite": false,
                     "isPartOfComposite": false,
                     "modifiers": ""

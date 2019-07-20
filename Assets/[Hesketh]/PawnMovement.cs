@@ -1,10 +1,10 @@
 ﻿using KinematicCharacterController;
 using UnityEngine;
-using System.Collections;
 
 namespace BattleBots
 {
     [RequireComponent(typeof(KinematicCharacterMotor))]
+    [RequireComponent(typeof(PawnLogic))]
     public class PawnMovement : MonoBehaviour, ICharacterController
     {
         [Header("Speed")]

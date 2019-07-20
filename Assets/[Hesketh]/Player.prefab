@@ -6240,13 +6240,14 @@ GameObject:
   - component: {fileID: 1330381999302326980}
   - component: {fileID: 8378820324880736892}
   - component: {fileID: 4231977354713905528}
+  - component: {fileID: 3130245691936864474}
   m_Layer: 9
   m_Name: Mech
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4229166012594935740
 Transform:
   m_ObjectHideFlags: 0
@@ -6259,6 +6260,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4229024405749999276}
+  - {fileID: 5189369930544959988}
   m_Father: {fileID: 4163406437211184364}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6378,7 +6380,28 @@ MonoBehaviour:
   actionMapName: Mech
   activateOnEnable: 1
   pawnMovement: {fileID: 8378820324880736892}
+  mechEjection: {fileID: 3130245691936864474}
   move: {fileID: -3635016171216956583, guid: cefa677548cd9b943b21a00ec32e2513, type: 3}
+  eject: {fileID: 4701079246316736840, guid: cefa677548cd9b943b21a00ec32e2513, type: 3}
+--- !u!114 &3130245691936864474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231977354713905530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b4ca672ee1c654dbb2ab58aebae322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 4317497809028395760}
+  ejectTriggerParam: MechReturn
+  ejectNormalizedTime: 0.4
+  pilot: {fileID: 7470390509213345280}
+  pilotEjectionLocation: {fileID: 5189369930544959988}
+  ejectionForce: 200
+  ejectTriggerParamHash: 1777802957
 --- !u!1 &4231980580750527306
 GameObject:
   m_ObjectHideFlags: 0
@@ -18614,6 +18637,36 @@ Transform:
   m_Father: {fileID: 6158546685727076139}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7678532524815683248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5189369930544959988}
+  m_Layer: 9
+  m_Name: Mech Ejection Location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5189369930544959988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678532524815683248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.432, z: -0.622}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4229166012594935740}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8265389929651617807
 GameObject:
   m_ObjectHideFlags: 0
@@ -18635,7 +18688,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7470390509213345280
 Transform:
   m_ObjectHideFlags: 0
