@@ -2,57 +2,57 @@
 
 public class MonoBehaviourSingleton<T> : MonoBehaviour where T : MonoBehaviour
 {
-    private static T m_Instance;
+	[SerializeField] protected bool dontDestroyOnLoad = false;
 
-    private static object m_Lock = new object();
+	private static T instance;
 
-    public static T Instance
-    {
-        get
-        {
-            if (isQuitting)
-            {
-                Debug.LogWarning("Instance already created of " + typeof(T) + ", returning null.");
-                return null;
-            }
+	private static object m_Lock = new object();
 
-            lock (m_Lock)
-            {
-                if (m_Instance == null)
-                {
-                    m_Instance = (T)FindObjectOfType(typeof(T));
+	public static T Instance
+	{
+		get
+		{
+			if(isQuitting)
+			{
+				Debug.LogWarning("Instance already created of " + typeof(T) + ", returning null.");
+				return null;
+			}
 
-                    if (FindObjectsOfType(typeof(T)).Length > 1)
-                    {
-                        Debug.LogError("Major error, there's more than one Singleton in this project. Quit/Reopen should fix.");
-                        return m_Instance;
-                    }
+			lock(m_Lock)
+			{
+				if(instance == null)
+				{
+					instance = (T)FindObjectOfType(typeof(T));
 
-                    if (m_Instance == null)
-                    {
-                        GameObject singleton = new GameObject();
-                        m_Instance = singleton.AddComponent<T>();
-                        singleton.name = "Singleton " + typeof(T).ToString();
+					if(FindObjectsOfType(typeof(T)).Length > 1)
+					{
+						Debug.LogError("There is more than one singleton in this scene");
+						return instance;
+					}
+				}
+				return instance;
+			}
+		}
+	}
 
-                        DontDestroyOnLoad(singleton);
+	protected static bool isQuitting = false;
 
-                        Debug.Log("Singleton needed so was created with DDOL");
-                    }
-                    else
-                    {
-                        //Debug.Log( "Singleton already exists at " + m_Instance.gameObject.name );
-                    }
-                }
-                return m_Instance;
-            }
-        }
-    }
+	public virtual void Awake()
+	{
+		if (instance != null)
+		{
+			Destroy(this);
+		}
 
-    private static bool isQuitting = false;
+		if (dontDestroyOnLoad)
+		{
+			DontDestroyOnLoad(gameObject);
+		}
+	}
 
-    public void OnDestroy()
-    {
-        isQuitting = true;
-    }
+	public virtual void OnDestroy()
+	{
+		isQuitting = true;
+	}
 
 }

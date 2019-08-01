@@ -1,0 +1,8 @@
+using UnityEngine;
+
+namespace BattleBots
+{
+	internal class #SCRIPTNAME# : StateMachineBehaviour
+	{
+	}
+}
