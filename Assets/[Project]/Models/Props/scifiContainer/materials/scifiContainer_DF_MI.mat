@@ -4,16 +4,18 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: scifiContainer_DF_MI
-  m_Shader: {fileID: 4800000, guid: 5313181c991755a40bbcf61705ab3828, type: 3}
-  m_ShaderKeywords: _EMISSIVECOLOUR_ON
+  m_Shader: {fileID: 4800000, guid: 0ca6dca7396eb48e5849247ffd444914, type: 3}
+  m_ShaderKeywords: _EMISSION _NORMALMAP
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2050
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -30,8 +32,12 @@ Material:
         m_Texture: {fileID: 2800000, guid: a68d46a4d295b9b47a368c4b8b63ec74, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 61d0df531a13f9f4886575234a507d73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 16d12df2f2c0fc64691a31c309318086, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColourMask:
@@ -96,10 +102,13 @@ Material:
     - _ALBSaturation: 1
     - _AOAmount: 3.12
     - _AOContrast: -0.58
+    - _AlphaClip: 0
+    - _Blend: 0
     - _BumpScale: 1
     - _ColourBrightness: 2.14
     - _ColourMaskSwitch: 0
     - _ColourSaturation: 0.42
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNRMIntensity: 1
     - _DetailNormalMapScale: 1
@@ -124,14 +133,30 @@ Material:
     - _NRMIntensity: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueOffset: 0
     - _RGHAmount: 0.96
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Surface: 0
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DirtColour: {r: 0.25735295, g: 0.14726004, b: 0.047307525, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &8467397930001258607
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
