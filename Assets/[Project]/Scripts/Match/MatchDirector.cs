@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine.InputSystem.Plugins.PlayerInput;
+using UnityEngine.InputSystem;
 
 namespace BattleBots
 {
@@ -31,11 +31,6 @@ namespace BattleBots
             foreach (PlayerInput player in players)
             {
                 GameObject instance = Instantiate(pawn, spawnPoints[(int)Mathf.Repeat(spawnPointIndex, spawnPoints.Length)].transform.position, spawnPoints[(int)Mathf.Repeat(spawnPointIndex, spawnPoints.Length)].transform.rotation);
-                PawnLogic[] pawnLogics = instance.GetComponentsInChildren<PawnLogic>(true);
-                foreach (PawnLogic logic in pawnLogics)
-                {
-                    logic.PlayerInput = player;
-                }
 
                 pawns.Add(instance);
 

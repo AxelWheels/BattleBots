@@ -6,7 +6,7 @@ namespace BattleBots.Utility
 {
 	internal class MeshColliderManagerEditor : EditorWindow
 	{
-		[MenuItem("Utility/Collider/All Mesh to Box Collider")]
+		[MenuItem("Tools/Custom/Collider Management/All Mesh to Box Collider")]
 		private static void MeshToBoxCollider()
 		{
 			GameObject[] rootObjects = SceneManager.GetActiveScene().GetRootGameObjects();
@@ -31,7 +31,7 @@ namespace BattleBots.Utility
 			}
 		}
 
-		[MenuItem("Utility/Collider/Mesh Collider Manager")]
+		[MenuItem("Tools/Custom/Collider Management/Mesh Collider Manager")]
 		private static void MeshColliderManagerWindow()
 		{
 			GetWindow(typeof(MeshColliderManagerEditor));
