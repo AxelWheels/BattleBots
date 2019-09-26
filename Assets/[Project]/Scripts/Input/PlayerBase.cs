@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 using KinematicCharacterController;
+using UnityEngine.InputSystem;
 
 namespace BattleBots
 {
 	public abstract class PlayerBase: MonoBehaviour, ICharacterController
 	{
-		[SerializeField] protected Vector2 movementInput = Vector2.zero;
-
 		[SerializeField] protected float movementSpeed = 500f;
 		[SerializeField] protected float airMovementSpeed = 300f;
 		[SerializeField] protected float turnSpeed = 12f;
@@ -15,10 +14,12 @@ namespace BattleBots
 
 		protected Vector3 accumulatedGravity = Vector3.zero;
 
+		protected Vector2 movementInput = Vector2.zero;
+
 		protected int health = 100;
 
-		public abstract void Movement();
-		public abstract void Dash();
+		public abstract void Movement(InputAction.CallbackContext context);
+		public abstract void Dash(InputAction.CallbackContext context);
 
 		/// <summary>
 		/// Apply damage to a player

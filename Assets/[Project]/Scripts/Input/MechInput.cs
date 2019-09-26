@@ -6,25 +6,27 @@ namespace BattleBots
 {
 	internal class MechInput : MonoBehaviour, InputActions.IMechActions
 	{
-		[Header("Speed")]
-		[SerializeField] private float moveSpeed = 10.0f;
-		[SerializeField] private float airMoveMultiplier = 0.75f;
-		[SerializeField] private float turnSpeed = 12.0f;
-
-		[Header("Components")]
-		[SerializeField] private Animator animator = null;
-
 		private InputActions inputActions;
 
 		private Vector2 movementInput = Vector2.zero;
+
+		public delegate void InputCallback(InputAction.CallbackContext context);
+
+		public InputCallback Move;
+		public InputCallback Dash;
+		public InputCallback LightAttack;
+		public InputCallback HeavyAttack;
+		public InputCallback Shoot;
+		public InputCallback Block;
+
+
+		public Vector2 MovementInput => movementInput;
 
 		private void Awake()
 		{
 			inputActions = new InputActions();
 			inputActions.Mech.SetCallbacks(this);
 		}
-
-
 
 		private void OnEnable()
 		{
@@ -46,31 +48,37 @@ namespace BattleBots
 		public void OnMovement(InputAction.CallbackContext context)
 		{
 			Debug.Log("Movement");
+			Move?.Invoke(context);
 		}
 
 		public void OnLightAttack(InputAction.CallbackContext context)
 		{
 			Debug.Log("LightAttack");
+			LightAttack?.Invoke(context);
 		}
 
 		public void OnShoot(InputAction.CallbackContext context)
 		{
 			Debug.Log("Shoot");
+			Shoot?.Invoke(context);
 		}
 
 		public void OnDash(InputAction.CallbackContext context)
 		{
 			Debug.Log("Dash");
+			Dash?.Invoke(context);
 		}
 
 		public void OnHeavyAttack(InputAction.CallbackContext context)
 		{
 			Debug.Log("HeavyAttack");
+			HeavyAttack?.Invoke(context);
 		}
 
 		public void OnBlock(InputAction.CallbackContext context)
 		{
 			Debug.Log("Block");
+			Block?.Invoke(context);
 		}
 	}
 }

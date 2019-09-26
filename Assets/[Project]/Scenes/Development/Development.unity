@@ -401,10 +401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e67fd40f5036a649a15c92c15354356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 200
-  airMoveMultiplier: 0.75
-  turnSpeed: 12
-  animator: {fileID: 0}
 --- !u!114 &138976573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1134,6 +1130,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6986908829199465995, guid: cb6865a327b0bac4e97a1151538db25c,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 038c60601cc934f478cdf0dd7f1cc352, type: 3}
     - target: {fileID: 2483201586353511589, guid: cb6865a327b0bac4e97a1151538db25c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6507,6 +6508,108 @@ Transform:
   m_Father: {fileID: 1682581916}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1567164327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1429771495762873392, guid: cb6865a327b0bac4e97a1151538db25c,
+    type: 3}
+  m_PrefabInstance: {fileID: 599456114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1567164328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567164327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a4499f5dd18a84fba27fb469430ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Capsule: {fileID: 1567164329}
+  CapsuleRadius: 0.5
+  CapsuleHeight: 2
+  CapsuleYOffset: 1
+  CapsulePhysicsMaterial: {fileID: 0}
+  GroundDetectionExtraDistance: 0
+  MaxStableSlopeAngle: 60
+  StableGroundLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  DiscreteCollisionEvents: 0
+  StepHandling: 1
+  MaxStepHeight: 0.5
+  AllowSteppingWithoutStableGrounding: 0
+  MinRequiredStepDepth: 0.1
+  LedgeAndDenivelationHandling: 1
+  MaxStableDistanceFromLedge: 0.5
+  MaxVelocityForLedgeSnap: 0
+  MaxStableDenivelationAngle: 180
+  InteractiveRigidbodyHandling: 1
+  RigidbodyInteractionType: 0
+  PreserveAttachedRigidbodyMomentum: 1
+  HasPlanarConstraint: 0
+  PlanarConstraintAxis: {x: 0, y: 0, z: 1}
+--- !u!136 &1567164329
+CapsuleCollider:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567164327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1567164330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567164327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae75fdb29d198646a545afc8ade31c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 500
+  airMovementSpeed: 300
+  turnSpeed: 12
+--- !u!114 &1567164331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567164327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e67fd40f5036a649a15c92c15354356, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1567164332 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6986908829199465995, guid: cb6865a327b0bac4e97a1151538db25c,
+    type: 3}
+  m_PrefabInstance: {fileID: 599456114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1567164333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567164327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f784b325191ec2a44bdbebe6c3763e3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatorComponent: {fileID: 1567164332}
 --- !u!1 &1682581915
 GameObject:
   m_ObjectHideFlags: 0
