@@ -4,7 +4,7 @@ using KinematicCharacterController;
 
 namespace BattleBots
 {
-	internal class MechInput : MonoBehaviour, InputActions.IMechActions, ICharacterController
+	internal class MechInput : MonoBehaviour, InputActions.IMechActions
 	{
 		[Header("Speed")]
 		[SerializeField] private float moveSpeed = 10.0f;
@@ -16,24 +16,15 @@ namespace BattleBots
 
 		private InputActions inputActions;
 
-		private KinematicCharacterMotor motor = null;
-
-		private Vector3 accumulatedGravity = Vector3.zero;
-
 		private Vector2 movementInput = Vector2.zero;
 
 		private void Awake()
 		{
-			motor = GetComponent<KinematicCharacterMotor>();
-
 			inputActions = new InputActions();
 			inputActions.Mech.SetCallbacks(this);
 		}
 
-		private void Start()
-		{
-			motor.CharacterController = this;
-		}
+
 
 		private void OnEnable()
 		{
@@ -72,51 +63,14 @@ namespace BattleBots
 			Debug.Log("Dash");
 		}
 
-		public void UpdateRotation(ref Quaternion currentRotation, float deltaTime)
+		public void OnHeavyAttack(InputAction.CallbackContext context)
 		{
-			if (movementInput.sqrMagnitude > 0f)
-			{
-				currentRotation = Quaternion.Slerp(currentRotation, Quaternion.LookRotation(new Vector3(movementInput.x, 0f, movementInput.y), Vector3.up), deltaTime * turnSpeed);
-			}
+			Debug.Log("HeavyAttack");
 		}
 
-		public void UpdateVelocity(ref Vector3 currentVelocity, float deltaTime)
+		public void OnBlock(InputAction.CallbackContext context)
 		{
-			currentVelocity.x = movementInput.x * moveSpeed;
-			currentVelocity.z = movementInput.y * moveSpeed;
-		}
-
-		public void BeforeCharacterUpdate(float deltaTime)
-		{
-		}
-
-		public void PostGroundingUpdate(float deltaTime)
-		{
-		}
-
-		public void AfterCharacterUpdate(float deltaTime)
-		{
-		}
-
-		public bool IsColliderValidForCollisions(Collider coll)
-		{
-			return true;
-		}
-
-		public void OnGroundHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
-		{
-		}
-
-		public void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
-		{
-		}
-
-		public void ProcessHitStabilityReport(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, Vector3 atCharacterPosition, Quaternion atCharacterRotation, ref HitStabilityReport hitStabilityReport)
-		{
-		}
-
-		public void OnDiscreteCollisionDetected(Collider hitCollider)
-		{
+			Debug.Log("Block");
 		}
 	}
 }

@@ -22,6 +22,14 @@
                     "interactions": ""
                 },
                 {
+                    "name": "Heavy Attack",
+                    "type": "Button",
+                    "id": "9dcec7b3-528f-4edb-8537-fd89165919d4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Shoot",
                     "type": "Button",
                     "id": "dfce95c4-887b-4f1f-a6c3-1f18aae0f0a8",
@@ -33,6 +41,14 @@
                     "name": "Dash",
                     "type": "Button",
                     "id": "89bb81fb-0cbe-4278-87d6-b960fd40047a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Block",
+                    "type": "Button",
+                    "id": "9fc7d727-7560-4554-9af9-c829b8cc2354",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
@@ -212,6 +228,50 @@
                     "processors": "",
                     "groups": "",
                     "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b0a23228-cbd3-4d93-bc52-666d412329d9",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Heavy Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f2d4b524-61af-4eab-b9e2-e2cc671479e3",
+                    "path": "<Keyboard>/p",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Heavy Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ecd2d2c1-3eb6-4979-9d35-fd57ebbf626c",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Block",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4298783-11ce-4dd7-97e9-894c76deaf97",
+                    "path": "<Keyboard>/o",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Block",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

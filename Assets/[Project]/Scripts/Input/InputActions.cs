@@ -36,6 +36,14 @@ namespace BattleBots
                     ""interactions"": """"
                 },
                 {
+                    ""name"": ""Heavy Attack"",
+                    ""type"": ""Button"",
+                    ""id"": ""9dcec7b3-528f-4edb-8537-fd89165919d4"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
                     ""name"": ""Shoot"",
                     ""type"": ""Button"",
                     ""id"": ""dfce95c4-887b-4f1f-a6c3-1f18aae0f0a8"",
@@ -47,6 +55,14 @@ namespace BattleBots
                     ""name"": ""Dash"",
                     ""type"": ""Button"",
                     ""id"": ""89bb81fb-0cbe-4278-87d6-b960fd40047a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Block"",
+                    ""type"": ""Button"",
+                    ""id"": ""9fc7d727-7560-4554-9af9-c829b8cc2354"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
@@ -228,6 +244,50 @@ namespace BattleBots
                     ""action"": ""Dash"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b0a23228-cbd3-4d93-bc52-666d412329d9"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": ""Tap"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Heavy Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f2d4b524-61af-4eab-b9e2-e2cc671479e3"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": ""Tap"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Heavy Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ecd2d2c1-3eb6-4979-9d35-fd57ebbf626c"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Block"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f4298783-11ce-4dd7-97e9-894c76deaf97"",
+                    ""path"": ""<Keyboard>/o"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Block"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -265,8 +325,10 @@ namespace BattleBots
             m_Mech = asset.FindActionMap("Mech", throwIfNotFound: true);
             m_Mech_Movement = m_Mech.FindAction("Movement", throwIfNotFound: true);
             m_Mech_LightAttack = m_Mech.FindAction("LightAttack", throwIfNotFound: true);
+            m_Mech_HeavyAttack = m_Mech.FindAction("Heavy Attack", throwIfNotFound: true);
             m_Mech_Shoot = m_Mech.FindAction("Shoot", throwIfNotFound: true);
             m_Mech_Dash = m_Mech.FindAction("Dash", throwIfNotFound: true);
+            m_Mech_Block = m_Mech.FindAction("Block", throwIfNotFound: true);
             // Pilot
             m_Pilot = asset.FindActionMap("Pilot", throwIfNotFound: true);
             m_Pilot_Newaction = m_Pilot.FindAction("New action", throwIfNotFound: true);
@@ -321,16 +383,20 @@ namespace BattleBots
         private IMechActions m_MechActionsCallbackInterface;
         private readonly InputAction m_Mech_Movement;
         private readonly InputAction m_Mech_LightAttack;
+        private readonly InputAction m_Mech_HeavyAttack;
         private readonly InputAction m_Mech_Shoot;
         private readonly InputAction m_Mech_Dash;
+        private readonly InputAction m_Mech_Block;
         public struct MechActions
         {
             private InputActions m_Wrapper;
             public MechActions(InputActions wrapper) { m_Wrapper = wrapper; }
             public InputAction @Movement => m_Wrapper.m_Mech_Movement;
             public InputAction @LightAttack => m_Wrapper.m_Mech_LightAttack;
+            public InputAction @HeavyAttack => m_Wrapper.m_Mech_HeavyAttack;
             public InputAction @Shoot => m_Wrapper.m_Mech_Shoot;
             public InputAction @Dash => m_Wrapper.m_Mech_Dash;
+            public InputAction @Block => m_Wrapper.m_Mech_Block;
             public InputActionMap Get() { return m_Wrapper.m_Mech; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -346,12 +412,18 @@ namespace BattleBots
                     LightAttack.started -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
                     LightAttack.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
                     LightAttack.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
+                    HeavyAttack.started -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
+                    HeavyAttack.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
+                    HeavyAttack.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
                     Shoot.started -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
                     Shoot.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
                     Shoot.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
                     Dash.started -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
                     Dash.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
                     Dash.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
+                    Block.started -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
+                    Block.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
+                    Block.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
                 }
                 m_Wrapper.m_MechActionsCallbackInterface = instance;
                 if (instance != null)
@@ -362,12 +434,18 @@ namespace BattleBots
                     LightAttack.started += instance.OnLightAttack;
                     LightAttack.performed += instance.OnLightAttack;
                     LightAttack.canceled += instance.OnLightAttack;
+                    HeavyAttack.started += instance.OnHeavyAttack;
+                    HeavyAttack.performed += instance.OnHeavyAttack;
+                    HeavyAttack.canceled += instance.OnHeavyAttack;
                     Shoot.started += instance.OnShoot;
                     Shoot.performed += instance.OnShoot;
                     Shoot.canceled += instance.OnShoot;
                     Dash.started += instance.OnDash;
                     Dash.performed += instance.OnDash;
                     Dash.canceled += instance.OnDash;
+                    Block.started += instance.OnBlock;
+                    Block.performed += instance.OnBlock;
+                    Block.canceled += instance.OnBlock;
                 }
             }
         }
@@ -409,8 +487,10 @@ namespace BattleBots
         {
             void OnMovement(InputAction.CallbackContext context);
             void OnLightAttack(InputAction.CallbackContext context);
+            void OnHeavyAttack(InputAction.CallbackContext context);
             void OnShoot(InputAction.CallbackContext context);
             void OnDash(InputAction.CallbackContext context);
+            void OnBlock(InputAction.CallbackContext context);
         }
         public interface IPilotActions
         {
