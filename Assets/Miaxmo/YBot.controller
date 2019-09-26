@@ -284,7 +284,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Blocking
     m_StateMachine: {fileID: -7665366346022593748}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: 567246f1f8517cf4496c98f4dbaa1ce2, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -296,7 +296,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Dashing
     m_StateMachine: {fileID: 2807916349876886960}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: 86319ba3153d6bb4c9b8ea4e67ccda89, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
