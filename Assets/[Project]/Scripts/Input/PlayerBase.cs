@@ -18,6 +18,8 @@ namespace BattleBots
 
 		protected int health = 100;
 
+		protected float healthModifier = 1f;
+
 		public abstract void Movement(InputAction.CallbackContext context);
 		public abstract void Dash(InputAction.CallbackContext context);
 
@@ -27,7 +29,12 @@ namespace BattleBots
 		/// <param name="damage">Damage to be dealt</param>
 		public virtual void TakeDamage(int damage)
 		{
-			health = Mathf.Max(0, health - damage);
+			health = Mathf.Max(0, health - (int)(damage * healthModifier));
+		}
+
+		public virtual void AdjustHealthModifier(float adjustment)
+		{
+			healthModifier += adjustment;
 		}
 
 		protected virtual void Awake()

@@ -19,7 +19,6 @@ namespace BattleBots
 		public InputCallback Shoot;
 		public InputCallback Block;
 
-
 		public Vector2 MovementInput => movementInput;
 
 		private void Awake()
