@@ -40,8 +40,6 @@ namespace BattleBots
 		private void Update()
 		{
 			movementInput = inputActions.Mech.Movement.ReadValue<Vector2>();
-			
-			Debug.Log(movementInput);
 		}
 
 		public void OnMovement(InputAction.CallbackContext context)
