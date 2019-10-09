@@ -3,15 +3,15 @@
 [CreateAssetMenu(fileName = "PlayerColourData.asset", menuName = "Onyx/Create PlayerColourData object", order = 0)]
 public class PlayerColourData : ScriptableObject
 {
-    [SerializeField] private Color m_Colour;
-    [SerializeField] private Sprite m_MechIcon;
-    [SerializeField] private Sprite m_PilotIcon;
-    [SerializeField] private string m_ColourName;
-    [SerializeField] private float m_MatColour;
+    [SerializeField] private Color colour;
+    [SerializeField] private Sprite mechIcon;
+    [SerializeField] private Sprite pilotIcon;
+    [SerializeField] private string colourName;
+    [SerializeField] private float matColour;
 
-    public Color PColour { get { return m_Colour; } set { m_Colour = value; } }
-    public Sprite MechAvatar { get { return m_MechIcon; } set { m_MechIcon = value; } }
-    public Sprite PilotAvatar { get { return m_PilotIcon; } set { m_PilotIcon = value; } }
-    public string ColourName { get { return m_ColourName; } set { m_ColourName = value; } }
-    public float MatColour { get { return m_MatColour; } set { m_MatColour = value; } }
+    public Color PlayerColor { get { return colour; } set { colour = value; } }
+    public Sprite MechAvatar { get { return mechIcon; } set { mechIcon = value; } }
+    public Sprite PilotAvatar { get { return pilotIcon; } set { pilotIcon = value; } }
+    public string ColourName { get { return colourName; } set { colourName = value; } }
+    public float MatColour { get { return matColour; } set { matColour = value; } }
 }

@@ -8,13 +8,13 @@ namespace BattleBots
 	/// </summary>
 	public abstract class MatchTypeBase : MonoBehaviour
 	{
-		[SerializeField] private string m_MatchStartSound;
-		[SerializeField] private string m_AnnouncerStartSound;
-		[SerializeField] private string m_MatchEndSound;
-		[SerializeField] private string m_AnnouncerEndSound;
+		[SerializeField] private string matchStartSound;
+		[SerializeField] private string announcerStartSound;
+		[SerializeField] private string matchEndSound;
+		[SerializeField] private string announcerEndSound;
 
-		[SerializeField] private float m_CountdownTime = 0;
-		[SerializeField] private float m_EndMatchTime = 0;
+		[SerializeField] private float countdownTime = 0;
+		[SerializeField] private float endMatchTime = 0;
 
 		public MatchSettings GameModeData { get; private set; }
 

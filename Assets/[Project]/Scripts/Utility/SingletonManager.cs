@@ -6,7 +6,7 @@ public class MonoBehaviourSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
 	private static T instance;
 
-	private static object m_Lock = new object();
+	private static object lockingObject = new object();
 
 	public static T Instance
 	{
@@ -18,7 +18,7 @@ public class MonoBehaviourSingleton<T> : MonoBehaviour where T : MonoBehaviour
 				return null;
 			}
 
-			lock(m_Lock)
+			lock(lockingObject)
 			{
 				if(instance == null)
 				{

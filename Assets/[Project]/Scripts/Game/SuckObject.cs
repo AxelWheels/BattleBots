@@ -3,28 +3,21 @@ using UnityEngine;
 
 public class SuckObject : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject m_SuckEffect;
+    [SerializeField] private GameObject suckEffect = null;
 
     // Use this for initialization
-    [SerializeField]
-    private float m_PullingPower;
+    [SerializeField] private float pullingPower = 0.0f;
 
-    [SerializeField]
-    private float m_ActiveTime;
+    [SerializeField] private float activeTime = 0.0f;
 
-    [SerializeField]
-    private bool m_Permanent;
+    [SerializeField] private bool permanent = false;
+    private List<Rigidbody> playersInRange = new List<Rigidbody>();
 
-    private Collider m_OwnerCollider;
-
-    private List<Rigidbody> m_PlayersInRange = new List<Rigidbody>();
-
-    public Collider OwnerCollider { get { return m_OwnerCollider; } set { m_OwnerCollider = value; } }
+    public Collider OwnerCollider { get; set; }
 
     void Start()
     {
-        if (m_SuckEffect != null)
+        if (suckEffect != null)
         {
             //EffectsController.Instance.PlayEffectAtPosition( m_SuckEffect.name, transform.position, Quaternion.identity );
         }
@@ -33,15 +26,15 @@ public class SuckObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!m_Permanent)
+        if (!permanent)
         {
-            if (m_ActiveTime <= 0)
+            if (activeTime <= 0)
             {
                 Destroy(gameObject);
             }
         }
 
-        m_ActiveTime = Mathf.Max(0f, m_ActiveTime - Time.deltaTime);
+        activeTime = Mathf.Max(0f, activeTime - Time.deltaTime);
     }
 
     private void FixedUpdate()

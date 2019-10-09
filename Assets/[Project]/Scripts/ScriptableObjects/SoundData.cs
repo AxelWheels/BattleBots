@@ -11,30 +11,28 @@ public class SoundClip
 [CreateAssetMenu(fileName = "SoundData.asset", menuName = "Onyx/Create SoundData Object", order = 0)]
 public class SoundData : ScriptableObject
 {
-    [SerializeField]
-    private SoundClip[] m_Sounds;
+    [SerializeField] private SoundClip[] sounds = new SoundClip[0];
 
-    public AudioClip GetSound(string lClip)
+    public AudioClip GetSound(string clip)
     {
-        for (int i = 0; i < m_Sounds.Length; i++)
+        for (int i = 0; i < sounds.Length; i++)
         {
-            if (m_Sounds[i].Name == lClip)
+            if (sounds[i].Name == clip)
             {
-                return m_Sounds[i].Clip;
+                return sounds[i].Clip;
             }
         }
 
-        //Return null - this should be picked up and dealt with
-        return null;
+        throw new System.Exception("AudioClip not Found!");
     }
 
-    public float GetVolume(string lClip)
+    public float GetVolume(string clip)
     {
-        for (int i = 0; i < m_Sounds.Length; i++)
+        for (int i = 0; i < sounds.Length; i++)
         {
-            if (m_Sounds[i].Name == lClip)
+            if (sounds[i].Name == clip)
             {
-                return m_Sounds[i].Volume;
+                return sounds[i].Volume;
             }
         }
 

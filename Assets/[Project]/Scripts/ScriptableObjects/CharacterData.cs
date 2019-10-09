@@ -3,37 +3,28 @@
 [CreateAssetMenu(fileName = "CharacterData.asset", menuName = "Onyx/Create CharacterData Object", order = 0)]
 public class CharacterData : ScriptableObject
 {
-    [SerializeField]
-    private GameObject m_CharPrefab;
+    [SerializeField] private GameObject charPrefab = null;
 
-    [SerializeField]
-    private int m_Health = 100;
-    [SerializeField]
-    private float m_TurnSpeed = 360.0f;
-    [SerializeField]
-    private float m_MoveSpeed = 1.0f;
-    [SerializeField]
-    private float m_MobilityPower = 1.0f;
-    [SerializeField]
-    private float m_PilotToMechTime = 1.0f;
-    //[SerializeField]
-    //private float m_JumpPower = 1.0f;
-    [SerializeField]
-    private float m_GroundCheckDistance = 0.1f;
+    [SerializeField] private int health = 100;
+    [SerializeField] private float turnSpeed = 360.0f;
+    [SerializeField] private float moveSpeed = 1.0f;
+    [SerializeField] private float mobilityPower = 1.0f;
+    [SerializeField] private float pilotToMechTime = 1.0f;
+    [SerializeField] private float groundCheckDistance = 0.1f;
 
     #region Properties
     public GameObject CharPrefab
     {
         get
         {
-            return m_CharPrefab;
+            return charPrefab;
         }
     }
     public int Health
     {
         get
         {
-            return m_Health;
+            return health;
         }
     }
 
@@ -41,7 +32,7 @@ public class CharacterData : ScriptableObject
     {
         get
         {
-            return m_TurnSpeed;
+            return turnSpeed;
         }
     }
 
@@ -49,7 +40,7 @@ public class CharacterData : ScriptableObject
     {
         get
         {
-            return m_MoveSpeed;
+            return moveSpeed;
         }
     }
 
@@ -57,23 +48,15 @@ public class CharacterData : ScriptableObject
     {
         get
         {
-            return m_MobilityPower;
+            return mobilityPower;
         }
     }
-
-    //public float JumpPower
-    //{
-    //	get
-    //	{
-    //		return m_JumpPower;
-    //	}
-    //}
 
     public float PilotToMechTime
     {
         get
         {
-            return m_PilotToMechTime;
+            return pilotToMechTime;
         }
     }
 
@@ -81,7 +64,7 @@ public class CharacterData : ScriptableObject
     {
         get
         {
-            return m_GroundCheckDistance;
+            return groundCheckDistance;
         }
     }
     #endregion

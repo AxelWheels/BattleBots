@@ -3,18 +3,15 @@ using UnityEngine;
 
 public class TimeController : MonoBehaviourSingleton<TimeController>
 {
-    [SerializeField]
-    private AnimationCurve m_TimeDampCurve;
+    [SerializeField] private AnimationCurve timeDampCurve = AnimationCurve.Linear(0.0f, 0.0f, 1.0f, 1.0f);
 
-    [SerializeField]
-    private SoundData m_SoundData;
+    [SerializeField] private SoundData soundData = null;
 
-    [SerializeField]
-    private string m_SlowTimeSound;
+    [SerializeField] private string slowTimeSound = "";
 
-    private Coroutine m_DampenTimeRoutine;
+    private Coroutine dampenTimeRoutine;
 
-    private bool m_SlowTime = false;
+    private bool slowTime = false;
 
     private void OnGameStateChange(GameStateBase lState)
     {
@@ -23,39 +20,39 @@ public class TimeController : MonoBehaviourSingleton<TimeController>
 
     public void TryDampenTime()
     {
-		if(!m_SlowTime)
+		if(!slowTime)
 		{
-			SoundController.Instance.PlaySound(m_SoundData.GetSound(m_SlowTimeSound), Camera.main.transform, false, 0.02f);
+			SoundController.Instance.PlaySound(soundData.GetSound(slowTimeSound), Camera.main.transform, false, 0.02f);
 
 			//Just in case the coroutine is still running for some reason
-			if(m_DampenTimeRoutine != null)
+			if(dampenTimeRoutine != null)
 			{
-				StopCoroutine(m_DampenTimeRoutine);
+				StopCoroutine(dampenTimeRoutine);
 			}
 
-			m_DampenTimeRoutine = StartCoroutine(DampenTimeRoutine());
+			dampenTimeRoutine = StartCoroutine(DampenTimeRoutine());
 		}
 	}
 
     private IEnumerator DampenTimeRoutine()
     {
         //Prevent other 
-        m_SlowTime = true;
+        slowTime = true;
 
         float lStartTime = Time.time;
 
         //Get last key's time and calculate end time
-        float lEndTime = lStartTime + m_TimeDampCurve.keys[m_TimeDampCurve.keys.Length - 1].time;
+        float lEndTime = lStartTime + timeDampCurve.keys[timeDampCurve.keys.Length - 1].time;
 
         while (Time.time < lEndTime)
         {
             //Set time scale to the curve
-            Time.timeScale = m_TimeDampCurve.Evaluate(Time.time - lStartTime);
+            Time.timeScale = timeDampCurve.Evaluate(Time.time - lStartTime);
             yield return null;
         }
 
         Time.timeScale = 1.0f;
 
-        m_SlowTime = false;
+        slowTime = false;
     }
 }

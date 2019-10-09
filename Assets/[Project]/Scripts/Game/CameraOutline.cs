@@ -2,63 +2,59 @@
 
 public class CameraOutline : MonoBehaviour
 {
-    [SerializeField]
-    private Camera m_Camera;
+    [SerializeField] private new Camera camera = null;
 
-    [SerializeField]
-    private Shader m_OutlineShader;
-    [SerializeField]
-    private Shader m_SilhouetteShader;
+    [SerializeField] private Shader outlineShader = null;
+    [SerializeField] private Shader silhouetteShader = null;
 
-    [SerializeField]
-    private RenderTexture m_TempRenderTexture;
+    [SerializeField] private RenderTexture tempRenderTexture = null;
 
-    private Camera m_TempCamera;
-    private Material m_PostMaterial;
+    private Camera tempCamera;
+    private Material postMaterial;
 
     private void Start()
     {
-        if (m_Camera == null)
+        if (camera == null)
         {
-            m_Camera = GetComponent<Camera>();
+            camera = GetComponent<Camera>();
         }
 
-        m_TempCamera = new GameObject().AddComponent<Camera>();
-        m_TempCamera.name = "Outline Camera";
+        tempCamera = new GameObject().AddComponent<Camera>();
+        tempCamera.name = "Outline Camera";
 
-        m_TempCamera.enabled = false;
+        tempCamera.enabled = false;
 
-        m_PostMaterial = new Material(m_OutlineShader);
+        postMaterial = new Material(outlineShader);
     }
 
     private void OnRenderImage(RenderTexture lSource, RenderTexture lDestination)
     {
-        if (m_Camera != null)
+        if (camera != null)
         {
-            m_TempCamera.CopyFrom(m_Camera);
-            m_TempCamera.clearFlags = CameraClearFlags.Color;
-            m_TempCamera.backgroundColor = Color.black;
+            tempCamera.CopyFrom(camera);
+            tempCamera.clearFlags = CameraClearFlags.Color;
+            tempCamera.backgroundColor = Color.black;
 
-            m_TempCamera.cullingMask = 1 << LayerMask.NameToLayer("Outline");
+            tempCamera.cullingMask = 1 << LayerMask.NameToLayer("Outline");
 
-            m_TempRenderTexture = new RenderTexture(lSource.width, lSource.height, 0, RenderTextureFormat.R8);
-            m_TempRenderTexture.Create();
+            tempRenderTexture = new RenderTexture(lSource.width, lSource.height, 0, RenderTextureFormat.R8);
+            tempRenderTexture.Create();
 
-            m_TempCamera.targetTexture = m_TempRenderTexture;
+            tempCamera.targetTexture = tempRenderTexture;
 
-            m_TempCamera.RenderWithShader(m_SilhouetteShader, "");
+            tempCamera.RenderWithShader(silhouetteShader, "");
 
-            m_PostMaterial.SetTexture("_SceneTex", lSource);
+            postMaterial.SetTexture("_SceneTex", lSource);
 
-            Graphics.Blit(m_TempRenderTexture, lDestination, m_PostMaterial);
+            Graphics.Blit(tempRenderTexture, lDestination, postMaterial);
 
-            m_TempRenderTexture.Release();
+            tempRenderTexture.Release();
         }
         else
         {
             Debug.LogWarning("[OutlineRenderer] Camera was null. Has the camera moved in the hierarchy?");
 
-            m_Camera = GetComponent<Camera>();
+            camera = GetComponent<Camera>();
         }
     }
 }

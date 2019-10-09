@@ -5,10 +5,10 @@ using UnityEngine.UI;
 public class FPSCounter : MonoBehaviour
 {
     [SerializeField]
-    private Text m_Text;
+    private Text text = null;
 
     [SerializeField]
-    private float m_Frequency = 0.5f;
+    private float frequency = 0.5f;
 
     public int FramesPerSecond { get; protected set; }
 
@@ -24,13 +24,13 @@ public class FPSCounter : MonoBehaviour
             // Capture frame-per-second
             int lLastFrameCount = Time.frameCount;
             float lLastTime = Time.realtimeSinceStartup;
-            yield return new WaitForSeconds(m_Frequency);
+            yield return new WaitForSeconds(frequency);
             float lTimeSpan = Time.realtimeSinceStartup - lLastTime;
             int lFrameCount = Time.frameCount - lLastFrameCount;
 
             // Display it
             FramesPerSecond = Mathf.RoundToInt(lFrameCount / lTimeSpan);
-            m_Text.text = FramesPerSecond.ToString() + " FPS";
+            text.text = FramesPerSecond.ToString() + " FPS";
         }
     }
 }

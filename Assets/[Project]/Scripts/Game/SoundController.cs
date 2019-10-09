@@ -4,32 +4,26 @@ using UnityEngine.Audio;
 
 public class SoundController : MonoBehaviourSingleton<SoundController>
 {
-    [SerializeField]
-    private AudioMixer m_MasterMixer;
-    [SerializeField]
-    private AudioMixerGroup m_MasterMixerGroup;
-    [SerializeField]
-    private AudioMixerGroup m_MusicMixerGroup;
-    [SerializeField]
-    private AudioMixerGroup m_EffectsMixerGroup;
-    [SerializeField]
-    private AnimationCurve m_MusicCurve;
+    [SerializeField] private AudioMixer masterMixer = null;
+    [SerializeField] private AudioMixerGroup masterMixerGroup = null;
+    [SerializeField] private AudioMixerGroup musicMixerGroup = null;
+    [SerializeField] private AudioMixerGroup effectsMixerGroup = null;
+    [SerializeField] private AnimationCurve musicCurve = null;
 
-    [SerializeField]
-    private int m_SourcesToPreload;
+    [SerializeField] private int sourcesToPreload = 0;
 
-    [SerializeField]
-    private float m_PitchVariation = 0.05f;
+    [SerializeField] private float pitchVariation = 0.05f;
 
-    [SerializeField]
-    private float m_CollectInterval = 0.5f;
+    [SerializeField] private float collectInterval = 0.5f;
 
-    private float m_CollectTime = 0.0f;
+    private float collectTime = 0.0f;
 
-    private List<GameObject> m_AudioSourceObjects = new List<GameObject>();
+    private List<GameObject> audioSourceObjects = new List<GameObject>();
 
-    private void Awake()
+    public override void Awake()
     {
+        base.Awake();
+
         CreateAudioSources();
     }
 
@@ -42,33 +36,33 @@ public class SoundController : MonoBehaviourSingleton<SoundController>
 
     private void Update()
     {
-        if (m_CollectTime <= 0)
+        if (collectTime <= 0)
         {
             CollectAudioSources();
 
-            m_CollectTime = m_CollectInterval;
+            collectTime = collectInterval;
         }
         else
         {
-            m_CollectTime -= Time.unscaledDeltaTime;
+            collectTime -= Time.unscaledDeltaTime;
         }
     }
 
     private void CollectAudioSources()
     {
-        for (int i = 0; i < m_AudioSourceObjects.Count; i++)
+        for (int i = 0; i < audioSourceObjects.Count; i++)
         {
-            if (m_AudioSourceObjects[i] != null)
+            if (audioSourceObjects[i] != null)
             {
-                if (!m_AudioSourceObjects[i].GetComponent<AudioSource>().isPlaying)
+                if (!audioSourceObjects[i].GetComponent<AudioSource>().isPlaying)
                 {
-                    m_AudioSourceObjects[i].transform.parent = transform;
+                    audioSourceObjects[i].transform.parent = transform;
                 }
             }
             else
             {
                 //Source has accidentally been destroyed
-                m_AudioSourceObjects.RemoveAt(i);
+                audioSourceObjects.RemoveAt(i);
 
                 CreateNewSource();
             }
@@ -84,7 +78,7 @@ public class SoundController : MonoBehaviourSingleton<SoundController>
 
         if (lPitchVariation)
         {
-            lSource.GetComponent<AudioSource>().pitch += Random.Range(-m_PitchVariation, m_PitchVariation);
+            lSource.GetComponent<AudioSource>().pitch += Random.Range(-pitchVariation, pitchVariation);
         }
 
         lSource.GetComponent<AudioSource>().volume = lVolume;
@@ -100,7 +94,7 @@ public class SoundController : MonoBehaviourSingleton<SoundController>
 
         if (lPitchVariation)
         {
-            lSource.GetComponent<AudioSource>().pitch += Random.Range(-m_PitchVariation, m_PitchVariation);
+            lSource.GetComponent<AudioSource>().pitch += Random.Range(-pitchVariation, pitchVariation);
         }
 
         lSource.GetComponent<AudioSource>().volume = lVolume;
@@ -115,7 +109,7 @@ public class SoundController : MonoBehaviourSingleton<SoundController>
 
         if (lPitchVariation)
         {
-            lSource.GetComponent<AudioSource>().pitch += Random.Range(-m_PitchVariation, m_PitchVariation);
+            lSource.GetComponent<AudioSource>().pitch += Random.Range(-pitchVariation, pitchVariation);
         }
 
         lSource.GetComponent<AudioSource>().volume = lVolume;
@@ -124,7 +118,7 @@ public class SoundController : MonoBehaviourSingleton<SoundController>
 
     private void CreateAudioSources()
     {
-        for (int i = 0; i < m_SourcesToPreload; i++)
+        for (int i = 0; i < sourcesToPreload; i++)
         {
             CreateNewSource();
         }
@@ -139,20 +133,20 @@ public class SoundController : MonoBehaviourSingleton<SoundController>
         lObject.transform.parent = transform;
         lObject.AddComponent<AudioSource>();
 
-        lObject.GetComponent<AudioSource>().outputAudioMixerGroup = m_MasterMixerGroup;
+        lObject.GetComponent<AudioSource>().outputAudioMixerGroup = masterMixerGroup;
 
-        m_AudioSourceObjects.Add(lObject);
+        audioSourceObjects.Add(lObject);
 
         return lObject;
     }
 
     private GameObject GetAvailableSource()
     {
-        for (int i = 0; i < m_AudioSourceObjects.Count; i++)
+        for (int i = 0; i < audioSourceObjects.Count; i++)
         {
-            if (!m_AudioSourceObjects[i].GetComponent<AudioSource>().isPlaying)
+            if (!audioSourceObjects[i].GetComponent<AudioSource>().isPlaying)
             {
-                return m_AudioSourceObjects[i];
+                return audioSourceObjects[i];
             }
         }
 
@@ -162,25 +156,25 @@ public class SoundController : MonoBehaviourSingleton<SoundController>
 
     public void SetMasterVolume(float lValue)
     {
-        float lTemp = m_MusicCurve.Evaluate(lValue);
+        float lTemp = musicCurve.Evaluate(lValue);
         lTemp *= 100;
         lTemp -= 80;
-        m_MasterMixer.SetFloat("MasterVolume", lTemp);
+        masterMixer.SetFloat("MasterVolume", lTemp);
     }
 
     public void SetEffectsVolume(float lValue)
     {
-        float lTemp = m_MusicCurve.Evaluate(lValue);
+        float lTemp = musicCurve.Evaluate(lValue);
         lTemp *= 100;
         lTemp -= 80;
-        m_MasterMixer.SetFloat("EffectsVolume", lTemp);
+        masterMixer.SetFloat("EffectsVolume", lTemp);
     }
 
     public void SetMusicVolume(float lValue)
     {
-        float lTemp = m_MusicCurve.Evaluate(lValue);
+        float lTemp = musicCurve.Evaluate(lValue);
         lTemp *= 100;
         lTemp -= 80;
-        m_MasterMixer.SetFloat("MusicVolume", lTemp);
+        masterMixer.SetFloat("MusicVolume", lTemp);
     }
 }

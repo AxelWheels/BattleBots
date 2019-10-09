@@ -2,14 +2,12 @@
 
 public class PowerUpSpawner : MonoBehaviour
 {
-    [SerializeField]
-    private PowerUpData[] m_PowerUps;
-    [SerializeField]
-    private PowerUp m_PowerUp;
+    [SerializeField] private PowerUpData[] powerUps = new PowerUpData[0];
+    [SerializeField] private PowerUp powerUp = null;
 
-    private float m_SpawnTime = 0f;
+    private float spawnTime = 0f;
 
-    public PowerUp PowerUp { get { return m_PowerUp; } }
+    public PowerUp PowerUp { get { return powerUp; } }
 
     private void Start()
     {
@@ -18,10 +16,10 @@ public class PowerUpSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (!m_PowerUp.Active)
+        if (!powerUp.Active)
         {
-            m_SpawnTime = Mathf.Max(0f, m_SpawnTime - Time.deltaTime);
-            if (m_SpawnTime <= 0f)
+            spawnTime = Mathf.Max(0f, spawnTime - Time.deltaTime);
+            if (spawnTime <= 0f)
             {
                 SpawnPowerUp();
             }
@@ -30,14 +28,14 @@ public class PowerUpSpawner : MonoBehaviour
 
     private void SpawnPowerUp()
     {
-        int lPowerUpIndex = Random.Range(0, m_PowerUps.Length);
-        m_PowerUp.GetComponent<Renderer>().enabled = true;
-        m_PowerUp.GetComponent<Collider>().enabled = true;
-        m_PowerUp.PUD = m_PowerUps[lPowerUpIndex];
-        m_PowerUp.GetComponent<MeshFilter>().mesh = m_PowerUp.PUD.Mesh;
-        m_PowerUp.GetComponent<MeshRenderer>().material = m_PowerUp.PUD.Material;
+        int lPowerUpIndex = Random.Range(0, powerUps.Length);
+        powerUp.GetComponent<Renderer>().enabled = true;
+        powerUp.GetComponent<Collider>().enabled = true;
+        powerUp.Data = powerUps[lPowerUpIndex];
+        powerUp.GetComponent<MeshFilter>().mesh = powerUp.Data.Mesh;
+        powerUp.GetComponent<MeshRenderer>().material = powerUp.Data.Material;
 
-        m_SpawnTime = m_PowerUp.PUD.RespawnTime;
-        m_PowerUp.Active = true;
+        spawnTime = powerUp.Data.RespawnTime;
+        powerUp.Active = true;
     }
 }

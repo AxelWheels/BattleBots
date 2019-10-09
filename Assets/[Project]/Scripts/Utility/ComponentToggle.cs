@@ -8,17 +8,15 @@
 /// 
 public class ComponentToggle : MonoBehaviour
 {
-    [SerializeField]
-    private Behaviour m_Component;
+    [SerializeField] private Behaviour component = null;
 
-    [SerializeField]
-    private KeyCode m_KeyToPress;
+    [SerializeField] private KeyCode keyTopress = KeyCode.None;
 
     private void Update()
     {
-        if (Input.GetKeyDown(m_KeyToPress))
+        if (Input.GetKeyDown(keyTopress))
         {
-            m_Component.enabled = !m_Component.enabled;
+            component.enabled = !component.enabled;
         }
     }
 }

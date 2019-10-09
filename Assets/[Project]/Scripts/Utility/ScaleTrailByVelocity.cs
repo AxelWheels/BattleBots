@@ -3,29 +3,23 @@
 [RequireComponent(typeof(TrailRenderer), typeof(Rigidbody))]
 public class ScaleTrailByVelocity : MonoBehaviour
 {
-    [SerializeField]
-    private TrailRenderer m_TrailRenderer;
-    [SerializeField]
-    private Rigidbody m_Rigidbody;
+    [SerializeField] private TrailRenderer trailRenderer = null;
+    [SerializeField] private new Rigidbody rigidbody = null;
 
-    [SerializeField]
-    private float m_MinSize;
-    [SerializeField]
-    private float m_MaxSize;
+    [SerializeField] private float minSize = 0.0f;
+    [SerializeField] private float maxSize = 0.0f;
 
-    [SerializeField]
-    private float m_MinSpeed;
-    [SerializeField]
-    private float m_MaxSpeed;
+    [SerializeField] private float minSpeed = 0.0f;
+    [SerializeField] private float maxSpeed = 0.0f;
 
-    private Vector3 m_LastPosition;
+    private Vector3 lastPosition;
 
     private void Update()
     {
-        Vector3 lPositionDelta = m_LastPosition - transform.position;
-        m_LastPosition = transform.position;
+        Vector3 lPositionDelta = lastPosition - transform.position;
+        lastPosition = transform.position;
 
-        float lVelocityScale = Mathf.InverseLerp(m_MinSpeed, m_MaxSpeed, lPositionDelta.magnitude);
-        m_TrailRenderer.widthMultiplier = Mathf.InverseLerp(m_MinSize, m_MaxSize, lVelocityScale) * lVelocityScale;
+        float lVelocityScale = Mathf.InverseLerp(minSpeed, maxSpeed, lPositionDelta.magnitude);
+        trailRenderer.widthMultiplier = Mathf.InverseLerp(minSize, maxSize, lVelocityScale) * lVelocityScale;
     }
 }

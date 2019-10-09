@@ -8,7 +8,7 @@ namespace BattleBots
 	[RequireComponent(typeof(MechInput))]
 	internal class MechAnimator : MonoBehaviour 
 	{
-		[SerializeField] private Animator animatorComponent;
+		[SerializeField] private Animator animatorComponent = null;
 
 		private MechInput mechInput;
 

@@ -5,9 +5,9 @@ namespace BattleBots
 {
 	internal class ArenaLoader : MonoBehaviour 
 	{
-		[SerializeField] private SceneLoadData sceneData;
+		[SerializeField] private SceneLoadData sceneData = null;
 
-		[SerializeField] private TextMeshProUGUI selectedSceneText;
+		[SerializeField] private TextMeshProUGUI selectedSceneText = null;
 
 		private int selectedScene = 0;
 

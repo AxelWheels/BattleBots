@@ -8,20 +8,14 @@
 
     protected virtual void OnBegin()
     {
-        if (Begin != null)
-        {
-            Begin();
-        }
+        Begin?.Invoke();
     }
 
     public abstract void PushState();
 
     protected virtual void OnEnd()
     {
-        if (End != null)
-        {
-            End();
-        }
+        End?.Invoke();
     }
 
     public abstract void PopState();

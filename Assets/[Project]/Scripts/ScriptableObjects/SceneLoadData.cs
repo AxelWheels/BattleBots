@@ -9,11 +9,9 @@ namespace BattleBots
 	[CreateAssetMenu(fileName = "SceneLoadData.asset", menuName = "Onyx/Create SceneLoadData Object", order = 0)]
 	public class SceneLoadData : ScriptableObject
 	{
-		[SerializeField]
-		private string startScene;
+		[SerializeField] private string startScene = "";
 
-		[SerializeField]
-		private string[] arenaScenes;
+		[SerializeField] private string[] arenaScenes = new string[0];
 
 		public string[] ArenaScenes => arenaScenes;
 	}
