@@ -1,5 +1,6 @@
 // GENERATED AUTOMATICALLY FROM 'Assets/[Project]/Scripts/Input/InputActions.inputactions'
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
@@ -7,10 +8,10 @@ using UnityEngine.InputSystem.Utilities;
 
 namespace BattleBots
 {
-    public class InputActions : IInputActionCollection
+    public class @InputActions : IInputActionCollection, IDisposable
     {
         private InputActionAsset asset;
-        public InputActions()
+        public @InputActions()
         {
             asset = InputActionAsset.FromJson(@"{
     ""name"": ""InputActions"",
@@ -334,7 +335,7 @@ namespace BattleBots
             m_Pilot_Newaction = m_Pilot.FindAction("New action", throwIfNotFound: true);
         }
 
-        ~InputActions()
+        public void Dispose()
         {
             UnityEngine.Object.Destroy(asset);
         }
@@ -389,8 +390,8 @@ namespace BattleBots
         private readonly InputAction m_Mech_Block;
         public struct MechActions
         {
-            private InputActions m_Wrapper;
-            public MechActions(InputActions wrapper) { m_Wrapper = wrapper; }
+            private @InputActions m_Wrapper;
+            public MechActions(@InputActions wrapper) { m_Wrapper = wrapper; }
             public InputAction @Movement => m_Wrapper.m_Mech_Movement;
             public InputAction @LightAttack => m_Wrapper.m_Mech_LightAttack;
             public InputAction @HeavyAttack => m_Wrapper.m_Mech_HeavyAttack;
@@ -406,46 +407,46 @@ namespace BattleBots
             {
                 if (m_Wrapper.m_MechActionsCallbackInterface != null)
                 {
-                    Movement.started -= m_Wrapper.m_MechActionsCallbackInterface.OnMovement;
-                    Movement.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnMovement;
-                    Movement.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnMovement;
-                    LightAttack.started -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
-                    LightAttack.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
-                    LightAttack.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
-                    HeavyAttack.started -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
-                    HeavyAttack.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
-                    HeavyAttack.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
-                    Shoot.started -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
-                    Shoot.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
-                    Shoot.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
-                    Dash.started -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
-                    Dash.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
-                    Dash.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
-                    Block.started -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
-                    Block.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
-                    Block.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
+                    @Movement.started -= m_Wrapper.m_MechActionsCallbackInterface.OnMovement;
+                    @Movement.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnMovement;
+                    @Movement.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnMovement;
+                    @LightAttack.started -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
+                    @LightAttack.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
+                    @LightAttack.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnLightAttack;
+                    @HeavyAttack.started -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
+                    @HeavyAttack.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
+                    @HeavyAttack.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnHeavyAttack;
+                    @Shoot.started -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
+                    @Shoot.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
+                    @Shoot.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnShoot;
+                    @Dash.started -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
+                    @Dash.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
+                    @Dash.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnDash;
+                    @Block.started -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
+                    @Block.performed -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
+                    @Block.canceled -= m_Wrapper.m_MechActionsCallbackInterface.OnBlock;
                 }
                 m_Wrapper.m_MechActionsCallbackInterface = instance;
                 if (instance != null)
                 {
-                    Movement.started += instance.OnMovement;
-                    Movement.performed += instance.OnMovement;
-                    Movement.canceled += instance.OnMovement;
-                    LightAttack.started += instance.OnLightAttack;
-                    LightAttack.performed += instance.OnLightAttack;
-                    LightAttack.canceled += instance.OnLightAttack;
-                    HeavyAttack.started += instance.OnHeavyAttack;
-                    HeavyAttack.performed += instance.OnHeavyAttack;
-                    HeavyAttack.canceled += instance.OnHeavyAttack;
-                    Shoot.started += instance.OnShoot;
-                    Shoot.performed += instance.OnShoot;
-                    Shoot.canceled += instance.OnShoot;
-                    Dash.started += instance.OnDash;
-                    Dash.performed += instance.OnDash;
-                    Dash.canceled += instance.OnDash;
-                    Block.started += instance.OnBlock;
-                    Block.performed += instance.OnBlock;
-                    Block.canceled += instance.OnBlock;
+                    @Movement.started += instance.OnMovement;
+                    @Movement.performed += instance.OnMovement;
+                    @Movement.canceled += instance.OnMovement;
+                    @LightAttack.started += instance.OnLightAttack;
+                    @LightAttack.performed += instance.OnLightAttack;
+                    @LightAttack.canceled += instance.OnLightAttack;
+                    @HeavyAttack.started += instance.OnHeavyAttack;
+                    @HeavyAttack.performed += instance.OnHeavyAttack;
+                    @HeavyAttack.canceled += instance.OnHeavyAttack;
+                    @Shoot.started += instance.OnShoot;
+                    @Shoot.performed += instance.OnShoot;
+                    @Shoot.canceled += instance.OnShoot;
+                    @Dash.started += instance.OnDash;
+                    @Dash.performed += instance.OnDash;
+                    @Dash.canceled += instance.OnDash;
+                    @Block.started += instance.OnBlock;
+                    @Block.performed += instance.OnBlock;
+                    @Block.canceled += instance.OnBlock;
                 }
             }
         }
@@ -457,8 +458,8 @@ namespace BattleBots
         private readonly InputAction m_Pilot_Newaction;
         public struct PilotActions
         {
-            private InputActions m_Wrapper;
-            public PilotActions(InputActions wrapper) { m_Wrapper = wrapper; }
+            private @InputActions m_Wrapper;
+            public PilotActions(@InputActions wrapper) { m_Wrapper = wrapper; }
             public InputAction @Newaction => m_Wrapper.m_Pilot_Newaction;
             public InputActionMap Get() { return m_Wrapper.m_Pilot; }
             public void Enable() { Get().Enable(); }
@@ -469,16 +470,16 @@ namespace BattleBots
             {
                 if (m_Wrapper.m_PilotActionsCallbackInterface != null)
                 {
-                    Newaction.started -= m_Wrapper.m_PilotActionsCallbackInterface.OnNewaction;
-                    Newaction.performed -= m_Wrapper.m_PilotActionsCallbackInterface.OnNewaction;
-                    Newaction.canceled -= m_Wrapper.m_PilotActionsCallbackInterface.OnNewaction;
+                    @Newaction.started -= m_Wrapper.m_PilotActionsCallbackInterface.OnNewaction;
+                    @Newaction.performed -= m_Wrapper.m_PilotActionsCallbackInterface.OnNewaction;
+                    @Newaction.canceled -= m_Wrapper.m_PilotActionsCallbackInterface.OnNewaction;
                 }
                 m_Wrapper.m_PilotActionsCallbackInterface = instance;
                 if (instance != null)
                 {
-                    Newaction.started += instance.OnNewaction;
-                    Newaction.performed += instance.OnNewaction;
-                    Newaction.canceled += instance.OnNewaction;
+                    @Newaction.started += instance.OnNewaction;
+                    @Newaction.performed += instance.OnNewaction;
+                    @Newaction.canceled += instance.OnNewaction;
                 }
             }
         }
