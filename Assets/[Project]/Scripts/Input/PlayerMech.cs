@@ -6,6 +6,7 @@ namespace BattleBots
 	[RequireComponent(typeof(MechInput))]
 	internal class PlayerMech : PlayerBase
 	{
+		[SerializeField] private Collider[] weaponColliders;
 		private MechInput mechInput;
 		private GameObject weapon;
 
@@ -13,14 +14,19 @@ namespace BattleBots
 		{
 			base.Start();
 
-			mechInput = GetComponent<MechInput>();
-
-			mechInput.Dash += Dash;
-			mechInput.Move += Movement;
-			mechInput.Block += Block;
-			mechInput.Shoot += Shoot;
-			mechInput.LightAttack += LightAttack;
-			mechInput.HeavyAttack += HeavyAttack;
+			if(TryGetComponent(out mechInput))
+			{
+				mechInput.Move += Movement;
+				mechInput.Dash += Dash;
+				mechInput.Block += Block;
+				mechInput.Shoot += Shoot;
+				mechInput.LightAttack += LightAttack;
+				mechInput.HeavyAttack += HeavyAttack;
+			}
+			else
+			{
+				Debug.LogError("Failed to initialise with input");
+			}
 		}
 
 		private void FixedUpdate()
@@ -31,7 +37,7 @@ namespace BattleBots
 
 		public override void Dash(InputAction.CallbackContext context)
 		{
-			throw new System.NotImplementedException();
+			//throw new System.NotImplementedException();
 		}
 
 		public override void Movement(InputAction.CallbackContext context)
@@ -41,14 +47,8 @@ namespace BattleBots
 
 		private void Block(InputAction.CallbackContext context)
 		{
-			if (context.performed)
-			{
-				AdjustHealthModifier(1f);
-			}
-			else
-			{
-				AdjustHealthModifier(-1f);
-			}
+			Debug.Log($"Block Value {context.performed}");
+			AdjustHealthModifier(context.performed ? -1f : 1f);
 		}
 
 		private void Shoot(InputAction.CallbackContext context)

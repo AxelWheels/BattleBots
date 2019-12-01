@@ -6,9 +6,7 @@ namespace BattleBots
 {
 	public abstract class PlayerBase: MonoBehaviour, ICharacterController
 	{
-		[SerializeField] protected float movementSpeed = 500f;
-		[SerializeField] protected float airMovementSpeed = 300f;
-		[SerializeField] protected float turnSpeed = 12f;
+		[SerializeField] protected CharacterData characterData;
 
 		protected KinematicCharacterMotor motor = null;
 
@@ -51,7 +49,7 @@ namespace BattleBots
 		{
 			if(movementInput.sqrMagnitude > 0f)
 			{
-				currentRotation = Quaternion.Slerp(currentRotation, Quaternion.LookRotation(new Vector3(movementInput.x, 0f, movementInput.y), Vector3.up), deltaTime * turnSpeed);
+				currentRotation = Quaternion.Slerp(currentRotation, Quaternion.LookRotation(new Vector3(movementInput.x, 0f, movementInput.y), Vector3.up), deltaTime * characterData.TurnSpeed);
 			}
 		}
 
@@ -59,12 +57,12 @@ namespace BattleBots
 		{
 			if(motor.GroundingStatus.IsStableOnGround)
 			{
-				currentVelocity = new Vector3(movementInput.x, 0f, movementInput.y) * movementSpeed * deltaTime;
+				currentVelocity = new Vector3(movementInput.x, 0f, movementInput.y) * characterData.MovementSpeed * deltaTime;
 				accumulatedGravity = Vector3.zero;
 			}
 			else
 			{
-				currentVelocity = movementInput * airMovementSpeed * deltaTime;
+				currentVelocity = movementInput * characterData.AirMovementSpeed * deltaTime;
 
 				accumulatedGravity += Physics.gravity * deltaTime;
 				currentVelocity += accumulatedGravity;

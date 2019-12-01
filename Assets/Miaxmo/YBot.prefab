@@ -344,6 +344,7 @@ MonoBehaviour:
   movementSpeed: 500
   airMovementSpeed: 300
   turnSpeed: 12
+  weaponColliders: []
 --- !u!114 &1567164331
 MonoBehaviour:
   m_ObjectHideFlags: 0

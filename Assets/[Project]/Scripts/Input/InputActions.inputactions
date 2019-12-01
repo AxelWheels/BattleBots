@@ -268,7 +268,7 @@
                     "name": "",
                     "id": "f4298783-11ce-4dd7-97e9-894c76deaf97",
                     "path": "<Keyboard>/o",
-                    "interactions": "Hold",
+                    "interactions": "Press,Press(behavior=1)",
                     "processors": "",
                     "groups": "",
                     "action": "Block",

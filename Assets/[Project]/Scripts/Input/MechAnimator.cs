@@ -14,18 +14,19 @@ namespace BattleBots
 
 		private void Start()
 		{
-			mechInput = GetComponent<MechInput>();
-
-			mechInput.Move += Move;
-			mechInput.Dash += Dash;
-			mechInput.Block += Block;
-			mechInput.Shoot += Shoot;
-			mechInput.LightAttack += LightAttack;
-			mechInput.HeavyAttack += HeavyAttack;
-		}
-
-		private void Update()
-		{
+			if(TryGetComponent(out mechInput))
+			{
+				mechInput.Move += Move;
+				mechInput.Dash += Dash;
+				mechInput.Block += Block;
+				mechInput.Shoot += Shoot;
+				mechInput.LightAttack += LightAttack;
+				mechInput.HeavyAttack += HeavyAttack;
+			}
+			else
+			{
+				Debug.LogError("Failed to initialise with input");
+			}
 		}
 
 		private void Move(InputAction.CallbackContext context)
@@ -35,12 +36,13 @@ namespace BattleBots
 
 		private void Dash(InputAction.CallbackContext context)
 		{
-			animatorComponent.SetBool("Dashing", context.performed);
+			Debug.Log(context.performed);
+			animatorComponent.SetBool("Dashing", !context.performed);
 		}
 
 		private void Block(InputAction.CallbackContext context)
 		{
-			animatorComponent.SetBool("Blocking", context.performed);
+			animatorComponent.SetBool("Blocking", !context.performed);
 		}
 
 		private void Shoot(InputAction.CallbackContext context)
