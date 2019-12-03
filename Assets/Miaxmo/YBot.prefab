@@ -341,9 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae75fdb29d198646a545afc8ade31c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 500
-  airMovementSpeed: 300
-  turnSpeed: 12
+  characterData: {fileID: 0}
   weaponColliders: []
 --- !u!114 &1567164331
 MonoBehaviour:
