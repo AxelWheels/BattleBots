@@ -21,7 +21,7 @@ MonoBehaviour:
   m_GetFontFeaturesAtRuntime: 1
   m_missingGlyphCharacter: 0
   m_warningsDisabled: 1
-  m_defaultFontAsset: {fileID: 11400000, guid: b5dd1e5289cd4d24b9be2862775223b5, type: 2}
+  m_defaultFontAsset: {fileID: 11400000, guid: ad220d0a4542f9e4eac8ac2f2b1cf797, type: 2}
   m_defaultFontAssetPath: Fonts & Materials/
   m_defaultFontSize: 36
   m_defaultAutoSizeMinRatio: 0.5

@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/[Project]/Scenes/LaunchScreen.unity
-    guid: d4d8e0130ea54cd46ac5b9d0e679b988
-  - enabled: 1
-    path: Assets/[Project]/Scenes/Development/Development.unity
-    guid: 5b89c75abb7579841b4de5ffbe3b4d61
+    path: Assets/[Project]/Scenes/Development/Control Testing.unity
+    guid: f1bbcda29b04da94f85983dc08415be7
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 865ff781a02b94d4994d29cfaccab0a6,
       type: 2}

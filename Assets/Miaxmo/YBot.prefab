@@ -1758,6 +1758,37 @@ Transform:
   m_Father: {fileID: 6070359464684694171}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 10.5026865, y: -7.3426876, z: 83.74475}
+--- !u!1 &6546923916990955624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 6986908828836586959}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6986908828836986669}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6986908828836986669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400098, guid: 22b3b668a353ef146bd506e949ba7baa,
+    type: 3}
+  m_PrefabInstance: {fileID: 6986908828836586959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6546923916990955624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: -3271894982915707823}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6623858525832135953
 GameObject:
   m_ObjectHideFlags: 0
@@ -2134,7 +2165,7 @@ Transform:
   - {fileID: 5194181090566507023}
   - {fileID: 1835764435976927869}
   - {fileID: 5631326822526638723}
-  - {fileID: 6986908828836986669}
+  - {fileID: -3271894982915707823}
   m_Father: {fileID: 454618425139678940}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 8.703587, y: -13.143624, z: -4.9162135}
@@ -2170,6 +2201,37 @@ Transform:
   m_Father: {fileID: 7332048999244378770}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 9.656183, y: 6.461653, z: -112.487015}
+--- !u!1 &7965520228299811730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 6986908828836586959}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: -3271894982915707823}
+  m_Layer: 0
+  m_Name: WEAPON_mechSword_DF_GEO (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &-3271894982915707823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 6986908828836586959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7965520228299811730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6986908828836986669}
+  m_Father: {fileID: 3727112378415118656}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8157443643820579057
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,9 +2656,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22b3b668a353ef146bd506e949ba7baa, type: 3}
---- !u!4 &6986908828836986669 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400098, guid: 22b3b668a353ef146bd506e949ba7baa,
-    type: 3}
-  m_PrefabInstance: {fileID: 6986908828836586959}
-  m_PrefabAsset: {fileID: 0}
