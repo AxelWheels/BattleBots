@@ -11,7 +11,7 @@ namespace BattleBots
 
 		[SerializeField] private Vector2Int gridSize;
 
-		[SerializeField] private float fillPercentage;
+		[SerializeField] private int fillPercentage;
 
 		private bool[,] grid;
 
@@ -28,7 +28,7 @@ namespace BattleBots
 			{
 				for(int j = 0; j < gridSize.x; j++)
 				{
-
+					
 				}
 			}
 		}
