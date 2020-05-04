@@ -12,7 +12,7 @@ namespace BattleBots
 
 		[SerializeField] private Vector2Int gridSize;
 
-		[SerializeField] private int fillPercentage;
+		[SerializeField, Range(0,100)] private int fillPercentage;
 		[SerializeField] private int customSeed = 0;
 		[SerializeField] private int golIterations;
 
@@ -71,41 +71,31 @@ namespace BattleBots
 					{
 						int neighbours = 0;
 
-						if (tempGrid[j-1,k])
+						for (int x = j - 1; x <= j + 1; x++)
 						{
-							neighbours++;
-						}
-						if (tempGrid[j, k - 1])
-						{
-							neighbours++;
-						}
-						if (tempGrid[j + 1, k])
-						{
-							neighbours++;
-						}
-						if (tempGrid[j, k + 1])
-						{
-							neighbours++;
+							for (int y = k - 1; y <= k + 1; y++)
+							{
+								if (tempGrid[x,y])
+								{
+									neighbours++;
+								}
+							}
 						}
 
-						if (neighbours <= 1)
+						if (!tempGrid[j, k])
 						{
-							grid[j, k] = false;
+							grid[j, k] = neighbours == 3 || neighbours >= 5;
 						}
-						else if (neighbours > 2 && neighbours < 4)
+						else
 						{
-							grid[j, k] = true;
-						}
-						else if (neighbours == 4)
-						{
-							grid[j, k] = false;
+							grid[j, k] = !(neighbours < 2 || neighbours > 3);
 						}
 					}
 				}
 			}
 		}
 
-	private void DrawTiles()
+		private void DrawTiles()
 		{
 			tilemap.ClearAllTiles();
 

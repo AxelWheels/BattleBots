@@ -407,9 +407,9 @@ MonoBehaviour:
   tilemap: {fileID: 69836855}
   tileBase: {fileID: 11400000, guid: 21af14c97cb575148b136c22c5c69eb2, type: 2}
   gridSize: {x: 100, y: 100}
-  fillPercentage: 80
+  fillPercentage: 65
   customSeed: 0
-  golIterations: 10
+  golIterations: 5
 --- !u!1 &908369647
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,7 +890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AssetsPPU: 100
+  m_AssetsPPU: 50
   m_RefResolutionX: 2048
   m_RefResolutionY: 1536
   m_UpscaleRT: 0
@@ -925,7 +925,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
