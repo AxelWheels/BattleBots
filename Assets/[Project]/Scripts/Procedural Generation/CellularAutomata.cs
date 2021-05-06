@@ -36,7 +36,7 @@ namespace BattleBots
 				InitialiseRandomGrid();
 			}
 
-			GridGOL();
+			GameOfLifeGeneration();
 			DrawTiles();
 		}
 
@@ -59,7 +59,7 @@ namespace BattleBots
 			}
 		}
 
-		private void GridGOL()
+		private void GameOfLifeGeneration()
 		{
 			for (int i = 0; i < golIterations; i++)
 			{
@@ -69,28 +69,81 @@ namespace BattleBots
 				{
 					for (int k = 1; k < gridSize.x - 1; k++)
 					{
-						int neighbours = 0;
+						//GoL rules 
+						//1. (grid[j,k] && neighbours < 2) == dead
+						//2. (grid[j, k] && (neighbours == 2 || neighbours == 3)) == live
+						//3. (grid[j, k] && neighbours > 3) == dead
+						//4. (!grid[j, k] && neighbours == 3) == live
 
-						for (int x = j - 1; x <= j + 1; x++)
-						{
-							for (int y = k - 1; y <= k + 1; y++)
-							{
-								if (tempGrid[x,y])
-								{
-									neighbours++;
-								}
-							}
-						}
+						int neighbours = FindNeighbours(tempGrid, j, k);
 
-						if (!tempGrid[j, k])
+						if (grid[j,k])
 						{
-							grid[j, k] = neighbours == 3 || neighbours >= 5;
+							grid[j, k] = (neighbours == 2 || neighbours == 3);
 						}
 						else
 						{
-							grid[j, k] = !(neighbours < 2 || neighbours > 3);
+							grid[j, k] = neighbours == 3;
 						}
 					}
+				}
+			}
+		}
+
+		private int FindNeighbours(bool [,] gridTarget, int x, int y)
+		{
+			int count = 0;
+
+			// Check cell on the right.
+			if (x != gridSize.x - 1)
+				if (gridTarget[x + 1, y])
+					count++;
+
+			// Check cell on the bottom right.
+			if (x != gridSize.x - 1 && y != gridSize.y - 1)
+				if (gridTarget[x + 1, y + 1])
+					count++;
+
+			// Check cell on the bottom.
+			if (y != gridSize.y - 1)
+				if (gridTarget[x, y + 1])
+					count++;
+
+			// Check cell on the bottom left.
+			if (x != 0 && y != gridSize.y - 1)
+				if (gridTarget[x - 1, y + 1])
+					count++;
+
+			// Check cell on the left.
+			if (x != 0)
+				if (gridTarget[x - 1, y])
+					count++;
+
+			// Check cell on the top left.
+			if (x != 0 && y != 0)
+				if (gridTarget[x - 1, y - 1])
+					count++;
+
+			// Check cell on the top.
+			if (y != 0)
+				if (gridTarget[x, y - 1])
+					count++;
+
+			// Check cell on the top right.
+			if (x != gridSize.x - 1 && y != 0)
+				if (gridTarget[x + 1, y - 1])
+					count++;
+
+			return count;
+		}
+
+		private void GenerateRooms()
+		{
+			for (int i = 0; i < gridSize.y; i++)
+			{
+				for (int j = 0; j < gridSize.x; j++)
+				{
+
 				}
 			}
 		}

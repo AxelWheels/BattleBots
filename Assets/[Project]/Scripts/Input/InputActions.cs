@@ -10,7 +10,7 @@ namespace BattleBots
 {
     public class @InputActions : IInputActionCollection, IDisposable
     {
-        private InputActionAsset asset;
+        public InputActionAsset asset { get; }
         public @InputActions()
         {
             asset = InputActionAsset.FromJson(@"{
