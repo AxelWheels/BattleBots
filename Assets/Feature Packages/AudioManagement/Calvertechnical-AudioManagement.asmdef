@@ -1,9 +1,8 @@
 {
-    "name": "BattleBots",
+    "name": "Calvertechnical-AudioManagement",
+    "rootNamespace": "",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:6055be8ebefd69e48b49212b09b47b2f",
-        "GUID:90eb2259fb67b974e9a3b7386de388f2"
+        "GUID:907d970b6fadc3042969d07390b923d9"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
