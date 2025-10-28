@@ -55,9 +55,45 @@ namespace BattleBots
 			}
 		}
 
-		public void Play(SfxData sfxData)
+		public void SetupSfxPoolObject(SfxPoolObject poolObject, SfxData data)
 		{
+			AudioSource source = poolObject.AudioSource;
 
+			source.clip = data.GetRandomClip;
+			
+			source.playOnAwake = data.PlayOnAwake;
+			source.volume = data.Volume;
+			source.pitch = data.Pitch;
+			source.priority = data.Priority;
+			source.panStereo = data.StereoPan;
+			source.spatialBlend = data.SpatialBlend;
+			source.mute = data.Mute;
+			source.loop = data.Loop;
+
+			source.outputAudioMixerGroup = data.Mixer.outputAudioMixerGroup;
+			
+			source.bypassEffects = data.BypassEffects;
+			source.bypassListenerEffects = data.BypassListenerEffects;
+			source.bypassReverbZones = data.BypassReverbZone;
+			
+			source.reverbZoneMix = data.ReverbZoneMix;
+		}
+
+		public void Play(SfxData sfxData, Transform targetParent = null)
+		{
+			SfxPoolObject poolObject = RetrieveSfxPoolObject();
+			SetupSfxPoolObject(poolObject, sfxData);
+
+			poolObject.AudioSource.Play();
+		}
+
+		public void PlayAtPosition(SfxData sfxData, Vector3 position, Transform targetParent = null)
+		{
+			SfxPoolObject poolObject = RetrieveSfxPoolObject();
+			SetupSfxPoolObject(poolObject, sfxData);
+
+			poolObject.transform.position = position;
+			poolObject.AudioSource.Play();
 		}
 	}
 }

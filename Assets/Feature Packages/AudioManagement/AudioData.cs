@@ -33,8 +33,8 @@ namespace Calvertechnical.Audio
 		[field: SerializeField]
         public int Priority { get; set; }
 
-		[field: SerializeField]
-        public float Volume { get; set; }
+        [field: SerializeField]
+        public float Volume { get; set; } = 1f;
 
         [field: SerializeField]
         public float Pitch { get; set; }
@@ -48,7 +48,7 @@ namespace Calvertechnical.Audio
         [field: SerializeField]
         public float ReverbZoneMix { get; set; }
 
-        public AudioClip GetRandomClip => AudioClips[Random.Range(0, AudioClips.Length - 1)];
         public AudioClip GetFirstClip => AudioClips[0];
+        public AudioClip GetRandomClip => AudioClips[Random.Range(0, AudioClips.Length - 1)];
     }
 }
