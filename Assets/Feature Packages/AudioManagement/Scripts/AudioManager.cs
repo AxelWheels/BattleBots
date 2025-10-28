@@ -6,11 +6,21 @@ namespace Calvertechnical.Audio
 {
     public class AudioManager : SingletonInstance<AudioManager>
     {
+        [SerializeField]
         public SfxHandler Sfx;
-        public MusicHandler Music;
+		[SerializeField]
+		public MusicHandler Music;
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
+		protected override void Awake()
+		{
+            base.Awake();
+
+            Sfx.Initialise();
+            Music.Initialise();
+		}
+
+		// Start is called once before the first execution of Update after the MonoBehaviour is created
+		void Start()
         {
         
         }

@@ -4,8 +4,12 @@ using UnityEngine;
 
 namespace BattleBots
 {
+	[System.Serializable]
 	public class SfxHandler
 	{
+		[SerializeField]
+		private Transform m_sfxPoolParent;
+
 		[SerializeField]
 		private SfxPoolObject m_sfxBlueprint;
 
@@ -20,7 +24,10 @@ namespace BattleBots
 			//Populate initial audio pool
 			for (int i = 0; i < m_initialPoolSize; i++)
 			{
-				m_inactiveAudioPool.Push(GameObject.Instantiate(m_sfxBlueprint, AudioManager.Instance.transform));
+				SfxPoolObject poolObject = GameObject.Instantiate(m_sfxBlueprint, m_sfxPoolParent);
+				poolObject.gameObject.SetActive(false);
+
+				m_inactiveAudioPool.Push(poolObject);
 			}
 		}
 
@@ -34,7 +41,7 @@ namespace BattleBots
 
 			if (m_inactiveAudioPool.Count == 0)
 			{
-				poolObject = GameObject.Instantiate(m_sfxBlueprint, AudioManager.Instance.transform);
+				poolObject = GameObject.Instantiate(m_sfxBlueprint, m_sfxPoolParent);
 			}
 			else
 			{
@@ -52,6 +59,7 @@ namespace BattleBots
 			{
 				m_activeAudioPool.Remove(poolObject);
 				m_inactiveAudioPool.Push(poolObject);
+				poolObject.gameObject.SetActive(false);
 			}
 		}
 
@@ -84,6 +92,8 @@ namespace BattleBots
 			SfxPoolObject poolObject = RetrieveSfxPoolObject();
 			SetupSfxPoolObject(poolObject, sfxData);
 
+			poolObject.gameObject.SetActive(true);
+			
 			poolObject.AudioSource.Play();
 		}
 
@@ -93,6 +103,8 @@ namespace BattleBots
 			SetupSfxPoolObject(poolObject, sfxData);
 
 			poolObject.transform.position = position;
+			poolObject.gameObject.SetActive(true);
+
 			poolObject.AudioSource.Play();
 		}
 	}

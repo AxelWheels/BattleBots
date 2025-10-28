@@ -28,16 +28,16 @@ namespace Calvertechnical.Audio
         public bool PlayOnAwake { get; set; } = true;
 
 		[field: SerializeField]
-		public bool Loop { get; set; } = true;
+		public bool Loop { get; set; } = false;
 
-		[field: SerializeField]
-        public int Priority { get; set; }
+        [field: SerializeField]
+        public int Priority { get; set; } = 128;
 
         [field: SerializeField]
         public float Volume { get; set; } = 1f;
 
         [field: SerializeField]
-        public float Pitch { get; set; }
+        public float Pitch { get; set; } = 1f;
 
         [field: SerializeField]
         public float StereoPan { get; set; }
@@ -46,7 +46,7 @@ namespace Calvertechnical.Audio
         public float SpatialBlend { get; set; }
 
         [field: SerializeField]
-        public float ReverbZoneMix { get; set; }
+        public float ReverbZoneMix { get; set; } = 1f;
 
         public AudioClip GetFirstClip => AudioClips[0];
         public AudioClip GetRandomClip => AudioClips[Random.Range(0, AudioClips.Length - 1)];

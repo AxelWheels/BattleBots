@@ -19,16 +19,13 @@ namespace BattleBots
             m_returnOnFinish = returnOnFinish;
         }
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
-        {
-        
-        }
-
         // Update is called once per frame
         void Update()
         {
-        
+            if (!AudioSource.isPlaying && AudioSource.time >= 0)
+            {
+                AudioManager.Instance.Sfx.ReturnSfxPoolObject(this);
+            }
         }
     }
 }
