@@ -48,7 +48,7 @@ namespace Calvertechnical.Audio
         [field: SerializeField]
         public float ReverbZoneMix { get; set; } = 1f;
 
-        public AudioClip GetFirstClip => AudioClips[0];
-        public AudioClip GetRandomClip => AudioClips[Random.Range(0, AudioClips.Length - 1)];
+        public AudioClip FirstClip => AudioClips[0];
+        public AudioClip RandomClip => AudioClips[Random.Range(0, AudioClips.Length - 1)];
     }
 }

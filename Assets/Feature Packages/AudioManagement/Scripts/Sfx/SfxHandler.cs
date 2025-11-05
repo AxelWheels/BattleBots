@@ -63,11 +63,16 @@ namespace BattleBots
 			}
 		}
 
+		/// <summary>
+		/// TODO: Extend to apply different audio component effects to setup
+		/// </summary>
+		/// <param name="poolObject"></param>
+		/// <param name="data"></param>
 		public void SetupSfxPoolObject(SfxPoolObject poolObject, SfxData data)
 		{
 			AudioSource source = poolObject.AudioSource;
 
-			source.clip = data.GetRandomClip;
+			source.clip = data.RandomClip;
 			
 			source.playOnAwake = data.PlayOnAwake;
 			source.volume = data.Volume;
@@ -91,6 +96,9 @@ namespace BattleBots
 		{
 			SfxPoolObject poolObject = RetrieveSfxPoolObject();
 			SetupSfxPoolObject(poolObject, sfxData);
+
+			poolObject.transform.SetParent(targetParent);
+			poolObject.transform.localPosition = Vector3.zero;
 
 			poolObject.gameObject.SetActive(true);
 			

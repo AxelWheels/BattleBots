@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b27885b9f853d449377cf902d66ab9, type: 3}
+  m_Name: MusicData 1
+  m_EditorClassIdentifier: 
+  <AudioClips>k__BackingField:
+  - {fileID: 8300000, guid: 3d6c95a84565adf468df4747ab36e750, type: 3}
+  <Mixer>k__BackingField: {fileID: 24100000, guid: 5e593fb817f5436438b5b0a866ac3646,
+    type: 2}
+  <Mute>k__BackingField: 0
+  <BypassEffects>k__BackingField: 0
+  <BypassListenerEffects>k__BackingField: 0
+  <BypassReverbZone>k__BackingField: 0
+  <PlayOnAwake>k__BackingField: 1
+  <Loop>k__BackingField: 1
+  <Priority>k__BackingField: 128
+  <Volume>k__BackingField: 1
+  <Pitch>k__BackingField: 1
+  <StereoPan>k__BackingField: 0
+  <SpatialBlend>k__BackingField: 0
+  <ReverbZoneMix>k__BackingField: 1
+  <MusicChannel>k__BackingField: 1
+  <TransitionDuration>k__BackingField: 1
