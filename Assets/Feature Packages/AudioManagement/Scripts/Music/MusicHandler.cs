@@ -1,10 +1,6 @@
 using Calvertechnical.Audio;
-using Mono.Cecil;
-using System;
 using System.Collections.Generic;
-using System.Security.Policy;
 using UnityEngine;
-using static UnityEngine.Analytics.IAnalytic;
 
 namespace BattleBots
 {
@@ -32,28 +28,28 @@ namespace BattleBots
 			}
 		}
 
-		public void SetupMusicSource(MusicChannel channel, MusicData data)
+		public void SetupMusicSource(MusicChannel channel, MusicData musicData)
 		{
 			AudioSource source = channel.Source;
 
-			source.clip = data.RandomClip;
+			source.clip = musicData.RandomClip;
 
-			source.playOnAwake = data.PlayOnAwake;
+			source.playOnAwake = musicData.PlayOnAwake;
 			//source.volume = data.Volume;
-			source.pitch = data.Pitch;
-			source.priority = data.Priority;
-			source.panStereo = data.StereoPan;
-			source.spatialBlend = data.SpatialBlend;
-			source.mute = data.Mute;
-			source.loop = data.Loop;
+			source.pitch = musicData.Pitch;
+			source.priority = musicData.Priority;
+			source.panStereo = musicData.StereoPan;
+			source.spatialBlend = musicData.SpatialBlend;
+			source.mute = musicData.Mute;
+			source.loop = musicData.Loop;
 
-			source.outputAudioMixerGroup = data.Mixer.outputAudioMixerGroup;
+			source.outputAudioMixerGroup = musicData.Mixer.outputAudioMixerGroup;
 
-			source.bypassEffects = data.BypassEffects;
-			source.bypassListenerEffects = data.BypassListenerEffects;
-			source.bypassReverbZones = data.BypassReverbZone;
+			source.bypassEffects = musicData.BypassEffects;
+			source.bypassListenerEffects = musicData.BypassListenerEffects;
+			source.bypassReverbZones = musicData.BypassReverbZone;
 
-			source.reverbZoneMix = data.ReverbZoneMix;
+			source.reverbZoneMix = musicData.ReverbZoneMix;
 		}
 
 		public void TransitionMusic(int channel, TransitionType transition, float duration, MusicData music = null)

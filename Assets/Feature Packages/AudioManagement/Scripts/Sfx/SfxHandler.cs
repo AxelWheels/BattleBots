@@ -63,57 +63,87 @@ namespace BattleBots
 			}
 		}
 
+		public void ClearActiveAudio()
+		{
+			foreach (var poolObject in m_activeAudioPool)
+			{
+				poolObject.StopAudio();
+			}
+		}
+
 		/// <summary>
 		/// TODO: Extend to apply different audio component effects to setup
 		/// </summary>
 		/// <param name="poolObject"></param>
-		/// <param name="data"></param>
-		public void SetupSfxPoolObject(SfxPoolObject poolObject, SfxData data)
+		/// <param name="sfxData"></param>
+		public void SetupSfxPoolObject(SfxPoolObject poolObject, SfxData sfxData)
 		{
 			AudioSource source = poolObject.AudioSource;
 
-			source.clip = data.RandomClip;
+			source.clip = sfxData.RandomClip;
 			
-			source.playOnAwake = data.PlayOnAwake;
-			source.volume = data.Volume;
-			source.pitch = data.Pitch;
-			source.priority = data.Priority;
-			source.panStereo = data.StereoPan;
-			source.spatialBlend = data.SpatialBlend;
-			source.mute = data.Mute;
-			source.loop = data.Loop;
+			source.volume = sfxData.Volume;
+			source.pitch = sfxData.Pitch;
+			source.priority = sfxData.Priority;
+			source.panStereo = sfxData.StereoPan;
+			source.spatialBlend = sfxData.SpatialBlend;
+			source.reverbZoneMix = sfxData.ReverbZoneMix;
 
-			source.outputAudioMixerGroup = data.Mixer.outputAudioMixerGroup;
-			
-			source.bypassEffects = data.BypassEffects;
-			source.bypassListenerEffects = data.BypassListenerEffects;
-			source.bypassReverbZones = data.BypassReverbZone;
-			
-			source.reverbZoneMix = data.ReverbZoneMix;
+			source.playOnAwake = sfxData.PlayOnAwake;
+			source.mute = sfxData.Mute;
+			source.loop = sfxData.Loop;
+			source.bypassEffects = sfxData.BypassEffects;
+			source.bypassListenerEffects = sfxData.BypassListenerEffects;
+			source.bypassReverbZones = sfxData.BypassReverbZone;
+
+			source.outputAudioMixerGroup = sfxData.Mixer.outputAudioMixerGroup;
 		}
 
-		public void Play(SfxData sfxData, Transform targetParent = null)
+		public void Play(SfxData sfxData, Vector3 position, bool isLocalPos = false, Transform targetParent = null)
 		{
+			if (!CanPlaySfx(sfxData))
+			{
+				return;
+			}
+
 			SfxPoolObject poolObject = RetrieveSfxPoolObject();
 			SetupSfxPoolObject(poolObject, sfxData);
 
 			poolObject.transform.SetParent(targetParent);
-			poolObject.transform.localPosition = Vector3.zero;
+
+			if (isLocalPos)
+			{
+				poolObject.transform.localPosition = position;
+			}
+			else
+			{
+				poolObject.transform.position = position;
+			}
 
 			poolObject.gameObject.SetActive(true);
 			
 			poolObject.AudioSource.Play();
 		}
 
-		public void PlayAtPosition(SfxData sfxData, Vector3 position, Transform targetParent = null)
+		//CHeck against Sfx Limits to see if the sound can be played again
+		public bool CanPlaySfx(SfxData sfxData)
 		{
-			SfxPoolObject poolObject = RetrieveSfxPoolObject();
-			SetupSfxPoolObject(poolObject, sfxData);
+			if (sfxData.SfxLimit <= 0)
+			{
+				return true;
+			}
+			
+			int currentPlayCount = 0;
 
-			poolObject.transform.position = position;
-			poolObject.gameObject.SetActive(true);
+			foreach (var objectPool in m_activeAudioPool)
+			{
+				if (objectPool.Data == sfxData)
+				{
+					currentPlayCount++;
+				}
+			}
 
-			poolObject.AudioSource.Play();
+			return currentPlayCount > sfxData.SfxLimit;
 		}
 	}
 }

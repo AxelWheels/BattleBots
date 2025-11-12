@@ -27,5 +27,12 @@ namespace BattleBots
                 AudioManager.Instance.Sfx.ReturnSfxPoolObject(this);
             }
         }
-    }
+
+        public void StopAudio()
+        {
+            AudioSource.Stop();
+
+			AudioManager.Instance.Sfx.ReturnSfxPoolObject(this);
+		}
+	}
 }
